@@ -37,30 +37,37 @@ const organizationSchema = {
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
-  <main>
-    <section class="bg-forest px-6 py-20 text-center text-cream sm:py-28">
-      <p class="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-blaze">
-        Family owned and operated
-      </p>
-      <h1 class="font-display mx-auto max-w-3xl text-4xl uppercase leading-tight sm:text-5xl">
-        Curated Threads Outdoors
-      </h1>
-      <p class="mx-auto mt-5 max-w-xl text-lg text-cream/90">
-        Hunting, fishing, outdoor, and patriotic designs on shirts, hoodies, mugs, and can
-        coolers. Made to order, shipped free.
-      </p>
-      <a
-        href={etsyShopUrl}
-        target="_blank"
-        rel="noopener"
-        class="mt-8 inline-block rounded bg-blaze px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:brightness-110"
-      >
-        Shop on Etsy
-      </a>
+  <main class="bg-parchment">
+    <section class="px-6 pt-14 pb-16 text-center sm:pt-20 sm:pb-24">
+      <div class="mx-auto max-w-3xl rounded-sm border border-gold/70 p-2">
+        <div class="rounded-sm border border-gold/40 px-6 py-14 sm:px-12 sm:py-16">
+          <p class="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-sepia/80">
+            Family owned and operated
+          </p>
+          <h1 class="font-display mx-auto max-w-2xl text-4xl leading-tight text-sepia sm:text-5xl">
+            Curated Threads Outdoors
+          </h1>
+          <p class="mt-4 text-sm uppercase tracking-[0.2em] text-gold">
+            Hand-picked styles &middot; Classic pieces &middot; Timeless elegance
+          </p>
+          <p class="mx-auto mt-6 max-w-xl text-lg text-ink/75">
+            Hunting, fishing, outdoor, and patriotic designs on shirts, hoodies, mugs, and can
+            coolers. Made to order, shipped free.
+          </p>
+          <a
+            href={etsyShopUrl}
+            target="_blank"
+            rel="noopener"
+            class="mt-8 inline-block rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
+          >
+            Shop on Etsy
+          </a>
+        </div>
+      </div>
     </section>
 
-    <section class="mx-auto max-w-5xl px-6 py-16">
-      <h2 class="font-display text-center text-2xl uppercase text-forest sm:text-3xl">
+    <section class="mx-auto max-w-5xl px-6 pb-20">
+      <h2 class="font-display text-center text-2xl text-sepia sm:text-3xl">
         Four ways to gear up
       </h2>
       <p class="mx-auto mt-3 max-w-2xl text-center text-ink/70">
@@ -69,8 +76,8 @@ const organizationSchema = {
       <div class="mt-10 grid gap-6 sm:grid-cols-2">
         {
           categories.map((cat) => (
-            <div class="rounded-lg border border-brown/20 bg-white p-6 shadow-sm">
-              <h3 class="font-display text-xl uppercase text-forest">{cat.name}</h3>
+            <div class="rounded-sm border border-gold/50 bg-cream p-6 shadow-sm">
+              <h3 class="font-display text-xl text-sepia">{cat.name}</h3>
               <p class="mt-2 text-ink/70">{cat.blurb}</p>
             </div>
           ))
