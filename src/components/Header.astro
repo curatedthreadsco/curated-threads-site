@@ -1,4 +1,8 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/logo-round.jpg';
+import banner from '../assets/banner-transparent.jpg';
+
 const { pathname } = Astro.url;
 
 const navItems = [
@@ -15,39 +19,44 @@ const isActive = (href: string) =>
   href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/');
 ---
 
-<header class="border-b border-gold/40 bg-parchment">
-  <div class="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-5 sm:flex-row sm:justify-between">
-    <a href="/" class="flex items-center gap-3" aria-label="Curated Threads Outdoors home">
-      <img
-        src="/images/brand/logo-round.jpg"
-        alt=""
-        width="56"
-        height="56"
-        class="h-14 w-14 rounded-full border border-gold/50 object-cover"
-      />
-      <span class="flex flex-col leading-none">
-        <span class="font-display text-2xl text-sepia">Curated Threads</span>
-        <span class="mt-1 text-[10px] uppercase tracking-[0.35em] text-gold">Outdoors</span>
-      </span>
-    </a>
-    <nav aria-label="Main">
-      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm font-semibold uppercase tracking-wider text-sepia">
-        {
-          navItems.map((item) => (
-            <li>
-              <a
-                href={item.href}
-                class:list={[
-                  'transition hover:text-forest',
-                  isActive(item.href) && 'text-forest underline underline-offset-8 decoration-gold decoration-2',
-                ]}
-              >
-                {item.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </nav>
-  </div>
+<header class="bg-parchment">
+  <a
+    href="/"
+    class="block bg-parchment"
+    aria-label="Curated Threads Outdoors home"
+  >
+    <Image
+      src={banner}
+      alt="Curated Threads Outdoors"
+      widths={[640, 1024, 1600, 2000]}
+      sizes="100vw"
+      quality={92}
+      class="mx-auto block w-full max-w-6xl"
+      loading="eager"
+    />
+  </a>
+  <nav aria-label="Main" class="border-y border-gold/30 bg-parchment">
+    <ul class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-6 py-3 text-sm font-semibold uppercase tracking-wider text-sepia">
+      <li class="sm:hidden">
+        <a href="/" class="flex items-center gap-2" aria-label="Home">
+          <Image src={logo} alt="" widths={[40, 80, 120]} sizes="40px" quality={92} class="h-10 w-10 rounded-full border border-gold/50 object-cover" />
+        </a>
+      </li>
+      {
+        navItems.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class:list={[
+                'transition hover:text-forest',
+                isActive(item.href) && 'text-forest underline underline-offset-8 decoration-gold decoration-2',
+              ]}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
 </header>
