@@ -1,8 +1,14 @@
 ---
+import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import { shopWithUtm, etsyImage, etsyImageSrcSet } from '../lib/etsy';
+import heroGlacier from '../assets/hero-glacier.jpg';
+import huntingCover from '../assets/categories/hunting.jpg';
+import fishingCover from '../assets/categories/fishing.jpg';
+import outdoorCover from '../assets/categories/outdoor.jpg';
+import patrioticCover from '../assets/categories/patriotic.jpg';
 
 const etsyShopUrl = shopWithUtm('home');
 
@@ -11,38 +17,49 @@ const featured = allProducts.filter((p) => p.data.featured).slice(0, 8);
 
 type Cat = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
 
-// Pull one representative product image per category so the "Four ways to
-// gear up" tiles have real imagery instead of empty text cards.
-const coverFor = (cat: Cat) => {
+// Secondary/hover image comes from a representative product photo in that
+// category (Etsy CDN), so the primary is the branded lifestyle shot and the
+// hover reveals a design in-context.
+const hoverFor = (cat: Cat) => {
   const list = allProducts.filter((p) => p.data.category === cat);
   const featuredFirst = list.find((p) => p.data.featured) ?? list[0];
   return featuredFirst?.data.images[0];
 };
 
-const categories: { name: string; href: string; category: Cat; blurb: string }[] = [
+const categories: {
+  name: string;
+  href: string;
+  category: Cat;
+  blurb: string;
+  cover: ImageMetadata;
+}[] = [
   {
     name: 'Hunting',
     href: '/hunting',
     category: 'hunting',
     blurb: 'Apparel, drinkware, and gifts for the hunter in your life.',
+    cover: huntingCover,
   },
   {
     name: 'Fishing',
     href: '/fishing',
     category: 'fishing',
     blurb: 'Designs for the angler chasing the next big catch.',
+    cover: fishingCover,
   },
   {
     name: 'Outdoor',
     href: '/outdoor',
     category: 'outdoor',
     blurb: 'Gear and gifts for anyone who lives outside.',
+    cover: outdoorCover,
   },
   {
     name: 'Patriotic',
     href: '/patriotic',
     category: 'patriotic',
     blurb: 'Red, white, and blue designs made in the USA.',
+    cover: patrioticCover,
   },
 ];
 
@@ -67,19 +84,25 @@ const organizationSchema = {
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
-  <section class="relative overflow-hidden border-b border-gold/30 bg-forest-dark px-6 py-16 text-center text-cream sm:py-20">
-    <div
-      class="absolute inset-0 opacity-15"
-      style="background-image: radial-gradient(circle at 30% 20%, rgba(246,241,230,0.35), transparent 55%), radial-gradient(circle at 75% 70%, rgba(176,138,60,0.35), transparent 55%);"
-    ></div>
-    <div class="relative mx-auto max-w-3xl">
-      <p class="text-xs font-semibold uppercase tracking-[0.4em] text-gold">
+  <section class="relative overflow-hidden border-b border-gold/30 bg-forest-dark text-cream">
+    <Image
+      src={heroGlacier}
+      alt=""
+      widths={[768, 1280, 1920, 2400]}
+      sizes="100vw"
+      quality={85}
+      loading="eager"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-forest-dark/70 via-forest-dark/55 to-forest-dark/85"></div>
+    <div class="relative mx-auto max-w-3xl px-6 py-24 text-center sm:py-32">
+      <p class="text-xs font-semibold uppercase tracking-[0.4em] text-gold drop-shadow">
         Family owned and operated
       </p>
-      <h1 class="font-display mt-4 text-5xl leading-[1.05] text-cream sm:text-6xl">
+      <h1 class="font-display mt-4 text-5xl leading-[1.05] text-cream drop-shadow-lg sm:text-6xl">
         For the field, the water, the trail, and the flag.
       </h1>
-      <p class="mx-auto mt-6 max-w-2xl text-lg text-cream/85 sm:text-xl">
+      <p class="mx-auto mt-6 max-w-2xl text-lg text-cream/95 drop-shadow sm:text-xl">
         Hunting, fishing, outdoor, and patriotic designs on made-to-order apparel,
         drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop.
       </p>
@@ -94,7 +117,7 @@ const organizationSchema = {
         </a>
         <a
           href="#collections"
-          class="inline-flex w-full items-center justify-center rounded-sm border border-cream/60 px-8 py-4 text-base font-bold uppercase tracking-wider text-cream transition hover:border-cream hover:bg-cream/10 sm:w-auto"
+          class="inline-flex w-full items-center justify-center rounded-sm border border-cream/70 bg-forest-dark/40 px-8 py-4 text-base font-bold uppercase tracking-wider text-cream backdrop-blur-sm transition hover:border-cream hover:bg-cream/10 sm:w-auto"
         >
           Browse the Collections
         </a>
@@ -113,16 +136,25 @@ const organizationSchema = {
     <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {
         categories.map((cat) => {
-          const cover = coverFor(cat.category);
+          const hover = hoverFor(cat.category);
           return (
             <a
               href={cat.href}
-              class="group relative flex aspect-[4/5] overflow-hidden rounded-sm border border-gold/50 shadow-sm transition hover:border-forest hover:shadow-md"
+              class="group relative flex aspect-[4/5] overflow-hidden rounded-sm border border-gold/50 shadow-sm transition hover:border-forest hover:shadow-lg"
             >
-              {cover && (
+              <Image
+                src={cat.cover}
+                alt=""
+                widths={[400, 640, 900]}
+                sizes="(min-width: 1024px) 22vw, (min-width: 640px) 46vw, 92vw"
+                quality={85}
+                loading="lazy"
+                class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105 group-hover:opacity-0"
+              />
+              {hover && (
                 <img
-                  src={etsyImage(cover.src, 'il_570xN')}
-                  srcset={etsyImageSrcSet(cover.src, [
+                  src={etsyImage(hover.src, 'il_570xN')}
+                  srcset={etsyImageSrcSet(hover.src, [
                     { variant: 'il_570xN', width: 570 },
                     { variant: 'il_794xN', width: 794 },
                   ])}
@@ -130,14 +162,14 @@ const organizationSchema = {
                   alt=""
                   loading="lazy"
                   decoding="async"
-                  class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  class="absolute inset-0 h-full w-full object-cover opacity-0 transition duration-500 group-hover:scale-105 group-hover:opacity-100"
                 />
               )}
-              <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/85 via-forest-dark/40 to-transparent" />
+              <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest-dark/90 via-forest-dark/45 to-transparent" />
               <div class="relative z-10 mt-auto p-5 text-cream">
-                <h3 class="font-display text-2xl leading-tight">{cat.name}</h3>
-                <p class="mt-1 text-sm text-cream/85">{cat.blurb}</p>
-                <span class="mt-3 inline-block text-xs font-semibold uppercase tracking-widest text-blaze group-hover:text-cream">
+                <h3 class="font-display text-2xl leading-tight drop-shadow">{cat.name}</h3>
+                <p class="mt-1 text-sm text-cream/90 drop-shadow">{cat.blurb}</p>
+                <span class="mt-3 inline-block text-xs font-semibold uppercase tracking-widest text-blaze transition group-hover:text-cream">
                   Shop {cat.name} &rarr;
                 </span>
               </div>
