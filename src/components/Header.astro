@@ -17,9 +17,18 @@ const isActive = (href: string) =>
 
 <header class="border-b border-gold/40 bg-parchment">
   <div class="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-5 sm:flex-row sm:justify-between">
-    <a href="/" class="flex flex-col items-center sm:items-start" aria-label="Curated Threads Outdoors home">
-      <span class="font-display text-2xl leading-none text-sepia">Curated Threads</span>
-      <span class="mt-0.5 text-[10px] uppercase tracking-[0.35em] text-gold">Outdoors</span>
+    <a href="/" class="flex items-center gap-3" aria-label="Curated Threads Outdoors home">
+      <img
+        src="/images/brand/logo-round.jpg"
+        alt=""
+        width="56"
+        height="56"
+        class="h-14 w-14 rounded-full border border-gold/50 object-cover"
+      />
+      <span class="flex flex-col leading-none">
+        <span class="font-display text-2xl text-sepia">Curated Threads</span>
+        <span class="mt-1 text-[10px] uppercase tracking-[0.35em] text-gold">Outdoors</span>
+      </span>
     </a>
     <nav aria-label="Main">
       <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm font-semibold uppercase tracking-wider text-sepia">

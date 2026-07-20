@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { etsyImage, etsyImageSrcSet } from '../lib/etsy';
 
 interface Props {
   product: CollectionEntry<'products'>;
@@ -9,6 +10,17 @@ const { product } = Astro.props;
 const { title, images, list_price, sale_price, product_type } = product.data;
 const cover = images[0];
 const href = `/products/${product.id}`;
+
+// Card renders at ~200-320px wide across breakpoints. Serve appropriately-sized
+// variants so browsers don't downscale a 3000px source into a 300px box.
+const coverSrc = cover ? etsyImage(cover.src, 'il_570xN') : '';
+const coverSrcSet = cover
+  ? etsyImageSrcSet(cover.src, [
+      { variant: 'il_570xN', width: 570 },
+      { variant: 'il_794xN', width: 794 },
+      { variant: 'il_1140xN', width: 1140 },
+    ])
+  : '';
 
 const typeLabel: Record<string, string> = {
   tee: 'T-Shirt',
@@ -38,8 +50,12 @@ const typeLabel: Record<string, string> = {
     cover && (
       <div class="aspect-square w-full overflow-hidden bg-parchment">
         <img
-          src={cover.src}
+          src={coverSrc}
+          srcset={coverSrcSet}
+          sizes="(min-width: 1024px) 22vw, (min-width: 640px) 33vw, 50vw"
           alt={cover.alt}
+          width="570"
+          height="570"
           loading="lazy"
           decoding="async"
           class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
