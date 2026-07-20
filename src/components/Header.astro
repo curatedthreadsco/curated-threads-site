@@ -22,41 +22,49 @@ const isActive = (href: string) =>
 <header class="bg-parchment">
   <a
     href="/"
-    class="block bg-parchment"
+    class="block bg-parchment px-6 pt-4"
     aria-label="Curated Threads Outdoors home"
   >
     <Image
       src={banner}
       alt="Curated Threads Outdoors"
-      widths={[640, 1024, 1600, 2000]}
-      sizes="100vw"
+      widths={[480, 720, 960, 1200]}
+      sizes="(min-width: 1024px) 720px, 90vw"
       quality={92}
-      class="mx-auto block w-full max-w-6xl"
+      class="mx-auto block w-full max-w-2xl"
       loading="eager"
     />
   </a>
-  <nav aria-label="Main" class="border-y border-gold/30 bg-parchment">
-    <ul class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-6 py-3 text-sm font-semibold uppercase tracking-wider text-sepia">
-      <li class="sm:hidden">
-        <a href="/" class="flex items-center gap-2" aria-label="Home">
-          <Image src={logo} alt="" widths={[40, 80, 120]} sizes="40px" quality={92} class="h-10 w-10 rounded-full border border-gold/50 object-cover" />
-        </a>
-      </li>
-      {
-        navItems.map((item) => (
-          <li>
-            <a
-              href={item.href}
-              class:list={[
-                'transition hover:text-forest',
-                isActive(item.href) && 'text-forest underline underline-offset-8 decoration-gold decoration-2',
-              ]}
-            >
-              {item.label}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+  <nav aria-label="Main" class="mt-4 border-y border-gold/30 bg-parchment">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-3">
+      <a href="/" class="shrink-0" aria-label="Curated Threads Outdoors home">
+        <Image
+          src={logo}
+          alt=""
+          widths={[52, 104, 156]}
+          sizes="52px"
+          quality={92}
+          class="h-13 w-13 rounded-full border border-gold/50 object-cover"
+          style="height: 3.25rem; width: 3.25rem;"
+        />
+      </a>
+      <ul class="flex flex-1 flex-wrap items-center justify-end gap-x-5 gap-y-2 text-sm font-semibold uppercase tracking-wider text-sepia">
+        {
+          navItems.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  'transition hover:text-forest',
+                  isActive(item.href) && 'text-forest underline underline-offset-8 decoration-gold decoration-2',
+                ]}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </nav>
 </header>
