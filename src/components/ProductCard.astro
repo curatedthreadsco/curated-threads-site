@@ -1,0 +1,70 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  product: CollectionEntry<'products'>;
+}
+
+const { product } = Astro.props;
+const { title, images, list_price, sale_price, product_type } = product.data;
+const cover = images[0];
+const href = `/products/${product.id}`;
+
+const typeLabel: Record<string, string> = {
+  tee: 'T-Shirt',
+  hoodie: 'Hoodie',
+  'tank-top': 'Tank Top',
+  'mug-11oz': '11oz Mug',
+  'mug-15oz': '15oz Mug',
+  'tumbler-22oz': '22oz Tumbler',
+  'tumbler-40oz': '40oz Tumbler',
+  'can-cooler': 'Can Cooler',
+  'whiskey-glass': 'Whiskey Glass',
+  'shot-glass': 'Shot Glass',
+  'pint-glass': 'Pint Glass',
+  'mixing-glass': 'Mixing Glass',
+  'vinyl-decal': 'Vinyl Decal',
+  'vinyl-sticker': 'Vinyl Sticker',
+  'car-magnet': 'Car Magnet',
+  'phone-case': 'Phone Case',
+};
+---
+
+<a
+  href={href}
+  class="group flex flex-col overflow-hidden rounded-sm border border-gold/40 bg-cream shadow-sm transition hover:border-forest hover:shadow-md"
+>
+  {
+    cover && (
+      <div class="aspect-square w-full overflow-hidden bg-parchment">
+        <img
+          src={cover.src}
+          alt={cover.alt}
+          loading="lazy"
+          decoding="async"
+          class="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+        />
+      </div>
+    )
+  }
+  <div class="flex flex-1 flex-col p-4">
+    <p class="text-[10px] font-semibold uppercase tracking-[0.2em] text-gold">
+      {typeLabel[product_type] ?? product_type}
+    </p>
+    <h3 class="font-display mt-1 line-clamp-2 text-base leading-tight text-sepia">
+      {title}
+    </h3>
+    <div class="mt-auto flex items-baseline gap-2 pt-3">
+      {
+        sale_price ? (
+          <>
+            <span class="font-display text-lg text-forest">${sale_price.toFixed(2)}</span>
+            <span class="text-sm text-ink/40 line-through">${list_price.toFixed(2)}</span>
+          </>
+        ) : (
+          <span class="font-display text-lg text-forest">${list_price.toFixed(2)}</span>
+        )
+      }
+    </div>
+  </div>
+</a>

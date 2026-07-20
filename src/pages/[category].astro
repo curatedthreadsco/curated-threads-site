@@ -1,0 +1,133 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { shopWithUtm, categoryCampaign } from '../lib/etsy';
+
+export async function getStaticPaths() {
+  const categories = ['hunting', 'fishing', 'outdoor', 'patriotic'] as const;
+  return categories.map((c) => ({ params: { category: c } }));
+}
+
+type Category = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
+const category = Astro.params.category as Category;
+
+const allProducts = await getCollection('products');
+const products = allProducts
+  .filter((p) => p.data.category === category)
+  .sort((a, b) => {
+    // Featured first, then newest publish_date
+    if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
+    const da = a.data.publish_date?.getTime() ?? 0;
+    const db = b.data.publish_date?.getTime() ?? 0;
+    return db - da;
+  });
+
+const meta: Record<Category, { title: string; description: string; heroKicker: string; heroTitle: string; heroBody: string; storyLine?: string }> = {
+  hunting: {
+    title: 'Hunting Apparel and Drinkware | Curated Threads Outdoors',
+    description:
+      'Deer, bear, turkey, duck, and upland bird hunting shirts, mugs, tumblers, and glassware. Made to order, free shipping through our Etsy shop.',
+    heroKicker: 'For the field',
+    heroTitle: 'Hunting',
+    heroBody:
+      'Designs for the whitetail chaser, the duck blind regular, the pheasant walker, and everyone who counts down to opening day. Every piece ships free from our Etsy shop.',
+    storyLine:
+      'Curated Threads Outdoors is family owned. Daniel and his daughter hunt and fish together, and a portion of the catalog starts as her sketches.',
+  },
+  fishing: {
+    title: 'Fishing Shirts, Mugs, and Koozies | Curated Threads Outdoors',
+    description:
+      'Bass, trout, and marlin fishing shirts, coffee mugs, and can coolers. Made to order, free shipping through our Etsy shop.',
+    heroKicker: 'For the water',
+    heroTitle: 'Fishing',
+    heroBody:
+      'From fly fishing rainbow trout to trolling for blue marlin, designs for anyone who lives for the next cast. Made to order and shipped free.',
+  },
+  outdoor: {
+    title: 'Outdoor Lifestyle Stickers, Decals, and Apparel | Curated Threads Outdoors',
+    description:
+      'Outdoor lifestyle stickers, decals, and gear from Curated Threads Outdoors. Made to order, free shipping through our Etsy shop.',
+    heroKicker: 'For the trail and the truck',
+    heroTitle: 'Outdoor',
+    heroBody:
+      'Stickers, decals, and gear for anyone who spends their weekends chasing sunsets, dirt roads, and campfires.',
+  },
+  patriotic: {
+    title: 'Patriotic USA Shirts, Glassware, and Gifts | Curated Threads Outdoors',
+    description:
+      'American flag shirts, bald eagle designs, and 250th anniversary drinkware. Patriotic gifts made to order, shipped free through our Etsy shop.',
+    heroKicker: 'For the flag',
+    heroTitle: 'Patriotic',
+    heroBody:
+      'American flag tees, bald eagle glassware, and 250th anniversary designs. Made to order and shipped free.',
+  },
+};
+
+const info = meta[category];
+const shopUrl = shopWithUtm(categoryCampaign(category));
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: info.heroTitle, item: `${siteBase}/${category}` },
+  ],
+};
+---
+
+<BaseLayout title={info.title} description={info.description}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-14 sm:py-20">
+    <div class="mx-auto max-w-4xl text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">{info.heroKicker}</p>
+      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">{info.heroTitle}</h1>
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/75">{info.heroBody}</p>
+      {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-sepia/70">{info.storyLine}</p>}
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 py-12">
+    {
+      products.length > 0 ? (
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+          {products.map((p) => <ProductCard product={p} />)}
+        </div>
+      ) : (
+        <div class="mx-auto max-w-xl rounded-sm border border-gold/40 bg-cream p-8 text-center">
+          <p class="font-display text-xl text-sepia">New designs are on their way.</p>
+          <p class="mt-3 text-ink/70">
+            In the meantime, browse the full collection on our Etsy shop.
+          </p>
+          <a
+            href={shopUrl}
+            target="_blank"
+            rel="noopener"
+            class="mt-6 inline-block rounded-sm bg-forest px-6 py-3 font-bold text-cream transition hover:bg-forest-dark"
+          >
+            Shop on Etsy
+          </a>
+        </div>
+      )
+    }
+  </section>
+
+  {
+    products.length > 0 && (
+      <section class="border-t border-gold/20 bg-forest-dark px-6 py-12 text-center text-cream">
+        <p class="font-display text-2xl">Ready to shop the full collection?</p>
+        <a
+          href={shopUrl}
+          target="_blank"
+          rel="noopener"
+          class="mt-5 inline-block rounded-sm bg-blaze px-8 py-4 text-lg font-bold text-white transition hover:brightness-110"
+        >
+          Shop on Etsy
+        </a>
+      </section>
+    )
+  }
+</BaseLayout>

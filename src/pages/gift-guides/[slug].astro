@@ -1,0 +1,98 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { shopWithUtm } from '../../lib/etsy';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('gift-guides');
+  return guides.map((guide) => ({ params: { slug: guide.id }, props: { guide } }));
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+
+const products = await getCollection('products');
+const productMap = new Map(products.map((p) => [p.id, p]));
+const featured = guide.data.featured_products
+  .map((slug) => productMap.get(slug))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+const siteBase = Astro.site!.origin;
+const canonical = `${siteBase}/gift-guides/${guide.id}`;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: guide.data.title,
+  description: guide.data.description,
+  datePublished: guide.data.publish_date.toISOString(),
+  ...(guide.data.updated_date ? { dateModified: guide.data.updated_date.toISOString() } : {}),
+  author: { '@type': 'Organization', name: 'Curated Threads LLC' },
+  publisher: { '@type': 'Organization', name: 'Curated Threads LLC' },
+  mainEntityOfPage: canonical,
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Gift Guides', item: `${siteBase}/gift-guides` },
+    { '@type': 'ListItem', position: 3, name: guide.data.title, item: canonical },
+  ],
+};
+
+const shopUrl = shopWithUtm('home');
+---
+
+<BaseLayout title={`${guide.data.title} | Curated Threads Outdoors`} description={guide.data.description}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <nav aria-label="Breadcrumb" class="border-b border-gold/20 bg-cream/60 px-6 py-3 text-sm text-sepia/80">
+    <ol class="mx-auto flex max-w-6xl flex-wrap items-center gap-2">
+      <li><a href="/" class="hover:text-forest">Home</a></li>
+      <li aria-hidden="true">/</li>
+      <li><a href="/gift-guides" class="hover:text-forest">Gift Guides</a></li>
+      <li aria-hidden="true">/</li>
+      <li class="text-ink/60">{guide.data.title}</li>
+    </ol>
+  </nav>
+
+  <article>
+    <section class="border-b border-gold/30 bg-parchment px-6 py-14 sm:py-20">
+      <div class="mx-auto max-w-3xl text-center">
+        <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Gift Guide</p>
+        <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">{guide.data.title}</h1>
+        <p class="mx-auto mt-6 max-w-2xl text-lg text-ink/80">{guide.data.hero_intro}</p>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-6 py-12">
+      <div class="prose prose-sepia mx-auto max-w-2xl text-ink/85">
+        <Content />
+      </div>
+
+      {
+        featured.length > 0 && (
+          <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+            {featured.map((p) => <ProductCard product={p} />)}
+          </div>
+        )
+      }
+    </section>
+
+    <section class="border-t border-gold/30 bg-forest-dark px-6 py-12 text-center text-cream">
+      <p class="font-display text-2xl">Not sure yet? Browse the full shop.</p>
+      <a
+        href={shopUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-5 inline-block rounded-sm bg-blaze px-8 py-4 text-lg font-bold text-white transition hover:brightness-110"
+      >
+        Shop on Etsy
+      </a>
+    </section>
+  </article>
+</BaseLayout>

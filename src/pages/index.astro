@@ -1,21 +1,35 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { shopWithUtm } from '../lib/etsy';
 
-const etsyShopUrl =
-  'https://curatedthreadsllc.etsy.com/?utm_source=curatedthreadsllc&utm_medium=web&utm_campaign=home';
+const etsyShopUrl = shopWithUtm('home');
+
+const allProducts = await getCollection('products');
+const featured = allProducts.filter((p) => p.data.featured).slice(0, 8);
 
 const categories = [
-  { name: 'Hunting', blurb: 'Deer camp humor and gear for the hunter in your life.' },
-  { name: 'Fishing', blurb: 'Designs for the angler who lives for the next cast.' },
-  { name: 'Outdoor', blurb: 'For campfires, trails, and everyone who loves being outside.' },
-  { name: 'Patriotic', blurb: 'Red, white, and blue designs made in the USA.' },
-];
-
-const social = [
-  { name: 'Instagram', url: 'https://www.instagram.com/curatedthreadsoutdoors/' },
-  { name: 'TikTok', url: 'https://www.tiktok.com/@curatedthreadsoutdoors' },
-  { name: 'Pinterest', url: 'https://www.pinterest.com/CuratedThreadsOutdoors' },
-  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61587888253398' },
+  {
+    name: 'Hunting',
+    href: '/hunting',
+    blurb: 'Deer, bear, turkey, duck, and upland bird gear for the field.',
+  },
+  {
+    name: 'Fishing',
+    href: '/fishing',
+    blurb: 'For the angler chasing bass, trout, or marlin.',
+  },
+  {
+    name: 'Outdoor',
+    href: '/outdoor',
+    blurb: 'Stickers, decals, and lifestyle pieces for the trail.',
+  },
+  {
+    name: 'Patriotic',
+    href: '/patriotic',
+    blurb: 'American flag, bald eagle, and 250th anniversary designs.',
+  },
 ];
 
 const organizationSchema = {
@@ -35,74 +49,82 @@ const organizationSchema = {
 
 <BaseLayout
   title="Curated Threads Outdoors | Hunting, Fishing, Outdoor and Patriotic Gifts"
-  description="Family-owned shop for hunting, fishing, outdoor, and patriotic t-shirts, hoodies, mugs, and can coolers. Free shipping on every order, fulfilled through our Etsy shop."
+  description="Family-owned shop for hunting, fishing, outdoor, and patriotic t-shirts, hoodies, mugs, tumblers, and can coolers. Free shipping on every order, fulfilled through our Etsy shop."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
-  <main class="bg-parchment">
-    <section class="px-6 pt-14 pb-16 text-center sm:pt-20 sm:pb-24">
-      <div class="mx-auto max-w-3xl rounded-sm border border-gold/70 p-2">
-        <div class="rounded-sm border border-gold/40 px-6 py-14 sm:px-12 sm:py-16">
-          <p class="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-sepia/80">
-            Family owned and operated
-          </p>
-          <h1 class="font-display mx-auto max-w-2xl text-4xl leading-tight text-sepia sm:text-5xl">
-            Curated Threads Outdoors
-          </h1>
-          <p class="mt-4 text-sm uppercase tracking-[0.2em] text-gold">
-            Hand-picked styles &middot; Classic pieces &middot; Timeless elegance
-          </p>
-          <p class="mx-auto mt-6 max-w-xl text-lg text-ink/75">
-            Hunting, fishing, outdoor, and patriotic designs on shirts, hoodies, mugs, and can
-            coolers. Made to order, shipped free.
-          </p>
-          <a
-            href={etsyShopUrl}
-            target="_blank"
-            rel="noopener"
-            class="mt-8 inline-block rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
-          >
-            Shop on Etsy
-          </a>
-        </div>
+  <section class="px-6 pt-14 pb-16 text-center sm:pt-20 sm:pb-24">
+    <div class="mx-auto max-w-3xl rounded-sm border border-gold/70 p-2">
+      <div class="rounded-sm border border-gold/40 px-6 py-14 sm:px-12 sm:py-16">
+        <p class="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-sepia/80">
+          Family owned and operated
+        </p>
+        <h1 class="font-display mx-auto max-w-2xl text-4xl leading-tight text-sepia sm:text-5xl">
+          Curated Threads Outdoors
+        </h1>
+        <p class="mt-4 text-sm uppercase tracking-[0.2em] text-gold">
+          Hand-picked styles &middot; Classic pieces &middot; Timeless elegance
+        </p>
+        <p class="mx-auto mt-6 max-w-xl text-lg text-ink/75">
+          Hunting, fishing, outdoor, and patriotic designs on shirts, hoodies, mugs, tumblers,
+          and can coolers. Made to order, shipped free.
+        </p>
+        <a
+          href={etsyShopUrl}
+          target="_blank"
+          rel="noopener"
+          class="mt-8 inline-block rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
+        >
+          Shop on Etsy
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="mx-auto max-w-5xl px-6 pb-20">
-      <h2 class="font-display text-center text-2xl text-sepia sm:text-3xl">
-        Four ways to gear up
-      </h2>
-      <p class="mx-auto mt-3 max-w-2xl text-center text-ink/70">
-        Full category pages are on the way. Until then, everything is live in our Etsy shop.
-      </p>
-      <div class="mt-10 grid gap-6 sm:grid-cols-2">
-        {
-          categories.map((cat) => (
-            <div class="rounded-sm border border-gold/50 bg-cream p-6 shadow-sm">
-              <h3 class="font-display text-xl text-sepia">{cat.name}</h3>
-              <p class="mt-2 text-ink/70">{cat.blurb}</p>
-            </div>
-          ))
-        }
-      </div>
-    </section>
-  </main>
-
-  <footer class="bg-forest-dark px-6 py-10 text-center text-cream/80">
-    <p class="font-display text-sm uppercase tracking-widest">Curated Threads LLC</p>
-    <ul class="mt-4 flex justify-center gap-6">
+  <section class="mx-auto max-w-6xl px-6 pb-16">
+    <h2 class="font-display text-center text-3xl text-sepia">Four ways to gear up</h2>
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {
-        social.map((s) => (
-          <li>
-            <a href={s.url} target="_blank" rel="noopener" class="underline-offset-4 hover:text-blaze hover:underline">
-              {s.name}
-            </a>
-          </li>
+        categories.map((cat) => (
+          <a
+            href={cat.href}
+            class="rounded-sm border border-gold/50 bg-cream p-6 text-center shadow-sm transition hover:border-forest hover:shadow-md"
+          >
+            <h3 class="font-display text-xl text-sepia">{cat.name}</h3>
+            <p class="mt-2 text-sm text-ink/70">{cat.blurb}</p>
+          </a>
         ))
       }
-    </ul>
-    <p class="mt-6 text-sm text-cream/60">
-      All orders are placed and fulfilled through our Etsy shop.
+    </div>
+  </section>
+
+  {
+    featured.length > 0 && (
+      <section class="border-t border-gold/30 bg-parchment px-6 py-16">
+        <div class="mx-auto max-w-6xl">
+          <h2 class="font-display text-center text-3xl text-sepia">Featured designs</h2>
+          <p class="mx-auto mt-3 max-w-2xl text-center text-ink/70">
+            A handful of our favorites from every category. Every product ships free from
+            our Etsy shop.
+          </p>
+          <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+            {featured.map((p) => <ProductCard product={p} />)}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="border-t border-gold/30 bg-cream px-6 py-14 text-center">
+    <p class="mx-auto max-w-2xl text-lg italic text-sepia/85">
+      A family-owned shop. Daniel runs it, and his daughter co-designs a portion of the
+      catalog.
     </p>
-  </footer>
+    <a
+      href="/story"
+      class="mt-4 inline-block text-sm font-semibold uppercase tracking-widest text-forest hover:text-blaze"
+    >
+      Our Story &rarr;
+    </a>
+  </section>
 </BaseLayout>

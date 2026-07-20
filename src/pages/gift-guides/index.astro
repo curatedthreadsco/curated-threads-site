@@ -1,0 +1,61 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const guides = (await getCollection('gift-guides')).sort(
+  (a, b) => b.data.publish_date.getTime() - a.data.publish_date.getTime(),
+);
+
+const siteBase = Astro.site!.origin;
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Gift Guides', item: `${siteBase}/gift-guides` },
+  ],
+};
+---
+
+<BaseLayout
+  title="Gift Guides for Hunters, Anglers, and Outdoor Families | Curated Threads Outdoors"
+  description="Handpicked gift guides for hunters, anglers, and patriots. Made-to-order shirts, mugs, tumblers, and glassware from a family-owned shop, shipped free from Etsy."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Curated for the field</p>
+      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Gift Guides</h1>
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/75">
+        Small, considered lists for the hunters, anglers, and patriots in your life. Every
+        pick ships free from our Etsy shop.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-4xl px-6 py-12">
+    {
+      guides.length === 0 ? (
+        <p class="text-center text-ink/70">The first guide is on its way.</p>
+      ) : (
+        <ul class="space-y-6">
+          {guides.map((g) => (
+            <li>
+              <a
+                href={`/gift-guides/${g.id}`}
+                class="block rounded-sm border border-gold/40 bg-cream p-6 shadow-sm transition hover:border-forest hover:shadow-md"
+              >
+                <h2 class="font-display text-2xl text-sepia">{g.data.title}</h2>
+                <p class="mt-2 text-ink/70">{g.data.description}</p>
+                <p class="mt-4 text-sm font-semibold uppercase tracking-widest text-forest">
+                  Read the guide &rarr;
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </section>
+</BaseLayout>

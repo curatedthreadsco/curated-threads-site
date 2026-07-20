@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { shopWithUtm } from '../lib/etsy';
+
+const etsyShopUrl = shopWithUtm('home');
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Our Story', item: `${siteBase}/story` },
+  ],
+};
+---
+
+<BaseLayout
+  title="Our Story | Curated Threads Outdoors"
+  description="Curated Threads Outdoors is a family-owned print-on-demand shop run by Daniel and family. His daughter co-designs a portion of the catalog and hunts and fishes with the family."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Our Story</p>
+      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Family owned and hands on</h1>
+    </div>
+  </section>
+
+  <article class="mx-auto max-w-2xl px-6 py-12 text-lg leading-relaxed text-ink/85">
+    <p>
+      Curated Threads LLC is a family-owned print-on-demand shop run by Daniel and family.
+      His daughter co-designs a portion of the catalog, and the whole family hunts and
+      fishes together. What started as a way to put our own sketches and inside jokes on
+      shirts and mugs turned into a small business that ships gifts to hunters, anglers,
+      and outdoor families all over the country.
+    </p>
+    <p class="mt-6">
+      Every design starts on a sketch pad or in a camera roll from time spent in the field,
+      on the water, or around the campfire. We only put our name on pieces we would happily
+      gift to the people in our own lives, which is why we stick to four things we know:
+      hunting, fishing, outdoor, and patriotic.
+    </p>
+    <p class="mt-6">
+      Everything is made to order, ships free, and is fulfilled through our Etsy shop so
+      you get their buyer protection on every order.
+    </p>
+
+    <div class="mt-10 flex flex-wrap items-center gap-4">
+      <a
+        href={etsyShopUrl}
+        target="_blank"
+        rel="noopener"
+        class="rounded-sm bg-forest px-6 py-3 font-bold text-cream transition hover:bg-forest-dark"
+      >
+        Shop on Etsy
+      </a>
+      <a
+        href="/faq"
+        class="text-sm font-semibold uppercase tracking-widest text-forest hover:text-blaze"
+      >
+        Shipping and Returns &rarr;
+      </a>
+    </div>
+  </article>
+</BaseLayout>

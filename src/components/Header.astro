@@ -1,0 +1,44 @@
+---
+const { pathname } = Astro.url;
+
+const navItems = [
+  { label: 'Hunting', href: '/hunting' },
+  { label: 'Fishing', href: '/fishing' },
+  { label: 'Outdoor', href: '/outdoor' },
+  { label: 'Patriotic', href: '/patriotic' },
+  { label: 'Gift Guides', href: '/gift-guides' },
+  { label: 'Story', href: '/story' },
+  { label: 'FAQ', href: '/faq' },
+];
+
+const isActive = (href: string) =>
+  href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/');
+---
+
+<header class="border-b border-gold/40 bg-parchment">
+  <div class="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-5 sm:flex-row sm:justify-between">
+    <a href="/" class="flex flex-col items-center sm:items-start" aria-label="Curated Threads Outdoors home">
+      <span class="font-display text-2xl leading-none text-sepia">Curated Threads</span>
+      <span class="mt-0.5 text-[10px] uppercase tracking-[0.35em] text-gold">Outdoors</span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm font-semibold uppercase tracking-wider text-sepia">
+        {
+          navItems.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  'transition hover:text-forest',
+                  isActive(item.href) && 'text-forest underline underline-offset-8 decoration-gold decoration-2',
+                ]}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { shopWithUtm } from '../lib/etsy';
+
+const etsyShopUrl = shopWithUtm('home');
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'FAQ', item: `${siteBase}/faq` },
+  ],
+};
+
+const faqs = [
+  {
+    q: 'Where are orders fulfilled?',
+    a: 'All orders are placed and fulfilled through our Etsy shop. When you click "Shop on Etsy" on any product page, you complete your purchase there. Etsy handles payment, order tracking, and buyer protection.',
+  },
+  {
+    q: 'Is shipping really free?',
+    a: 'Yes. Every product in the shop ships free to addresses in the United States. International shipping rates and delivery times are shown on each Etsy listing.',
+  },
+  {
+    q: 'How long does it take to make and ship my order?',
+    a: 'Every piece is made to order. Production typically takes 2 to 5 business days, plus shipping time. Estimated delivery windows are shown at checkout on Etsy.',
+  },
+  {
+    q: 'What sizes do the shirts, hoodies, and tank tops come in?',
+    a: 'Apparel is offered in unisex sizes S through 3XL depending on the design. Check the size dropdown on the Etsy listing for the exact sizes and a size chart for that item.',
+  },
+  {
+    q: 'How do I care for my order?',
+    a: 'Apparel: machine wash cold inside out, tumble dry low, do not iron directly on the print. Ceramic mugs: dishwasher and microwave safe. Insulated tumblers and glassware: hand wash recommended. Full care instructions are listed on every product page.',
+  },
+  {
+    q: 'Can I return or exchange an order?',
+    a: 'Because everything is made to order, we cannot accept returns for buyer’s remorse or wrong size. If your order arrives damaged, defective, or wrong, message us through Etsy within 7 days of delivery and we will make it right.',
+  },
+  {
+    q: 'Do you take custom orders?',
+    a: 'We focus on our core catalog so we can keep quality and turnaround times consistent. If you have a bulk gift or event idea, message us through Etsy and we will let you know what is possible.',
+  },
+  {
+    q: 'How do I get in touch?',
+    a: 'The fastest way to reach us is through the Etsy shop messaging system. We reply within one business day.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+---
+
+<BaseLayout
+  title="FAQ, Shipping, and Returns | Curated Threads Outdoors"
+  description="Answers to common questions about shipping, sizing, returns, and how our Etsy-based order fulfillment works at Curated Threads Outdoors."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(faqSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 sm:py-20">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Support</p>
+      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">FAQ, Shipping, and Returns</h1>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 py-12">
+    <dl class="divide-y divide-gold/30">
+      {
+        faqs.map((f) => (
+          <div class="py-6">
+            <dt class="font-display text-xl text-sepia">{f.q}</dt>
+            <dd class="mt-2 text-ink/80">{f.a}</dd>
+          </div>
+        ))
+      }
+    </dl>
+
+    <div class="mt-10 rounded-sm border border-gold/40 bg-cream p-6 text-center">
+      <p class="font-display text-xl text-sepia">Still have a question?</p>
+      <p class="mt-2 text-ink/70">
+        Message us through the Etsy shop. We reply within one business day.
+      </p>
+      <a
+        href={etsyShopUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-4 inline-block rounded-sm bg-forest px-6 py-3 font-bold text-cream transition hover:bg-forest-dark"
+      >
+        Message on Etsy
+      </a>
+    </div>
+  </section>
+</BaseLayout>
