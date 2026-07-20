@@ -13,22 +13,22 @@ const categories = [
   {
     name: 'Hunting',
     href: '/hunting',
-    blurb: 'Deer, bear, turkey, duck, and upland bird gear for the field.',
+    blurb: 'Apparel, drinkware, and gifts for the hunter in your life.',
   },
   {
     name: 'Fishing',
     href: '/fishing',
-    blurb: 'For the angler chasing bass, trout, or marlin.',
+    blurb: 'Designs for the angler chasing the next big catch.',
   },
   {
     name: 'Outdoor',
     href: '/outdoor',
-    blurb: 'Stickers, decals, and lifestyle pieces for the trail.',
+    blurb: 'Gear and gifts for anyone who lives outside.',
   },
   {
     name: 'Patriotic',
     href: '/patriotic',
-    blurb: 'American flag, bald eagle, and 250th anniversary designs.',
+    blurb: 'Red, white, and blue designs made in the USA.',
   },
 ];
 
@@ -49,7 +49,7 @@ const organizationSchema = {
 
 <BaseLayout
   title="Curated Threads Outdoors | Hunting, Fishing, Outdoor and Patriotic Gifts"
-  description="Family-owned shop for hunting, fishing, outdoor, and patriotic t-shirts, hoodies, mugs, tumblers, and can coolers. Free shipping on every order, fulfilled through our Etsy shop."
+  description="Family-owned shop for hunting, fishing, outdoor, and patriotic apparel, drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
@@ -66,8 +66,8 @@ const organizationSchema = {
           Hand-picked styles &middot; Classic pieces &middot; Timeless elegance
         </p>
         <p class="mx-auto mt-6 max-w-xl text-lg text-ink/75">
-          Hunting, fishing, outdoor, and patriotic designs on shirts, hoodies, mugs, tumblers,
-          and can coolers. Made to order, shipped free.
+          Hunting, fishing, outdoor, and patriotic designs for the field, the water, the
+          trail, and the flag. Made to order, shipped free.
         </p>
         <a
           href={etsyShopUrl}
