@@ -2,32 +2,46 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
-import { shopWithUtm } from '../lib/etsy';
+import { shopWithUtm, etsyImage, etsyImageSrcSet } from '../lib/etsy';
 
 const etsyShopUrl = shopWithUtm('home');
 
 const allProducts = await getCollection('products');
 const featured = allProducts.filter((p) => p.data.featured).slice(0, 8);
 
-const categories = [
+type Cat = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
+
+// Pull one representative product image per category so the "Four ways to
+// gear up" tiles have real imagery instead of empty text cards.
+const coverFor = (cat: Cat) => {
+  const list = allProducts.filter((p) => p.data.category === cat);
+  const featuredFirst = list.find((p) => p.data.featured) ?? list[0];
+  return featuredFirst?.data.images[0];
+};
+
+const categories: { name: string; href: string; category: Cat; blurb: string }[] = [
   {
     name: 'Hunting',
     href: '/hunting',
+    category: 'hunting',
     blurb: 'Apparel, drinkware, and gifts for the hunter in your life.',
   },
   {
     name: 'Fishing',
     href: '/fishing',
+    category: 'fishing',
     blurb: 'Designs for the angler chasing the next big catch.',
   },
   {
     name: 'Outdoor',
     href: '/outdoor',
+    category: 'outdoor',
     blurb: 'Gear and gifts for anyone who lives outside.',
   },
   {
     name: 'Patriotic',
     href: '/patriotic',
+    category: 'patriotic',
     blurb: 'Red, white, and blue designs made in the USA.',
   },
 ];
@@ -53,19 +67,19 @@ const organizationSchema = {
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
-  <section class="px-6 pt-14 pb-16 text-center sm:pt-20 sm:pb-24">
+  <section class="px-6 pt-6 pb-10 text-center sm:pt-8 sm:pb-14">
     <div class="mx-auto max-w-3xl rounded-sm border border-gold/70 p-2">
-      <div class="rounded-sm border border-gold/40 px-6 py-14 sm:px-12 sm:py-16">
-        <p class="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-sepia/80">
+      <div class="rounded-sm border border-gold/40 px-6 py-10 sm:px-12 sm:py-12">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-sepia/80">
           Family owned and operated
         </p>
         <h1 class="font-display mx-auto max-w-2xl text-4xl leading-tight text-sepia sm:text-5xl">
           Curated Threads Outdoors
         </h1>
-        <p class="mt-4 text-sm uppercase tracking-[0.2em] text-gold">
+        <p class="mt-3 text-sm uppercase tracking-[0.2em] text-gold">
           Hand-picked styles &middot; Classic pieces &middot; Timeless elegance
         </p>
-        <p class="mx-auto mt-6 max-w-xl text-lg text-ink/75">
+        <p class="mx-auto mt-5 max-w-xl text-lg text-ink/75">
           Hunting, fishing, outdoor, and patriotic designs for the field, the water, the
           trail, and the flag. Made to order, shipped free.
         </p>
@@ -73,7 +87,7 @@ const organizationSchema = {
           href={etsyShopUrl}
           target="_blank"
           rel="noopener"
-          class="mt-8 inline-block rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
+          class="mt-6 inline-block rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
         >
           Shop on Etsy
         </a>
@@ -81,19 +95,42 @@ const organizationSchema = {
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-6 pb-16">
+  <section class="mx-auto max-w-6xl px-6 pb-12">
     <h2 class="font-display text-center text-3xl text-sepia">Four ways to gear up</h2>
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {
-        categories.map((cat) => (
-          <a
-            href={cat.href}
-            class="rounded-sm border border-gold/50 bg-cream p-6 text-center shadow-sm transition hover:border-forest hover:shadow-md"
-          >
-            <h3 class="font-display text-xl text-sepia">{cat.name}</h3>
-            <p class="mt-2 text-sm text-ink/70">{cat.blurb}</p>
-          </a>
-        ))
+        categories.map((cat) => {
+          const cover = coverFor(cat.category);
+          return (
+            <a
+              href={cat.href}
+              class="group relative flex aspect-[4/5] overflow-hidden rounded-sm border border-gold/50 shadow-sm transition hover:border-forest hover:shadow-md"
+            >
+              {cover && (
+                <img
+                  src={etsyImage(cover.src, 'il_570xN')}
+                  srcset={etsyImageSrcSet(cover.src, [
+                    { variant: 'il_570xN', width: 570 },
+                    { variant: 'il_794xN', width: 794 },
+                  ])}
+                  sizes="(min-width: 1024px) 22vw, (min-width: 640px) 46vw, 92vw"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
+              )}
+              <div class="absolute inset-0 bg-gradient-to-t from-forest-dark/85 via-forest-dark/40 to-transparent" />
+              <div class="relative z-10 mt-auto p-5 text-cream">
+                <h3 class="font-display text-2xl leading-tight">{cat.name}</h3>
+                <p class="mt-1 text-sm text-cream/85">{cat.blurb}</p>
+                <span class="mt-3 inline-block text-xs font-semibold uppercase tracking-widest text-blaze group-hover:text-cream">
+                  Shop {cat.name} &rarr;
+                </span>
+              </div>
+            </a>
+          );
+        })
       }
     </div>
   </section>
