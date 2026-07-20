@@ -10,37 +10,85 @@ const etsyShopUrl =
   'https://curatedthreadsllc.etsy.com/?utm_source=curatedthreadsllc&utm_medium=web&utm_campaign=footer';
 
 const year = new Date().getFullYear();
+
+const shopLinks = [
+  { label: 'Hunting', href: '/hunting' },
+  { label: 'Fishing', href: '/fishing' },
+  { label: 'Outdoor', href: '/outdoor' },
+  { label: 'Patriotic', href: '/patriotic' },
+  { label: 'Gift Guides', href: '/gift-guides' },
+];
+
+const aboutLinks = [
+  { label: 'Our Story', href: '/story' },
+  { label: 'Shipping & Returns', href: '/faq' },
+  { label: 'Shop on Etsy', href: etsyShopUrl, external: true },
+];
 ---
 
-<footer class="bg-forest-dark px-6 py-12 text-cream/80">
-  <div class="mx-auto flex max-w-6xl flex-col items-center gap-6 sm:flex-row sm:items-start sm:justify-between">
-    <div class="text-center sm:text-left">
-      <p class="font-display text-lg tracking-wide text-cream">Curated Threads LLC</p>
-      <p class="mt-1 text-sm text-cream/60">Hand-picked styles. Classic pieces. Timeless elegance.</p>
-      <a
-        href={etsyShopUrl}
-        target="_blank"
-        rel="noopener"
-        class="mt-3 inline-block text-sm font-semibold uppercase tracking-wider text-blaze hover:text-cream"
-      >
-        Shop on Etsy &rarr;
-      </a>
+<footer class="bg-forest-dark text-cream/85">
+  <div class="mx-auto grid max-w-6xl gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4">
+    <div>
+      <p class="font-display text-xl tracking-wide text-cream">Curated Threads LLC</p>
+      <p class="mt-3 text-sm text-cream/60">
+        Hand-picked styles. Classic pieces. Timeless elegance. Every order made to order and
+        fulfilled through our Etsy shop.
+      </p>
     </div>
-    <nav aria-label="Social">
-      <ul class="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm">
+
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Shop</p>
+      <ul class="mt-4 space-y-2 text-sm">
+        {
+          shopLinks.map((l) => (
+            <li>
+              <a href={l.href} class="transition hover:text-blaze">{l.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">About</p>
+      <ul class="mt-4 space-y-2 text-sm">
+        {
+          aboutLinks.map((l) => (
+            <li>
+              <a
+                href={l.href}
+                target={l.external ? '_blank' : undefined}
+                rel={l.external ? 'noopener' : undefined}
+                class="transition hover:text-blaze"
+              >
+                {l.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Follow</p>
+      <ul class="mt-4 space-y-2 text-sm">
         {
           social.map((s) => (
             <li>
-              <a href={s.url} target="_blank" rel="noopener" class="underline-offset-4 hover:text-blaze hover:underline">
+              <a href={s.url} target="_blank" rel="noopener" class="transition hover:text-blaze">
                 {s.name}
               </a>
             </li>
           ))
         }
       </ul>
-    </nav>
+    </div>
   </div>
-  <div class="mx-auto mt-10 max-w-6xl border-t border-cream/10 pt-6 text-center text-xs text-cream/50">
-    <p>&copy; {year} Curated Threads LLC. All orders placed and fulfilled through Etsy.</p>
+
+  <div class="border-t border-cream/10">
+    <div class="mx-auto flex max-w-6xl flex-col items-center gap-2 px-6 py-6 text-center text-xs text-cream/50 sm:flex-row sm:justify-between sm:text-left">
+      <p>&copy; {year} Curated Threads LLC. All orders placed and fulfilled through Etsy.</p>
+      <p>Free shipping on every order.</p>
+    </div>
   </div>
 </footer>

@@ -19,6 +19,17 @@ const isActive = (href: string) =>
   href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/');
 ---
 
+<div class="bg-forest-dark px-6 py-2 text-center text-[11px] font-semibold uppercase tracking-[0.2em] text-cream">
+  <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-4 gap-y-1">
+    <span>Free Shipping</span>
+    <span class="text-gold">&middot;</span>
+    <span>Made to Order</span>
+    <span class="text-gold">&middot;</span>
+    <span>Family Owned</span>
+    <span class="text-gold">&middot;</span>
+    <span>Fulfilled via Etsy</span>
+  </div>
+</div>
 <a
   href="/"
   class="block bg-parchment px-6 pt-3 pb-2"
@@ -38,7 +49,7 @@ const isActive = (href: string) =>
   aria-label="Main"
   class="sticky top-0 z-40 border-y border-gold/30 bg-parchment/95 shadow-sm backdrop-blur"
 >
-  <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-2">
+  <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-6 py-2">
     <a href="/" class="shrink-0" aria-label="Curated Threads Outdoors home">
       <Image
         src={logo}
@@ -50,7 +61,7 @@ const isActive = (href: string) =>
         style="height: 3rem; width: 3rem;"
       />
     </a>
-    <ul class="flex flex-1 flex-wrap items-center justify-end gap-x-5 gap-y-1 text-sm font-semibold uppercase tracking-wider text-sepia">
+    <ul class="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-sm font-semibold uppercase tracking-wider text-sepia">
       {
         navItems.map((item) => (
           <li>

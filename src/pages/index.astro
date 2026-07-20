@@ -67,37 +67,50 @@ const organizationSchema = {
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
-  <section class="px-6 pt-6 pb-10 text-center sm:pt-8 sm:pb-14">
-    <div class="mx-auto max-w-3xl rounded-sm border border-gold/70 p-2">
-      <div class="rounded-sm border border-gold/40 px-6 py-10 sm:px-12 sm:py-12">
-        <p class="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-sepia/80">
-          Family owned and operated
-        </p>
-        <h1 class="font-display mx-auto max-w-2xl text-4xl leading-tight text-sepia sm:text-5xl">
-          Curated Threads Outdoors
-        </h1>
-        <p class="mt-3 text-sm uppercase tracking-[0.2em] text-gold">
-          Hand-picked styles &middot; Classic pieces &middot; Timeless elegance
-        </p>
-        <p class="mx-auto mt-5 max-w-xl text-lg text-ink/75">
-          Hunting, fishing, outdoor, and patriotic designs for the field, the water, the
-          trail, and the flag. Made to order, shipped free.
-        </p>
+  <section class="relative overflow-hidden border-b border-gold/30 bg-forest-dark px-6 py-16 text-center text-cream sm:py-20">
+    <div
+      class="absolute inset-0 opacity-15"
+      style="background-image: radial-gradient(circle at 30% 20%, rgba(246,241,230,0.35), transparent 55%), radial-gradient(circle at 75% 70%, rgba(176,138,60,0.35), transparent 55%);"
+    ></div>
+    <div class="relative mx-auto max-w-3xl">
+      <p class="text-xs font-semibold uppercase tracking-[0.4em] text-gold">
+        Family owned and operated
+      </p>
+      <h1 class="font-display mt-4 text-5xl leading-[1.05] text-cream sm:text-6xl">
+        For the field, the water, the trail, and the flag.
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-lg text-cream/85 sm:text-xl">
+        Hunting, fishing, outdoor, and patriotic designs on made-to-order apparel,
+        drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop.
+      </p>
+      <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
         <a
           href={etsyShopUrl}
           target="_blank"
           rel="noopener"
-          class="mt-6 inline-block rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
+          class="inline-flex w-full items-center justify-center rounded-sm bg-blaze px-8 py-4 text-base font-bold uppercase tracking-wider text-cream shadow-lg transition hover:brightness-110 sm:w-auto"
         >
-          Shop on Etsy
+          Shop the Etsy Collection
+        </a>
+        <a
+          href="#collections"
+          class="inline-flex w-full items-center justify-center rounded-sm border border-cream/60 px-8 py-4 text-base font-bold uppercase tracking-wider text-cream transition hover:border-cream hover:bg-cream/10 sm:w-auto"
+        >
+          Browse the Collections
         </a>
       </div>
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-6 pb-12">
-    <h2 class="font-display text-center text-3xl text-sepia">Four ways to gear up</h2>
-    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+  <section id="collections" class="mx-auto max-w-6xl scroll-mt-24 px-6 py-14">
+    <div class="text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Shop by collection</p>
+      <h2 class="font-display mt-2 text-3xl text-sepia sm:text-4xl">Four ways to gear up</h2>
+      <p class="mx-auto mt-3 max-w-2xl text-ink/70">
+        Every collection is stocked in our Etsy shop and updated as new designs drop.
+      </p>
+    </div>
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {
         categories.map((cat) => {
           const cover = coverFor(cat.category);
@@ -139,29 +152,93 @@ const organizationSchema = {
     featured.length > 0 && (
       <section class="border-t border-gold/30 bg-parchment px-6 py-16">
         <div class="mx-auto max-w-6xl">
-          <h2 class="font-display text-center text-3xl text-sepia">Featured designs</h2>
-          <p class="mx-auto mt-3 max-w-2xl text-center text-ink/70">
-            A handful of our favorites from every category. Every product ships free from
-            our Etsy shop.
-          </p>
+          <div class="text-center">
+            <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Bestsellers</p>
+            <h2 class="font-display mt-2 text-3xl text-sepia sm:text-4xl">Fan favorites</h2>
+            <p class="mx-auto mt-3 max-w-2xl text-ink/70">
+              A handful of our most-loved designs. Every piece ships free from our Etsy shop.
+            </p>
+          </div>
           <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
             {featured.map((p) => <ProductCard product={p} />)}
+          </div>
+          <div class="mt-10 text-center">
+            <a
+              href={etsyShopUrl}
+              target="_blank"
+              rel="noopener"
+              class="inline-block rounded-sm border-2 border-forest px-8 py-3 text-sm font-bold uppercase tracking-wider text-forest transition hover:bg-forest hover:text-cream"
+            >
+              Shop all designs on Etsy
+            </a>
           </div>
         </div>
       </section>
     )
   }
 
-  <section class="border-t border-gold/30 bg-cream px-6 py-14 text-center">
-    <p class="mx-auto max-w-2xl text-lg italic text-sepia/85">
-      A family-owned shop. Daniel runs it, and his daughter co-designs a portion of the
-      catalog.
+  <section class="border-t border-gold/30 bg-cream px-6 py-14">
+    <div class="mx-auto grid max-w-5xl items-center gap-8 sm:grid-cols-[auto_1fr]">
+      <div class="text-center sm:text-left">
+        <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Our story</p>
+        <p class="font-display mt-2 text-2xl leading-snug text-sepia sm:text-3xl">
+          A family shop, run out of the truck bed as much as the office.
+        </p>
+      </div>
+      <div class="text-center sm:text-left">
+        <p class="text-ink/80">
+          Daniel runs Curated Threads Outdoors and his daughter co-designs a portion of the
+          catalog. They hunt and fish together, and it shows in the artwork.
+        </p>
+        <a
+          href="/story"
+          class="mt-4 inline-block text-sm font-semibold uppercase tracking-widest text-forest hover:text-blaze"
+        >
+          Read our story &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-t border-gold/30 bg-forest-dark px-6 py-14 text-center text-cream">
+    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Follow the adventure</p>
+    <h2 class="font-display mt-2 text-3xl text-cream sm:text-4xl">Come along for the ride</h2>
+    <p class="mx-auto mt-3 max-w-xl text-cream/80">
+      New designs, behind-the-scenes drops, and moments from the field, the water, and the trail.
     </p>
-    <a
-      href="/story"
-      class="mt-4 inline-block text-sm font-semibold uppercase tracking-widest text-forest hover:text-blaze"
-    >
-      Our Story &rarr;
-    </a>
+    <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+      <a
+        href="https://www.instagram.com/curatedthreadsoutdoors/"
+        target="_blank"
+        rel="noopener"
+        class="rounded-sm border border-cream/40 px-5 py-3 text-sm font-semibold uppercase tracking-wider transition hover:border-blaze hover:text-blaze"
+      >
+        Instagram
+      </a>
+      <a
+        href="https://www.tiktok.com/@curatedthreadsoutdoors"
+        target="_blank"
+        rel="noopener"
+        class="rounded-sm border border-cream/40 px-5 py-3 text-sm font-semibold uppercase tracking-wider transition hover:border-blaze hover:text-blaze"
+      >
+        TikTok
+      </a>
+      <a
+        href="https://www.pinterest.com/CuratedThreadsOutdoors"
+        target="_blank"
+        rel="noopener"
+        class="rounded-sm border border-cream/40 px-5 py-3 text-sm font-semibold uppercase tracking-wider transition hover:border-blaze hover:text-blaze"
+      >
+        Pinterest
+      </a>
+      <a
+        href="https://www.facebook.com/profile.php?id=61587888253398"
+        target="_blank"
+        rel="noopener"
+        class="rounded-sm border border-cream/40 px-5 py-3 text-sm font-semibold uppercase tracking-wider transition hover:border-blaze hover:text-blaze"
+      >
+        Facebook
+      </a>
+    </div>
   </section>
 </BaseLayout>
