@@ -14,11 +14,21 @@ export async function getStaticPaths() {
 type Category = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
 const category = Astro.params.category as Category;
 
+const shirtTypes = new Set(['tee', 'tank-top', 'hoodie']);
+const typeRank = (productType: string) => {
+  if (shirtTypes.has(productType)) return 0;
+  if (productType === 'mug-11oz') return 1;
+  return 2;
+};
+
 const allProducts = await getCollection('products');
 const products = allProducts
   .filter((p) => p.data.category === category)
   .sort((a, b) => {
-    // Featured first, then newest publish_date
+    // Shirts first, then mugs, then everything else
+    const typeDiff = typeRank(a.data.product_type) - typeRank(b.data.product_type);
+    if (typeDiff !== 0) return typeDiff;
+    // Within each group: featured first, then newest publish_date
     if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
     const da = a.data.publish_date?.getTime() ?? 0;
     const db = b.data.publish_date?.getTime() ?? 0;
