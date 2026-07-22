@@ -3,7 +3,6 @@ title: "Vintage Wild Turkey Hunter Mug, Wild Turkey Shotgun Coffee Cup"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99
-sale_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536796405/vintage-wild-turkey-hunter-mug-wild"
 etsy_listing_id: "4536796405"

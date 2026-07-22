@@ -3,7 +3,6 @@ title: "Bear Hunter Mug, Black Bear Hunting Coffee Cup"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99
-sale_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536888421/bear-hunter-mug-black-bear-hunting"
 etsy_listing_id: "4536888421"

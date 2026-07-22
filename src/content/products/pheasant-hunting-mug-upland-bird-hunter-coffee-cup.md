@@ -3,7 +3,6 @@ title: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99
-sale_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4538998887/pheasant-hunting-mug-upland-bird-hunter"
 etsy_listing_id: "4538998887"

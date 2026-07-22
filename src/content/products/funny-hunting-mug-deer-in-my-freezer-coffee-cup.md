@@ -3,7 +3,6 @@ title: "Funny Hunting Mug, Deer In My Freezer Coffee Cup"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99
-sale_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536801290/funny-hunting-mug-deer-in-my-freezer"
 etsy_listing_id: "4536801290"

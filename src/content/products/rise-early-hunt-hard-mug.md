@@ -3,7 +3,6 @@ title: Rise Early Hunt Hard Mug
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99
-sale_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4539024912/rise-early-hunt-hard-mug-vintage-chase"
 etsy_listing_id: "4539024912"

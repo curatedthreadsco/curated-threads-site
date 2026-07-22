@@ -3,7 +3,6 @@ title: "Hook, Line, & Sinker Marlin Fishing Mug"
 category: fishing
 product_type: "mug-11oz"
 list_price: 18.99
-sale_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536749966/hook-line-sinker-marlin-fishing-mug-deep"
 etsy_listing_id: "4536749966"
