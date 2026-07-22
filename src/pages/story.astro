@@ -1,6 +1,8 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { shopWithUtm } from '../lib/etsy';
+import familyStory from '../assets/family-story.jpg';
 
 const etsyShopUrl = shopWithUtm('home');
 const siteBase = Astro.site!.origin;
@@ -27,6 +29,18 @@ const breadcrumbSchema = {
       <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Family Owned & Operated</h1>
     </div>
   </section>
+
+  <div class="mx-auto max-w-3xl px-6 pt-10">
+    <Image
+      src={familyStory}
+      alt="Daniel and his family together in Alaska"
+      widths={[640, 1024, 1536]}
+      sizes="(min-width: 768px) 768px, 100vw"
+      quality={85}
+      loading="eager"
+      class="w-full rounded-sm shadow-lg"
+    />
+  </div>
 
   <article class="mx-auto max-w-2xl px-6 py-12 text-lg leading-relaxed text-ink/85">
     <p>

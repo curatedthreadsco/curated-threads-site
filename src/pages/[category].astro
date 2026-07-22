@@ -1,8 +1,10 @@
 ---
+import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import { shopWithUtm, categoryCampaign } from '../lib/etsy';
+import alaskaFjord from '../assets/alaska-fjord.jpg';
 
 export async function getStaticPaths() {
   const categories = ['hunting', 'fishing', 'outdoor', 'patriotic'] as const;
@@ -81,14 +83,37 @@ const breadcrumbSchema = {
 <BaseLayout title={info.title} description={info.description}>
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
 
-  <section class="border-b border-gold/30 bg-parchment px-6 py-14 sm:py-20">
-    <div class="mx-auto max-w-4xl text-center">
-      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">{info.heroKicker}</p>
-      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">{info.heroTitle}</h1>
-      <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/75">{info.heroBody}</p>
-      {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-sepia/70">{info.storyLine}</p>}
-    </div>
-  </section>
+  {
+    category === 'outdoor' ? (
+      <section class="relative overflow-hidden border-b border-gold/30 bg-forest-dark text-cream">
+        <Image
+          src={alaskaFjord}
+          alt="Calm Alaska fjord reflecting the surrounding mountains"
+          widths={[768, 1280, 1920, 2400]}
+          sizes="100vw"
+          quality={85}
+          loading="eager"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-forest-dark/70 via-forest-dark/55 to-forest-dark/85" />
+        <div class="relative mx-auto max-w-4xl px-6 py-14 text-center sm:py-20">
+          <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold drop-shadow">{info.heroKicker}</p>
+          <h1 class="font-display mt-3 text-4xl text-cream drop-shadow-lg sm:text-5xl">{info.heroTitle}</h1>
+          <p class="mx-auto mt-4 max-w-2xl text-lg text-cream/95 drop-shadow">{info.heroBody}</p>
+          {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-cream/80 drop-shadow">{info.storyLine}</p>}
+        </div>
+      </section>
+    ) : (
+      <section class="border-b border-gold/30 bg-parchment px-6 py-14 sm:py-20">
+        <div class="mx-auto max-w-4xl text-center">
+          <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">{info.heroKicker}</p>
+          <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">{info.heroTitle}</h1>
+          <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/75">{info.heroBody}</p>
+          {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-sepia/70">{info.storyLine}</p>}
+        </div>
+      </section>
+    )
+  }
 
   <section class="mx-auto max-w-6xl px-6 py-12">
     {
