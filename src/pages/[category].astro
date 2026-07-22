@@ -21,10 +21,37 @@ const typeRank = (productType: string) => {
   return 2;
 };
 
+// Hunting page leads with the whiskey glass, then shirts grouped by
+// animal (deer, turkey, bear, duck/pheasant) in a specific curated order.
+const huntingPriority = [
+  'whitetail-deer-whiskey-rocks-glass-10oz-hunter-barware',
+  'whitetail-fitness-deer-in-my-freezer-shirt-funny-deer-hunting-tee',
+  'funny-big-buck-baby-deer-hunting-t-shirt-whitetail-graphic-tee',
+  'i-ve-got-a-big-buck-baby-t-shirt-funny-deer-hunting-graphic-tee',
+  'rustic-whitetail-buck-graphic-tee-outdoor-nature-lover-apparel',
+  'whitetail-deer-hunter-graphic-tee-wildlife-buck-hunting-apparel',
+  'whitetail-deer-skull-hoodie-rustic-nature-graphic-long-sleeve-tee',
+  'turkey-hunter-shirt-vintage-wild-turkey-graphic-tee',
+  'vintage-wild-turkey-hunter-graphic-t-shirt-100-cotton-hunting-tee',
+  'bear-hunter-shirt-black-bear-hunting-graphic-tee',
+  'mallard-duck-hunter-vintage-graphic-tee-waterfowl-hunting-apparel',
+  'pheasant-hunting-shirt-for-men-upland-bird-hunter-gift',
+  'pheasant-hunting-shirt-upland-bird-hunter-graphic-tee',
+];
+
 const allProducts = await getCollection('products');
 const products = allProducts
   .filter((p) => p.data.category === category)
   .sort((a, b) => {
+    if (category === 'hunting') {
+      const ai = huntingPriority.indexOf(a.id);
+      const bi = huntingPriority.indexOf(b.id);
+      if (ai !== -1 || bi !== -1) {
+        if (ai === -1) return 1;
+        if (bi === -1) return -1;
+        return ai - bi;
+      }
+    }
     // Shirts first, then mugs, then everything else
     const typeDiff = typeRank(a.data.product_type) - typeRank(b.data.product_type);
     if (typeDiff !== 0) return typeDiff;
