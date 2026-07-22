@@ -28,8 +28,8 @@ const articleSchema = {
   description: guide.data.description,
   datePublished: guide.data.publish_date.toISOString(),
   ...(guide.data.updated_date ? { dateModified: guide.data.updated_date.toISOString() } : {}),
-  author: { '@type': 'Organization', name: 'Curated Threads LLC' },
-  publisher: { '@type': 'Organization', name: 'Curated Threads LLC' },
+  author: { '@type': 'Organization', name: 'Curated Threads Outdoors' },
+  publisher: { '@type': 'Organization', name: 'Curated Threads Outdoors' },
   mainEntityOfPage: canonical,
 };
 
