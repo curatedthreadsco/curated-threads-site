@@ -26,8 +26,6 @@ const typeRank = (productType: string) => {
 const huntingPriority = [
   'whitetail-deer-whiskey-rocks-glass-10oz-hunter-barware',
   'whitetail-fitness-deer-in-my-freezer-shirt-funny-deer-hunting-tee',
-  'funny-big-buck-baby-deer-hunting-t-shirt-whitetail-graphic-tee',
-  'i-ve-got-a-big-buck-baby-t-shirt-funny-deer-hunting-graphic-tee',
   'rustic-whitetail-buck-graphic-tee-outdoor-nature-lover-apparel',
   'whitetail-deer-hunter-graphic-tee-wildlife-buck-hunting-apparel',
   'whitetail-deer-skull-hoodie-rustic-nature-graphic-long-sleeve-tee',
@@ -39,17 +37,29 @@ const huntingPriority = [
   'pheasant-hunting-shirt-upland-bird-hunter-graphic-tee',
 ];
 
+// Weaker designs get pushed to the very end of the hunting page, after
+// every other product regardless of type.
+const huntingLowPriority = new Set([
+  'funny-big-buck-baby-deer-hunting-t-shirt-whitetail-graphic-tee',
+  'i-ve-got-a-big-buck-baby-t-shirt-funny-deer-hunting-graphic-tee',
+]);
+
 const allProducts = await getCollection('products');
 const products = allProducts
   .filter((p) => p.data.category === category)
   .sort((a, b) => {
     if (category === 'hunting') {
-      const ai = huntingPriority.indexOf(a.id);
-      const bi = huntingPriority.indexOf(b.id);
-      if (ai !== -1 || bi !== -1) {
-        if (ai === -1) return 1;
-        if (bi === -1) return -1;
-        return ai - bi;
+      const aLow = huntingLowPriority.has(a.id);
+      const bLow = huntingLowPriority.has(b.id);
+      if (aLow !== bLow) return aLow ? 1 : -1;
+      if (!aLow) {
+        const ai = huntingPriority.indexOf(a.id);
+        const bi = huntingPriority.indexOf(b.id);
+        if (ai !== -1 || bi !== -1) {
+          if (ai === -1) return 1;
+          if (bi === -1) return -1;
+          return ai - bi;
+        }
       }
     }
     // Shirts first, then mugs, then everything else
