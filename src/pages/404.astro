@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { getCollection } from 'astro:content';
+
+const allProducts = await getCollection('products');
+const featured = allProducts.filter((p) => p.data.featured).slice(0, 4);
+
+const categories = [
+  { name: 'Hunting', href: '/hunting' },
+  { name: 'Fishing', href: '/fishing' },
+  { name: 'Outdoor', href: '/outdoor' },
+  { name: 'Patriotic', href: '/patriotic' },
+];
+---
+
+<BaseLayout
+  title="Page Not Found | Curated Threads Outdoors"
+  description="The page you're looking for doesn't exist. Browse our hunting, fishing, outdoor, and patriotic apparel and gifts instead."
+>
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 text-center sm:py-20">
+    <div class="mx-auto max-w-2xl">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">404</p>
+      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Page Not Found</h1>
+      <p class="mt-4 text-lg text-ink/80">
+        That page doesn't exist or may have moved. Here's where you can pick back up.
+      </p>
+      <a
+        href="/"
+        class="mt-6 inline-flex items-center justify-center rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark"
+      >
+        Back to Home
+      </a>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 py-12">
+    <div class="flex flex-wrap justify-center gap-3">
+      {
+        categories.map((c) => (
+          <a
+            href={c.href}
+            class="rounded-sm border border-gold/40 bg-cream px-5 py-2 text-sm font-semibold uppercase tracking-wider text-sepia transition hover:border-forest hover:text-forest"
+          >
+            {c.name}
+          </a>
+        ))
+      }
+    </div>
+
+    {
+      featured.length > 0 && (
+        <div class="mt-12">
+          <h2 class="font-display text-center text-2xl text-sepia">Popular Right Now</h2>
+          <div class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6">
+            {featured.map((p) => <ProductCard product={p} />)}
+          </div>
+        </div>
+      )
+    }
+  </section>
+</BaseLayout>
