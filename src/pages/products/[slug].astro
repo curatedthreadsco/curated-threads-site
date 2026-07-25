@@ -209,20 +209,41 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
         });
       }
 
+      const firstEtsyLink = document.querySelector('[data-pintrk-shop-etsy]');
+      if (typeof window.fbq === 'function' && firstEtsyLink) {
+        window.fbq('track', 'ViewContent', {
+          content_ids: [firstEtsyLink.getAttribute('data-pintrk-product-id')],
+          content_type: 'product',
+          content_name: firstEtsyLink.getAttribute('data-pintrk-product-name'),
+          value: firstEtsyLink.getAttribute('data-pintrk-value'),
+          currency: 'USD',
+        });
+      }
+
       document.querySelectorAll('[data-pintrk-shop-etsy]').forEach((el) => {
         el.addEventListener('click', () => {
-          if (typeof window.pintrk !== 'function') return;
-          window.pintrk('track', 'AddToCart', {
-            event_id: crypto.randomUUID(),
-            value: el.getAttribute('data-pintrk-value'),
-            currency: 'USD',
-            line_items: [
-              {
-                product_name: el.getAttribute('data-pintrk-product-name'),
-                product_id: el.getAttribute('data-pintrk-product-id'),
-              },
-            ],
-          });
+          const value = el.getAttribute('data-pintrk-value');
+          const productName = el.getAttribute('data-pintrk-product-name');
+          const productId = el.getAttribute('data-pintrk-product-id');
+
+          if (typeof window.pintrk === 'function') {
+            window.pintrk('track', 'AddToCart', {
+              event_id: crypto.randomUUID(),
+              value,
+              currency: 'USD',
+              line_items: [{ product_name: productName, product_id: productId }],
+            });
+          }
+
+          if (typeof window.fbq === 'function') {
+            window.fbq('track', 'AddToCart', {
+              content_ids: [productId],
+              content_type: 'product',
+              content_name: productName,
+              value,
+              currency: 'USD',
+            });
+          }
         });
       });
     </script>
