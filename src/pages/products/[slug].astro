@@ -203,10 +203,17 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
     </div>
 
     <script>
+      if (typeof window.pintrk === 'function') {
+        window.pintrk('track', 'pagevisit', {
+          event_id: crypto.randomUUID(),
+        });
+      }
+
       document.querySelectorAll('[data-pintrk-shop-etsy]').forEach((el) => {
         el.addEventListener('click', () => {
           if (typeof window.pintrk !== 'function') return;
           window.pintrk('track', 'AddToCart', {
+            event_id: crypto.randomUUID(),
             value: el.getAttribute('data-pintrk-value'),
             currency: 'USD',
             line_items: [
