@@ -160,6 +160,10 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
           href={primaryEtsy}
           target="_blank"
           rel="noopener"
+          data-pintrk-shop-etsy
+          data-pintrk-value={(data.sale_price ?? data.list_price).toFixed(2)}
+          data-pintrk-product-name={data.title}
+          data-pintrk-product-id={product.id}
           class="mt-6 inline-flex w-full items-center justify-center rounded-sm bg-forest px-8 py-4 text-lg font-bold text-cream shadow-md transition hover:bg-forest-dark sm:w-auto"
         >
           Shop on Etsy
@@ -187,12 +191,34 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
           href={primaryEtsy}
           target="_blank"
           rel="noopener"
+          data-pintrk-shop-etsy
+          data-pintrk-value={(data.sale_price ?? data.list_price).toFixed(2)}
+          data-pintrk-product-name={data.title}
+          data-pintrk-product-id={product.id}
           class="mt-8 inline-flex w-full items-center justify-center rounded-sm border-2 border-forest px-8 py-3 font-bold uppercase tracking-wider text-forest transition hover:bg-forest hover:text-cream sm:w-auto"
         >
           Shop on Etsy
         </a>
       </div>
     </div>
+
+    <script>
+      document.querySelectorAll('[data-pintrk-shop-etsy]').forEach((el) => {
+        el.addEventListener('click', () => {
+          if (typeof window.pintrk !== 'function') return;
+          window.pintrk('track', 'AddToCart', {
+            value: el.getAttribute('data-pintrk-value'),
+            currency: 'USD',
+            line_items: [
+              {
+                product_name: el.getAttribute('data-pintrk-product-name'),
+                product_id: el.getAttribute('data-pintrk-product-id'),
+              },
+            ],
+          });
+        });
+      });
+    </script>
 
     {
       related.length > 0 && (
