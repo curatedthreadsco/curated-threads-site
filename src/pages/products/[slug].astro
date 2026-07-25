@@ -219,6 +219,15 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
           currency: 'USD',
         });
       }
+      if (typeof window.ttq !== 'undefined' && firstEtsyLink) {
+        window.ttq.track('ViewContent', {
+          content_id: firstEtsyLink.getAttribute('data-pintrk-product-id'),
+          content_type: 'product',
+          content_name: firstEtsyLink.getAttribute('data-pintrk-product-name'),
+          value: firstEtsyLink.getAttribute('data-pintrk-value'),
+          currency: 'USD',
+        });
+      }
 
       document.querySelectorAll('[data-pintrk-shop-etsy]').forEach((el) => {
         el.addEventListener('click', () => {
@@ -238,6 +247,16 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
           if (typeof window.fbq === 'function') {
             window.fbq('track', 'AddToCart', {
               content_ids: [productId],
+              content_type: 'product',
+              content_name: productName,
+              value,
+              currency: 'USD',
+            });
+          }
+
+          if (typeof window.ttq !== 'undefined') {
+            window.ttq.track('AddToCart', {
+              content_id: productId,
               content_type: 'product',
               content_name: productName,
               value,
