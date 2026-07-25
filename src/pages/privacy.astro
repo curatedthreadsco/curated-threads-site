@@ -1,0 +1,235 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: `${siteBase}/privacy` },
+  ],
+};
+
+const lastUpdated = 'July 25, 2026';
+
+const sections = [
+  { id: 'scope', label: 'Scope of This Policy' },
+  { id: 'information-we-collect', label: 'Information We Collect' },
+  { id: 'how-we-use', label: 'How We Use Information' },
+  { id: 'cookies', label: 'Cookies and Tracking Technologies' },
+  { id: 'third-party', label: 'Third-Party Service Providers' },
+  { id: 'etsy', label: 'Purchases and Etsy' },
+  { id: 'social', label: 'Social Media' },
+  { id: 'sharing', label: 'How We Share Information' },
+  { id: 'choices', label: 'Your Privacy Choices' },
+  { id: 'california', label: 'California Privacy Rights' },
+  { id: 'security', label: 'Data Security' },
+  { id: 'children', label: "Children's Privacy" },
+  { id: 'international', label: 'International Visitors' },
+  { id: 'changes', label: 'Changes to This Policy' },
+  { id: 'contact', label: 'Contact Us' },
+];
+---
+
+<BaseLayout
+  title="Privacy Policy | Curated Threads Outdoors"
+  description="How Curated Threads Outdoors collects, uses, and protects information when you visit our site or shop through our Etsy store."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 text-center sm:py-20">
+    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Legal</p>
+    <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Privacy Policy</h1>
+    <p class="mt-2 text-sm text-ink/60">Last updated {lastUpdated}</p>
+  </section>
+
+  <section class="mx-auto max-w-4xl px-6 py-12 text-ink/85">
+    <p class="mb-8">
+      Curated Threads LLC ("Curated Threads Outdoors," "we," "us," or "our") respects your privacy. This
+      Privacy Policy explains what information we collect through curatedthreadsoutdoors.com (the "Site"),
+      how we use it, and the choices available to you. By using the Site, you agree to the practices
+      described below.
+    </p>
+
+    <nav aria-label="Table of contents" class="mb-10 rounded-sm border border-gold/40 bg-cream p-6">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">On this page</p>
+      <ol class="mt-3 grid gap-1 text-sm sm:grid-cols-2">
+        {
+          sections.map((s, i) => (
+            <li>
+              <a href={`#${s.id}`} class="text-forest underline-offset-2 hover:underline">
+                {i + 1}. {s.label}
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </nav>
+
+    <div class="space-y-10">
+      <div id="scope">
+        <h2 class="font-display text-xl text-sepia">1. Scope of This Policy</h2>
+        <p class="mt-2">
+          This Policy applies to information collected when you visit curatedthreadsoutdoors.com. It does not
+          apply to information collected by Etsy, Instagram, TikTok, Pinterest, Facebook, or any other
+          third-party platform we link to or that facilitates your purchase &mdash; those platforms have their
+          own privacy policies, and we encourage you to review them.
+        </p>
+      </div>
+
+      <div id="information-we-collect">
+        <h2 class="font-display text-xl text-sepia">2. Information We Collect</h2>
+        <p class="mt-2">
+          The Site does not include an account sign-up, checkout, or contact form, so we do not directly
+          collect personal information such as your name, email address, or payment details through this
+          Site. The Site does automatically collect limited technical and usage information through the
+          analytics tools described in Section 4, which may include:
+        </p>
+        <ul class="mt-3 list-inside list-disc space-y-1">
+          <li>Pages viewed, links clicked, and time spent on the Site</li>
+          <li>Device type, browser type, and operating system</li>
+          <li>Approximate geographic location (city or region level, derived from IP address)</li>
+          <li>Referring website or search terms that led you to the Site</li>
+        </ul>
+        <p class="mt-3">
+          This information is collected in aggregate or pseudonymous form and is not used by us to identify
+          you personally.
+        </p>
+      </div>
+
+      <div id="how-we-use">
+        <h2 class="font-display text-xl text-sepia">3. How We Use Information</h2>
+        <p class="mt-2">We use the information described above to:</p>
+        <ul class="mt-3 list-inside list-disc space-y-1">
+          <li>Understand how visitors find and use the Site so we can improve content and navigation</li>
+          <li>Measure which products, categories, and pages perform best</li>
+          <li>Diagnose technical issues and improve site performance and usability</li>
+          <li>Comply with legal obligations</li>
+        </ul>
+        <p class="mt-3">We do not use this information to make automated decisions that produce legal or similarly significant effects on you.</p>
+      </div>
+
+      <div id="cookies">
+        <h2 class="font-display text-xl text-sepia">4. Cookies and Tracking Technologies</h2>
+        <p class="mt-2">
+          The Site uses cookies and similar technologies (such as local storage and pixels) placed by
+          third-party analytics providers to collect the usage information described above. You can control
+          or delete cookies through your browser settings; blocking cookies may not significantly affect your
+          ability to browse the Site, since we do not use cookies for checkout or account functionality here.
+        </p>
+      </div>
+
+      <div id="third-party">
+        <h2 class="font-display text-xl text-sepia">5. Third-Party Service Providers</h2>
+        <p class="mt-2">We use the following third-party tools on the Site:</p>
+        <ul class="mt-3 list-inside list-disc space-y-1">
+          <li>
+            <strong>Google Analytics (GA4)</strong> &mdash; collects usage data to help us understand site
+            traffic. See {' '}<a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="text-forest underline">Google's Privacy Policy</a>{' '} and {' '}<a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" class="text-forest underline">Google Analytics Opt-out Browser Add-on</a>.
+          </li>
+          <li>
+            <strong>Microsoft Clarity</strong> &mdash; records anonymized session behavior (such as clicks and
+            scrolling) to help us improve usability. See {' '}<a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener" class="text-forest underline">Microsoft's Privacy Statement</a>.
+          </li>
+        </ul>
+        <p class="mt-3">These providers may set their own cookies and process data under their own privacy policies, independent of this one.</p>
+      </div>
+
+      <div id="etsy">
+        <h2 class="font-display text-xl text-sepia">6. Purchases and Etsy</h2>
+        <p class="mt-2">
+          All orders are placed and fulfilled through our Etsy shop. Clicking "Shop on Etsy" takes you off
+          this Site to Etsy.com, where Etsy collects and processes your name, shipping address, payment
+          information, and order history under its own privacy policy. We do not receive or store your
+          payment card details. Review {' '}<a href="https://www.etsy.com/legal/privacy/" target="_blank" rel="noopener" class="text-forest underline">Etsy's Privacy Policy</a>{' '} for details on how Etsy handles your information.
+        </p>
+      </div>
+
+      <div id="social">
+        <h2 class="font-display text-xl text-sepia">7. Social Media</h2>
+        <p class="mt-2">
+          The Site links to our profiles on Instagram, TikTok, Pinterest, and Facebook. If you interact with
+          us on those platforms, your information is collected and processed by that platform under its own
+          privacy policy, not this one.
+        </p>
+      </div>
+
+      <div id="sharing">
+        <h2 class="font-display text-xl text-sepia">8. How We Share Information</h2>
+        <p class="mt-2">
+          We do not sell your personal information. We share Site usage data only with the analytics service
+          providers listed in Section 5, who process it on our behalf, and we may disclose information if
+          required to comply with a legal obligation, protect our rights, or respond to a valid legal request.
+        </p>
+      </div>
+
+      <div id="choices">
+        <h2 class="font-display text-xl text-sepia">9. Your Privacy Choices</h2>
+        <p class="mt-2">You can limit the collection of usage data on the Site by:</p>
+        <ul class="mt-3 list-inside list-disc space-y-1">
+          <li>Adjusting your browser settings to block or delete cookies</li>
+          <li>Installing the Google Analytics opt-out browser add-on linked above</li>
+          <li>Using browser or device-level "Do Not Track" or privacy settings</li>
+        </ul>
+        <p class="mt-3">The Site does not currently respond to browser "Do Not Track" signals differently than described in this Policy.</p>
+      </div>
+
+      <div id="california">
+        <h2 class="font-display text-xl text-sepia">10. California Privacy Rights</h2>
+        <p class="mt-2">
+          If you are a California resident, the California Consumer Privacy Act (CCPA), as amended, may give
+          you the right to know what personal information we have collected about you, request deletion of
+          that information, and opt out of the "sale" or "sharing" of personal information. We do not sell or
+          share personal information as those terms are defined under the CCPA. To make a request, contact us
+          using the information in Section 15.
+        </p>
+      </div>
+
+      <div id="security">
+        <h2 class="font-display text-xl text-sepia">11. Data Security</h2>
+        <p class="mt-2">
+          We use reasonable administrative and technical measures to protect the limited information
+          collected through the Site. No method of transmission or storage over the internet is completely
+          secure, so we cannot guarantee absolute security.
+        </p>
+      </div>
+
+      <div id="children">
+        <h2 class="font-display text-xl text-sepia">12. Children's Privacy</h2>
+        <p class="mt-2">
+          The Site is intended for a general audience and is not directed at children under 13. We do not
+          knowingly collect personal information from children under 13. If you believe a child has provided
+          us information, contact us and we will take appropriate steps to remove it.
+        </p>
+      </div>
+
+      <div id="international">
+        <h2 class="font-display text-xl text-sepia">13. International Visitors</h2>
+        <p class="mt-2">
+          The Site is hosted and operated in the United States and intended for visitors in the United
+          States, where shipping is offered. If you access the Site from outside the United States, your
+          information may be processed in the United States, which may have different data protection laws
+          than your home country.
+        </p>
+      </div>
+
+      <div id="changes">
+        <h2 class="font-display text-xl text-sepia">14. Changes to This Policy</h2>
+        <p class="mt-2">
+          We may update this Policy from time to time to reflect changes in our practices or for legal
+          reasons. Material changes will be posted on this page with an updated "Last updated" date.
+        </p>
+      </div>
+
+      <div id="contact">
+        <h2 class="font-display text-xl text-sepia">15. Contact Us</h2>
+        <p class="mt-2">
+          Questions about this Policy or requests regarding your information can be sent to us through our
+          {' '}<a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">Etsy shop messaging system</a>{' '}, and we will respond within one business day.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
