@@ -9,16 +9,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4376875965/distressed-american-f
 etsy_listing_id: "4376875965"
 short_description: "Freedom American Flag Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - No side seams for a sleek look and reduced fabric waste
+  - Ribbed knit collar that retains shape and enhances comfort
+  - Shoulder tape that stabilizes the garment and prevents stretching
+  - Made from 100% ring-spun cotton for a soft, durable feel
+  - Ethically sourced cotton for quality and sustainability
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - Machine wash cold (max 30°C / 90°F) with similar colors
+  - Do not bleach
+  - Tumble dry low heat
+  - Iron or steam on low heat only
+  - Do not dry-clean
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/076335/8248722236/il_fullxfull.8248722236_49bh.jpg"
     alt: "Freedom American Flag Shirt, Distressed Patriotic Tee, 4th of July Gift product photo"
@@ -43,8 +44,8 @@ featured: true
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This Freedom tee keeps things simple: a bold, distressed American flag centered on the chest with one word underneath that says everything it needs to. It is clean, timeless, and built for the cookout, the parade, the range, or just an ordinary day when you feel like wearing it.
 
-Whether you are shopping for yourself or picking out a gift for the patriot in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Made from soft, ring-spun cotton with a relaxed unisex fit, the shirt skips the side seams for a cleaner silhouette, and a ribbed knit collar paired with shoulder tape keeps it holding its shape wear after wear. The distressed flag graphic and "Freedom" lettering stay sharp wash after wash, thanks to ethically sourced cotton and sustainable production. Available in red, white, black, sport grey, military green, carolina blue, and more, so there is a color for every wardrobe.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This one makes a great gift for patriots, veterans, and military families, or anyone who wears their love of country openly. It works for the Fourth of July, Memorial Day, Veterans Day, birthdays, or Christmas. True to size with a relaxed unisex fit, so size up if you like it a little looser.

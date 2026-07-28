@@ -8,15 +8,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4389360971/hunt-life-vinyl-decal
 etsy_listing_id: "4389360971"
 short_description: Hunt Life Vinyl Decal. A vinyl decal and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - "Water-resistant vinyl decal"
-  - "Die-cut edges"
-  - "Works on windows, coolers, tumblers, and gear"
+  - Removable adhesive for easy application and repositioning
+  - Water, scratch, and UV-resistant for long-lasting vibrancy
+  - Satin finish for a sleek, professional look
+  - Available in four sizes to fit trucks, coolers, and gear
+  - Proudly assembled in the USA
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Apply to a clean, dry surface"
-  - Rated for indoor and outdoor use
+  - "Clean the surface with water and a soft rag before applying"
+  - "Suitable for indoor and outdoor use, rated for up to 3 years of durability"
+  - Apply to any hard, smooth surface
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/d9decd/7775287582/il_fullxfull.7775287582_c7f5.jpg"
     alt: "Hunt Life Vinyl Decal, Water-Resistant Hunting Sticker, Outdoor Gear Decor product photo"
@@ -41,8 +43,8 @@ featured: true
 publish_date: 2026-07-20
 ---
 
-This vinyl decal was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This Hunt Life vinyl decal adds a rugged personality to a truck, cooler, laptop, or any piece of gear that could use a little outdoor attitude. Bold lettering and clean linework capture the spirit of a life spent outside, whether that means a treestand at dawn or a truck bed full of gear after a long weekend.
 
-Whether you are shopping for yourself or picking out a gift for the outdoors enthusiast in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is a simple gift for the hunter or outdoor lover in your life: dad, mom, grandpa, grandma, a spouse, or the friend who is always the first one packed for opening weekend. It works just as well as a personal touch for your own gear as it does as a gift for someone else's, and it comes in four sizes so it fits everything from a laptop lid to a truck window.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Durable, water-resistant, and UV-protected vinyl keeps the decal looking sharp through sun, rain, and years of use, and the removable adhesive means it can be repositioned if the first spot is not quite right. It makes an easy birthday, holiday, or stocking-stuffer gift, made to order and shipped free through our Etsy shop with Etsy's buyer protection on every order.

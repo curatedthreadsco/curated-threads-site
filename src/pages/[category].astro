@@ -74,7 +74,7 @@ const products = allProducts
     return db - da;
   });
 
-const meta: Record<Category, { title: string; description: string; heroKicker: string; heroTitle: string; heroBody: string; storyLine?: string }> = {
+const meta: Record<Category, { title: string; description: string; heroKicker: string; heroTitle: string; heroBody: string; storyLine?: string; bodyIntro: string }> = {
   hunting: {
     title: 'Hunting Apparel and Gifts | Curated Threads Outdoors',
     description:
@@ -85,6 +85,8 @@ const meta: Record<Category, { title: string; description: string; heroKicker: s
       'Designs for the hunter in your life, from opening day to the long walk back. Made to order and shipped free from our Etsy shop.',
     storyLine:
       "Curated Threads Outdoors is family owned. My daughter and I hunt and fish together, and part of the catalog starts as her sketches.",
+    bodyIntro:
+      'This collection covers whitetail, turkey, bear, elk, and waterfowl in graphic tees, hoodies, and drinkware built for the field and the truck bed after. Shirts are printed on soft, durable 100% cotton or cotton-poly blends with screen or DTG printing that holds up wash after wash, and the barware and tumblers are sized for camp coffee or a celebratory pour after a good hunt. Every piece is made to order through our Etsy shop, so nothing sits in a warehouse until someone picks it. Whether you are outfitting the hunter in your life for opening day or looking for a birthday, Father\'s Day, or Christmas gift for dad, mom, grandpa, grandma, a spouse, or a hunting buddy, these designs are built to actually get worn and used, not just unwrapped and set aside.',
   },
   fishing: {
     title: 'Fishing Apparel and Gifts | Curated Threads Outdoors',
@@ -94,6 +96,8 @@ const meta: Record<Category, { title: string; description: string; heroKicker: s
     heroTitle: 'Fishing',
     heroBody:
       'Designs for the angler in your life, from the first cast at dawn to the story told back home. Made to order and shipped free.',
+    bodyIntro:
+      'From largemouth bass to rainbow trout to deep sea marlin, this lineup is built for anglers who mark their calendars by the season. Tees and hoodies come in soft cotton and cotton-poly blends meant for early mornings on the dock or a boat, koozies and can coolers keep drinks cold between casts, and the mug and tumbler options are sized for coffee before sunrise or something colder after a good day out. Everything ships free and made to order through our Etsy shop. Looking for a gift for the angler in your life, whether that is dad, mom, a spouse, or the friend who plans every vacation around a charter, these pieces are designed to be worn on the water, not just displayed at home.',
   },
   outdoor: {
     title: 'Outdoor Apparel and Gifts | Curated Threads Outdoors',
@@ -103,6 +107,8 @@ const meta: Record<Category, { title: string; description: string; heroKicker: s
     heroTitle: 'Outdoor',
     heroBody:
       'Designs for anyone who spends their weekends chasing sunsets, dirt roads, and campfires.',
+    bodyIntro:
+      'This is the catalog for anyone whose weekends revolve around trailheads, campfires, and long drives with the windows down, not just hunting or fishing trips. Apparel is printed on soft, durable cotton and cotton-poly blends built to layer up at camp or wear around town, and the drinkware and accessories are made for coffee at the trailhead or a drink back at the tailgate. Every item is made to order and ships free through our Etsy shop. It is a solid pick for a birthday, holiday, or just-because gift for the outdoor lover in your life, whether that is a parent, a spouse, or a best friend who is always finding a reason to get outside.',
   },
   patriotic: {
     title: 'Patriotic USA Apparel and Gifts | Curated Threads Outdoors',
@@ -112,6 +118,8 @@ const meta: Record<Category, { title: string; description: string; heroKicker: s
     heroTitle: 'Patriotic',
     heroBody:
       'Red, white, and blue designs to wear your pride with. Made to order and shipped free.',
+    bodyIntro:
+      'This collection leans on distressed American flag graphics, bald eagle artwork, and America\'s 250th anniversary designs across tees, tanks, hoodies, and barware. Shirts are soft cotton and cotton-poly builds with durable printing meant to hold its color through repeated washes, and the glassware and drinkware options are sized for a Fourth of July cookout or a toast on any occasion that calls for one. Everything is made to order and ships free through our Etsy shop. These designs work well as a Fourth of July, Veterans Day, or Christmas gift for the patriot in your life, whether that is a parent, spouse, veteran, or friend who wears their pride without saying much about it.',
   },
 };
 
@@ -163,6 +171,10 @@ const breadcrumbSchema = {
       </section>
     )
   }
+
+  <section class="mx-auto max-w-4xl px-6 pt-10 text-center sm:pt-12">
+    <p class="text-ink/75">{info.bodyIntro}</p>
+  </section>
 
   <section class="mx-auto max-w-6xl px-6 py-12">
     {

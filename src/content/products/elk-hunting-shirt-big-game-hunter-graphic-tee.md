@@ -9,16 +9,19 @@ etsy_listing_url: "https://www.etsy.com/listing/4544192063/elk-hunting-shirt-big
 etsy_listing_id: "4544192063"
 short_description: "Elk Hunting Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% ring-spun cotton graphic tee"
-  - Relaxed unisex crew neck fit
-  - "Direct-to-garment print"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Medium-weight, 100% ring-spun cotton for durability and comfort
+  - Tubular knit construction with no side seams for a clean silhouette
+  - Ribbed knit collar with shoulder tape for shape retention
+  - Dual professional printing for crisp, detailed artwork on front and sleeves
+  - OEKO-TEX certified fabric with a tear-away label for comfort
+  - Relaxed crew neck fit, true to size
+  - Available in white, sport grey, sand, military green, carolina blue, and more
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - Machine wash cold (max 30°C / 90°F)
+  - Tumble dry low heat
+  - Do not iron the print
+  - Do not dry-clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/e75b63/8298811234/il_fullxfull.8298811234_jd86.jpg"
     alt: "Elk Hunting Shirt, Big Game Hunter Graphic Tee product photo"
@@ -44,8 +47,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors, born out of long mornings glassing for bulls and the walk back down the mountain with meat on the frame. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This big game hunter tee is for the one who chases bugles at first light and lives for the pack-out. A hand-illustrated backcountry scene covers the front: a bull elk standing at the edge of a mountain meadow while a hunter takes aim, framed by pine groves, a winding river, shed antlers, and fall pine cones, all in warm earth tones with rugged antler-crest lettering that carries a classic outfitter-lodge look.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Cut from medium-weight, ring-spun cotton with a tubular knit construction and no side seams, the shirt keeps a clean silhouette wash after wash. A ribbed collar and shoulder tape hold their shape, and dual printing keeps the artwork sharp on the front and sleeves. The relaxed crew neck fit runs true to size, so size up for a looser feel, and it pairs naturally with brush pants, worn boots, or a coat layered over top.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Give it to the hunter in your life, dad, mom, grandpa, grandma, spouse, or best friend, especially the one who spends every fall drawing tags across three states. Elk hunters, western rifle hunters, and backcountry campers will know this one on sight. Available in white, sport grey, sand, military green, carolina blue, and more.

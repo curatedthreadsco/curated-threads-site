@@ -9,15 +9,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4436376785/american-bald-eagle-f
 etsy_listing_id: "4436376785"
 short_description: America 250th Anniversary Eagle Tank Top. A tank top and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - Cotton unisex tank top
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - 100% cotton solids, with select heathers in a cotton-poly blend
+  - Medium-weight 5.3 oz/yd² fabric for structure and breathability
+  - Classic fit with a tear-away label for comfort
+  - Stretchy 1x1 ribbed collar that returns to shape
+  - Durable double-needle bottom hem for long-lasting wear
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - Machine wash cold (max 30°C / 90°F)
+  - Iron, steam, or dry on low heat only
+  - Do not bleach
+  - Do not tumble dry
+  - Do not dry-clean
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/ace495/8133090193/il_fullxfull.8133090193_48z7.jpg"
     alt: "America 250th Anniversary Eagle Tank Top, Patriotic God Bless America Shirt product photo"
@@ -42,8 +44,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tank top was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This tank top carries a bold eagle graphic across the chest, a soaring eagle, a waving flag, a nod to military service, and the classic "Start Your Engines" line, all built for celebrating America's 250th anniversary out loud. It is the kind of tank you reach for at a backyard cookout, a parade, or any Fourth of July gathering where showing your colors matters.
 
-Whether you are shopping for yourself or picking out a gift for the patriot in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Cut from breathable cotton in a classic fit, it stays comfortable through a long day of grilling, cheering, or sitting in the sun with friends. The ribbed collar holds its shape wash after wash, and a durable double-needle hem keeps it looking sharp for seasons of wear. Pair it with denim and boots, or throw it under an open flannel once the evening cools off.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+A tank like this makes an easy gift for the veteran, the racing fan, or the proud American in your life, and it works just as well as a treat for yourself before the next holiday cookout. Give it for a birthday, Independence Day, or any celebration of home.

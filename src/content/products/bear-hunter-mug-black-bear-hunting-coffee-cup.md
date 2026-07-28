@@ -8,16 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4536888421/bear-hunter-mug-black
 etsy_listing_id: "4536888421"
 short_description: Bear Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Glossy white ceramic with a comfortable C-handle
+  - Vibrant, long-lasting full-color printing
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy cleaning
+  - Available in 11 oz and 15 oz
+  - Lead-free and BPA-free
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - Dishwasher safe, or wash by hand with warm water and dish soap
+  - Design will not fade, crack, or peel with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/0e0c92/8292817007/il_fullxfull.8292817007_f73z.jpg"
     alt: "Bear Hunter Mug, Black Bear Hunting Coffee Cup product photo"
@@ -42,8 +41,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Cold mountain mornings and the bay of a hound on a hot track come to mind with this bear hunter mug. A hand-drawn scene wraps the ceramic body: a mountain hunter, a roaring black bear, hounds locked onto the trail, and snowy peaks rising behind the pines, all rendered in earthy tones with rugged lettering that fits right in on a workbench, a lodge counter, or the tailgate at the trailhead.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The glossy ceramic mug comes with a comfortable C-handle and full-color printing that holds up to daily use without fading, cracking, or peeling. It is safe for the microwave and dishwasher, made without lead or BPA, and available in 11 or 15 ounce sizes depending on how much coffee the morning calls for.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This one is built for the hunter in your life, dad, mom, grandpa, grandma, spouse, or best friend, especially the one who has been running hounds since before they could drive. Hound hunters, spot-and-stalk hunters, and backcountry campers will all recognize the scene. A solid pick for a birthday, Christmas, or just because.

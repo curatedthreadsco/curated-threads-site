@@ -8,17 +8,21 @@ etsy_listing_url: "https://www.etsy.com/listing/4544631851/funny-hunting-hoodie-
 etsy_listing_id: "4544631851"
 short_description: "Funny Hunting Hoodie. A hoodie and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "50/50 cotton-poly blend hoodie"
-  - "8.0 oz medium-heavy fabric weight"
-  - Double-lined hood with kangaroo pocket
-  - "DTG and DTF printing"
+  - "50/50 cotton-poly blend for warmth with a soft, durable feel"
+  - "Medium-heavy 8.0 oz fabric weight built for year-round wear"
+  - "Tubular, seamless body for a clean fit and less fabric waste"
+  - "Double-lined hood with a color-matched drawcord"
+  - Roomy front kangaroo pocket
+  - Ribbed cuffs and hem that hold their shape
+  - "Durable DTG and DTF printing that stays vibrant wash after wash"
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry medium heat
-  - Iron on low heat only, avoid the print
+  - "Machine wash cold, max 30°C or 90°F"
+  - Tumble dry on medium heat
+  - Iron on low heat only, avoiding the print
+  - Do not dry clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/698945/8302145722/il_fullxfull.8302145722_zqx6.jpg"
     alt: "Funny Hunting Hoodie, Deer In My Freezer Sweatshirt product photo"
@@ -43,8 +47,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This hoodie was designed by the family behind Curated Threads Outdoors, for the hunter whose gym is a treestand and whose gains are measured in pounds of venison. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Every deer hunter has heard some version of the joke: fitness is measured in pounds of venison, not miles on a treadmill. This hoodie puts that punchline on a bold, weathered whitetail illustration, complete with a swole buck curling a dumbbell and rustic, distressed lettering that reads like it has already survived a few seasons at deer camp.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is built for the hunter in your life: dad, mom, grandpa, grandma, a spouse, or the buddy who treats opening day with more reverence than most holidays. Bow hunters, rifle hunters, and anyone proud of a full freezer will get the joke immediately, and they will want to wear it well past hunting season. It is the kind of pullover that earns a laugh at camp and then quietly becomes a fall and winter staple.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+The heavier cotton-poly blend, double-lined hood, and kangaroo pocket make it a genuine cold-weather layer, not just a novelty. Ribbed cuffs and a hem that hold their shape mean it stays comfortable through seasons of wear. It is a natural pick for a birthday, Christmas, or opening-day gift, made to order and shipped free through our Etsy shop with Etsy's buyer protection on every order.

@@ -8,16 +8,13 @@ etsy_listing_url: "https://www.etsy.com/listing/4389378024/hunt-life-skull-tumbl
 etsy_listing_id: "4389378024"
 short_description: Whitetail Hunt Life Skull Tumbler. A 22oz insulated tumbler and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 22oz insulated stainless steel tumbler
-  - "Double-wall vacuum insulated"
-  - Fits standard cup holders
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Durable stainless steel construction resists rust and stains
+  - Double-wall insulation keeps drinks hot for 6 hours or cold for 24 hours
+  - No exterior condensation for a dry, comfortable grip
+  - Spill-resistant, see-through push-on lid for travel
+  - BPA-free with a durable powder-coated finish
 care_instructions:
   - Hand wash only
-  - Do not microwave
-  - Do not put in freezer
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/64e6aa/8292331569/il_fullxfull.8292331569_3ual.jpg"
     alt: Whitetail Hunt Life Skull Tumbler product photo
@@ -42,8 +39,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tumbler 22oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This tumbler is built for hunters who need their coffee as tough as they are. A rugged skull design wraps the powder-coated stainless steel body, the kind of graphic that fits right in at hunting camp, on the drive to the stand, or during a long, quiet sit before first light.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Double-wall vacuum insulation keeps drinks hot for up to 6 hours or cold for up to 24, and the stainless steel construction resists rust and stains through years of regular use. There is no condensation on the outside, so the grip stays dry no matter what is inside, and the spill-resistant, see-through push-on lid makes it easy to travel with from camp to truck.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Whether it is headed to a treestand, a duck blind, or just the truck cupholder on the morning commute, this one earns its keep. It is a solid gift for the hunter in your life for birthdays, Christmas, or the start of the season. Hand wash to keep the finish looking its best, and every order ships free from our Etsy shop with their buyer protection included.

@@ -8,17 +8,20 @@ etsy_listing_url: "https://www.etsy.com/listing/4544669732/marlin-fishing-hoodie
 etsy_listing_id: "4544669732"
 short_description: "Marlin Fishing Hoodie. A hoodie and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "50/50 cotton-poly blend hoodie"
-  - "8.0 oz medium-heavy fabric weight"
-  - Double-lined hood with kangaroo pocket
-  - "DTG and DTF printing"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - "50/50 cotton-poly blend for a soft, warm, durable feel"
+  - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"
+  - Seamless tubular construction for a clean fit
+  - Double-lined hood with a matching drawcord
+  - Roomy kangaroo pocket up front
+  - Ribbed cuffs and hem that hold their shape
+  - Long-lasting DTG/DTF printing that resists fading
+  - "Relaxed classic fit, true to size (size up for extra room)"
 care_instructions:
   - "Machine wash cold, inside out"
-  - Tumble dry medium heat
-  - Iron on low heat only, avoid the print
+  - Tumble dry on medium heat
+  - "Iron on low heat, avoiding the print"
+  - "Non-chlorine bleach only, if needed"
+  - Skip the dry cleaner
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/04e8c9/8302149470/il_fullxfull.8302149470_kkhw.jpg"
     alt: "Marlin Fishing Hoodie, Deep Sea Sportfishing Sweatshirt product photo"
@@ -43,8 +46,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This hoodie was designed by the family behind Curated Threads Outdoors, born out of slow mornings at the marina and long weekends chasing marlin offshore. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Some mornings start at the marina before the sun is even up, coffee in hand and salt already in the air. This hoodie captures that feeling with a vintage-style saltwater scene: a lone angler casting into a sunset while a marlin leaps behind them, framed by rugged "Hook, Line & Sinker" lettering that looks like it came off an old bait shop sign.
 
-Whether you are shopping for yourself or picking out a gift for the angler in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Built from a soft, durable 50/50 cotton-poly blend with a double-lined hood and a roomy kangaroo pocket, it is made for chilly boat mornings, long dock afternoons, and everything in between. The relaxed, true-to-size fit layers easily over a t-shirt or under a rain jacket, and the printing is built to hold its color wash after wash.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It is a natural gift for the angler in your life, whether that is dad, mom, grandpa, grandma, a spouse, or the best friend who plans every vacation around a fishing charter. Deep sea diehards, tournament regulars, and weekend warriors chasing the one that finally did not get away will all feel right at home in it. Pick a color, order a size, and let it become the new go-to for boat days and everything after.

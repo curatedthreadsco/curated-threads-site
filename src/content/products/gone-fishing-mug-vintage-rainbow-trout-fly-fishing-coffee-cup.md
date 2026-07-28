@@ -8,16 +8,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4543038768/gone-fishing-mug-vint
 etsy_listing_id: "4543038768"
 short_description: Gone Fishing Mug. A 11oz ceramic mug and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
+  - Glossy white ceramic with a comfortable C-handle
+  - "Vibrant, long-lasting full-color printing"
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy cleaning
+  - "Available in 11oz and 15oz sizes"
+  - Lead-free and BPA-free construction
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - "Dishwasher-safe, or wash by hand with warm water and dish soap"
+  - Design resists fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/fed4eb/8290629244/il_fullxfull.8290629244_cxa3.jpg"
     alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup product photo"
@@ -43,8 +44,8 @@ featured: false
 publish_date: 2026-07-23
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Slow mornings before the river call for a mug that fits right in with the flies, the compass, and the last unfinished cup of coffee. This Gone Fishing mug wraps a bold, vintage-illustrated rainbow trout leaping across a mountain river, framed by pine silhouettes, granite peaks, and worn "Gone Fishing" lettering for that old bait-shop character.
 
-Whether you are shopping for yourself or picking out a gift for the fishing fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is right at home on a kitchen counter, cabin table, or workbench during fly-tying season, and it makes an easy gift for the angler in your life: dad, mom, grandpa, grandma, a spouse, or the friend who plans every vacation around a river. Fly fishermen, trout chasers, stream waders, and dockside coffee drinkers will all recognize themselves in it, right down to the last quiet sip before heading out.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Glossy ceramic construction, vivid full-color printing, and dishwasher- and microwave-safe convenience make it as practical as it is good-looking, so it holds up to daily use without losing its detail. Whether it is a birthday, Christmas, or just-because gift, every mug is made to order and ships free through our Etsy shop with Etsy's buyer protection on every purchase.

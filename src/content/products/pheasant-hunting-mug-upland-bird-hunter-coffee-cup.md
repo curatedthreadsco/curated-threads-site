@@ -8,16 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4538998887/pheasant-hunting-mug-
 etsy_listing_id: "4538998887"
 short_description: Pheasant Hunting Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Glossy white ceramic with a comfortable C-handle
+  - Vibrant, crisp full-color printed artwork
+  - Microwave safe for quick reheats
+  - Dishwasher safe for easy cleanup
+  - Available in 11 oz and 15 oz sizes
+  - Lead-free and BPA-free construction
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - Dishwasher safe, or hand wash with warm water and mild dish soap
+  - Print is built to resist fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/5b77c2/8260776278/il_fullxfull.8260776278_nsem.jpg"
     alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup product photo"
@@ -42,8 +41,8 @@ featured: true
 publish_date: 2026-07-20
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Rise early, hunt hard, chase the flush. Those three lines wrap around this mug alongside a rich, vintage-style scene: a hunter in blaze orange shouldering a shotgun at sunrise, a pointer locked on scent in the tall grass, and a rooster busting into a wide dawn sky over open farm country.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The earthy color palette and worn, hand-lettered typography give it an heirloom, lodge-poster feel that looks right at home on a cabin counter, a workbench during gear tune-ups, or the tailgate at first light before opening day. The glossy ceramic body and comfortable handle make it an easy daily pour, whether that is coffee before the hunt or something warm after a long day in the field.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It is a natural gift for the bird hunter in your life, dad, mom, grandpa, grandma, a spouse, or the friend who plans every fall weekend around the dog. Upland hunters, pointer and setter handlers, and anyone who has walked miles of prairie chasing pheasant will recognize this one immediately. Fill it up and let it earn a permanent spot in the truck cab or kitchen cabinet.

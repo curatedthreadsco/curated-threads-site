@@ -8,16 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4544194951/elk-hunting-mug-big-g
 etsy_listing_id: "4544194951"
 short_description: Elk Hunting Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz glossy ceramic mug with C-handle
-  - Vibrant, fade-resistant full-color print
-  - Dishwasher and microwave safe
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Glossy white ceramic with a comfortable C-handle
+  - Vibrant, fade-resistant full-color printing
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy cleaning
+  - Available in 11 oz and 15 oz
+  - Lead-free and BPA-free
 care_instructions:
-  - "Dishwasher safe, top rack recommended"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - Dishwasher safe, or wash by hand with warm water and dish soap
+  - Design will not fade, crack, or peel with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/7bea78/8298813626/il_fullxfull.8298813626_8bzp.jpg"
     alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup product photo"
@@ -42,8 +41,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors, born out of long mornings glassing for bulls and the walk back down the mountain with meat on the frame. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Bugles at first light and the long walk back down the mountain with meat on the frame inspired this elk hunting mug. A hand-illustrated backcountry scene wraps the ceramic body: a bull elk standing at the edge of a mountain meadow while a hunter takes aim, framed by pine groves, a winding river, shed antlers, and fall pine cones, all rendered in warm earth tones with rugged antler-crest lettering.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The glossy ceramic mug has a comfortable C-handle and vibrant, fade-resistant printing that holds up through years of morning coffee. It is safe for the microwave and dishwasher, made without lead or BPA, and available in 11 or 15 ounce sizes.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This one is built for the hunter in your life, dad, mom, grandpa, grandma, spouse, or best friend, especially the one who spends every fall drawing tags across three states. Elk hunters, western rifle hunters, and backcountry campers will feel right at home with this scene on their counter or their workbench during reloading nights. A great gift for a birthday or Christmas.

@@ -8,16 +8,16 @@ etsy_listing_url: "https://www.etsy.com/listing/4536749966/hook-line-sinker-marl
 etsy_listing_id: "4536749966"
 short_description: Hook. A 11oz ceramic mug and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
+  - Glossy white ceramic with a comfortable C-handle
+  - "Vibrant, high-resolution full-color printing"
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy cleaning
+  - "Available in 11oz and 15oz sizes"
+  - Lead-free and BPA-free construction
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - "Dishwasher-safe, or wash by hand with warm water and dish soap"
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/2b492f/8291723039/il_fullxfull.8291723039_lfpv.jpg"
     alt: "Hook, Line, & Sinker Marlin Fishing Mug product photo"
@@ -42,8 +42,8 @@ featured: true
 publish_date: 2026-07-20
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Slow mornings before the boat leaves and long afternoons spent reliving the last catch both deserve a mug that fits the mood. This glossy ceramic mug wraps a leaping marlin, sunlit waves, and a classic sportfishing scene in rich, vibrant color, the kind that catches a second look at the dockside cafe or on the kitchen counter.
 
-Whether you are shopping for yourself or picking out a gift for the fishing fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is an easy gift for the angler in your life: dad, mom, grandpa, grandma, a spouse, or the friend who plans every vacation around a charter. Deep-sea diehards, tournament regulars, and offshore weekend warriors will all recognize the scene, whether they are gearing up for a trip or reminiscing about the last one.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Sturdy ceramic construction and a comfortable C-handle make it effortless for daily use, and it holds up in the microwave and dishwasher without fading. It is built to be used every single morning, not just displayed on a shelf. Whether it is a Father's Day, birthday, or just-because gift, every mug is made to order and ships free through our Etsy shop with Etsy's buyer protection on every purchase.

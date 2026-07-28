@@ -8,15 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4543032050/vintage-gone-fishing-
 etsy_listing_id: "4543032050"
 short_description: Vintage Gone Fishing Decal. A vinyl decal and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - "Water-resistant vinyl decal"
-  - "Die-cut edges"
-  - "Works on windows, coolers, tumblers, and gear"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Vibrant, long-lasting colors from eco-solvent printing
+  - Matte UV-protective laminate resists fading and weathering
+  - Premium water-resistant vinyl rated for 5+ years outdoors
+  - Waterproof adhesive with an easy-peel backing
+  - Low-glare matte finish that looks clean on windows and gear
+  - Eco-friendly printing on high-grade material
 care_instructions:
-  - "Apply to a clean, dry surface"
-  - Rated for indoor and outdoor use
+  - Wipe clean with a soft, dry cloth, working from the center outward
+  - Avoid harsh chemical cleaners or abrasive scrubbing
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/9fbad0/8338491611/il_fullxfull.8338491611_6a39.jpg"
     alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker product photo"
@@ -42,8 +42,8 @@ featured: false
 publish_date: 2026-07-23
 ---
 
-This vinyl decal was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+A rainbow trout arcs across a mountain stream on this decal, framed by pine silhouettes and a warm, weathered Gone Fishing circle badge. The rich, earthy color palette and lodge-poster feel give it that old tackle-shop charm, like something peeled straight off a vintage fishing map from a lake trip decades ago.
 
-Whether you are shopping for yourself or picking out a gift for the outdoors enthusiast in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Built from premium water-resistant vinyl with a matte UV-protective laminate, it is rated to hold its color outdoors for years, whether it ends up on a truck bumper, a cooler lid, or a tumbler that lives in the cab all summer. The waterproof adhesive and easy-peel backing make it simple to apply in minutes, and the low-glare matte finish keeps it looking clean on glass, coolers, or tackle boxes alike.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It is a fun, low-cost gift for the angler in your life, dad, mom, grandpa, grandma, a spouse, or the friend who already has a decal on every cooler they own. Fly fishermen, trout chasers, and kayak anglers will all recognize this one. Stick it somewhere it will see plenty of daylight and let it ride along all season, from the first cast to the last.

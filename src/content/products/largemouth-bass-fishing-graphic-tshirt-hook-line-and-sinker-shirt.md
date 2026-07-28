@@ -9,16 +9,19 @@ etsy_listing_url: "https://www.etsy.com/listing/4498838527/largemouth-bass-fishi
 etsy_listing_id: "4498838527"
 short_description: "Largemouth Bass Fishing Graphic TShirt. A t-shirt and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
+  - "100% cotton, medium-weight 180 g/m² fabric for year-round comfort"
+  - "Tubular knit construction with no side seams for a cleaner look"
+  - Durable ribbed collar and shoulder tape that resist stretching
+  - "Dual DTG and DTF printing for crisp, detailed artwork"
+  - "Tear-away label, OEKO-TEX certified, ethically sourced US cotton"
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - "Machine wash cold, max 30°C or 90°F"
+  - Tumble dry on low heat
+  - Do not iron
+  - Do not dry clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/3c0ed3/8192273723/il_fullxfull.8192273723_97us.jpg"
     alt: "Largemouth Bass Fishing Graphic TShirt, Hook Line and Sinker Shirt product photo"
@@ -43,8 +46,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+There is a quiet thrill in a line going tight at first light, and this Hook, Line, and Sinker tee captures exactly that. A warm, vintage-style illustration centers a leaping largemouth bass breaking the surface against a glowing sunset sky, with pine silhouettes and a lone boat resting on still water, like a perfect cast rendered in ink.
 
-Whether you are shopping for yourself or picking out a gift for the fishing fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is an easy gift for the bass fisherman in your life: dad, mom, grandpa, grandma, a spouse, or the friend who measures time by tides and casts. Wear it at the dock, the bait shop, or anywhere that calls for a shirt that tells a story without saying a word, whether that is a lake house weekend or a quiet Tuesday.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Durable 100% cotton fabric and a classic relaxed fit make it comfortable for long days on the water or a quiet evening at home, and the print keeps its detail wash after wash. It works well for Father's Day, birthdays, anniversaries, or Christmas, made to order and shipped free through our Etsy shop with Etsy's buyer protection on every order.

@@ -8,16 +8,18 @@ etsy_listing_url: "https://www.etsy.com/listing/4544544635/whitetail-hunter-shir
 etsy_listing_id: "4544544635"
 short_description: "Whitetail Hunter Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% ring-spun cotton graphic tee"
-  - Relaxed unisex crew neck fit
-  - "Direct-to-garment print"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - 100% ring-spun cotton, medium-weight 180 g/m2 for year-round comfort
+  - Tubular knit construction, no side seams for a clean silhouette
+  - Ribbed elastic collar with shoulder tape to prevent stretching
+  - "Dual printing: DTG for main artwork, DTF for sleeve and label prints"
+  - Oeko-Tex Standard 100 certified with a tear-away label
+  - Relaxed, true-to-size crew neck fit
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not iron directly on the print
+  - Machine wash cold, max 30C/90F
+  - Tumble dry low heat
+  - Do not iron the print
+  - Do not dry clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/9042fa/8349810353/il_fullxfull.8349810353_j2kl.jpg"
     alt: "Whitetail Hunter Shirt, Whitetail Deer Hunting Graphic Tee product photo"
@@ -42,8 +44,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors, born out of late-afternoon light, pine-scented air, and the hush of the woods before the shot. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Late-afternoon light, pine-scented air, and the hush of the woods just before the shot, that is the scene wrapped around this tee. A rich, hand-illustrated woodland graphic shows a whitetail buck holding its ground in a sunlit clearing while a hunter takes aim nearby, framed by tall evergreens, shed antlers, and fall pine cones under worn, leather-tone lettering. It has that vintage lodge-poster look that pairs naturally with brush pants, worn boots, and a flannel layered over top.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The shirt itself is 100% ring-spun cotton at a medium 180 g/m2 weight, comfortable enough for year-round wear and sturdy enough to hold the printed detail through repeated washes. Tubular knit construction skips the side seams for a cleaner silhouette, and the ribbed elastic collar with shoulder tape keeps everything in shape wash after wash. It is available in white, sport grey, sand, military green, carolina blue, black, and more, in a relaxed, true-to-size crew neck fit.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This is an easy gift for the hunter in your life, dad, mom, grandpa, grandma, spouse, or best friend, or the buddy who has been scouting the same ridge for twenty years. Bow hunters, rifle hunters, and freezer-fillers will all recognize it. Every order ships free from our Etsy shop with their buyer protection included.

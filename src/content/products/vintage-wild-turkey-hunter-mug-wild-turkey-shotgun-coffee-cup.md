@@ -8,16 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4536796405/vintage-wild-turkey-h
 etsy_listing_id: "4536796405"
 short_description: Vintage Wild Turkey Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Glossy white ceramic with a comfortable C-handle
+  - Vibrant, long-lasting full-color printed artwork
+  - Microwave safe for quick reheats
+  - Dishwasher safe for easy cleanup
+  - Available in 11 oz and 15 oz sizes
+  - Lead-free and BPA-free construction
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - Dishwasher safe, or hand wash with warm water and mild dish soap
+  - Print resists fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/7954df/8292811703/il_fullxfull.8292811703_j7x8.jpg"
     alt: "Vintage Wild Turkey Hunter Mug, Wild Turkey Shotgun Coffee Cup product photo"
@@ -42,8 +41,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+A strutting gobbler and a shotgun leaned in the tall grass anchor this mug's vintage-style artwork, rendered in warm autumn tones with rustic hunter-orange lettering. It is made for the hunter who is already thinking about opening day before the current season even wraps up, the kind of person who keeps a turkey call on the nightstand year round.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Glossy ceramic construction and a comfortable C-handle make it easy to reach for daily, whether that is strong coffee before a predawn sit or something warm after a long afternoon by the fire. The full-color print is built to last, holding its detail through regular dishwasher cycles without fading or peeling, so the artwork looks just as sharp a year from now as it does on day one.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Give it to the hunter in your life, dad, mom, grandpa, grandma, a spouse, or the buddy who has been chasing longbeards since before they could drive. Spring gobbler chasers and fall flock hunters alike will find themselves reaching for this one every morning, right alongside the coffee pot. It is a small, practical gift that gets used every single day, not just admired on a shelf.

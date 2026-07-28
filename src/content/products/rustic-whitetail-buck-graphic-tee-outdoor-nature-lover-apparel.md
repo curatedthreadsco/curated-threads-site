@@ -9,16 +9,16 @@ etsy_listing_url: "https://www.etsy.com/listing/4389278330/rustic-whitetail-buck
 etsy_listing_id: "4389278330"
 short_description: "Rustic Whitetail Buck Graphic Tee. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Reinforced shoulder tape for added durability and comfort
+  - Seamless construction for a clean, modern silhouette
+  - Ribbed knit collar that retains its shape and elasticity
+  - Strong, smooth cotton built to hold vibrant print detail
+  - Ethically sourced cotton for sustainable, quality construction
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - "Machine wash cold (max 30°C / 90°F)"
+  - "Non-chlorine bleach only, if needed"
+  - Tumble dry on low heat
+  - Skip the iron and the dry cleaner
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/e5f4ec/8133159245/il_fullxfull.8133159245_j390.jpg"
     alt: "Rustic Whitetail Buck Graphic Tee, Outdoor Nature Lover Apparel product photo"
@@ -43,8 +43,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+A detailed whitetail buck design brings rugged, outdoorsy charm to this tee, the kind of graphic that looks just as at home at a cabin weekend as it does running errands around town. It is built for hunters, campers, and anyone who feels most like themselves outdoors, whether that means glassing a treeline at dawn or just daydreaming about the next trip.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Made from durable, ethically sourced heavy cotton, this unisex tee has a soft feel and a classic fit that holds its shape wear after wear. Seamless construction and a ribbed knit collar keep it looking sharp, while the sturdy, smooth fabric lets the buck artwork print crisp and stay vibrant over time, wash after wash, season after season.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It makes an easy gift for the hunter, camper, or nature lover in your life, whether that is for hunting season, a birthday, or the holidays. Pair it with worn boots and a flannel for a weekend at the cabin, or wear it on its own for a casual day out. Either way, it is a comfortable go-to piece for anyone who would rather be outside than anywhere else, and it makes just as much sense as a gift for yourself.

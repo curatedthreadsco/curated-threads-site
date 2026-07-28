@@ -8,16 +8,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4536845622/mallard-duck-hunter-m
 etsy_listing_id: "4536845622"
 short_description: Mallard Duck Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
+  - Glossy white ceramic with a comfortable C-handle
+  - "Vibrant, high-resolution full-color printing"
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy cleaning
+  - "Available in 11oz and 15oz sizes"
+  - Lead-free and BPA-free construction
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - "Dishwasher-safe, or wash by hand with warm water and dish soap"
+  - Design resists fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/1f9b1e/8292810777/il_fullxfull.8292810777_e54i.jpg"
     alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup product photo"
@@ -42,8 +43,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Predawn stillness in the marsh, mallards cupping into the decoys, steam rising off a cup of black coffee. This mug captures that whole scene in rich, earthy waterfowl artwork wrapped around a sturdy ceramic body, with mallards on the wing, cattails swaying, and a shotgun resting against duck calls in the reeds.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It belongs on the cabin counter, the tailgate at the boat ramp, or the kitchen table the morning after a good hunt, and it makes an easy gift for the waterfowler in your life: dad, mom, grandpa, grandma, a spouse, or the friend who owns more calls than mugs. Mallard chasers, wood duck hunters, and anyone who loves an early morning in the blind will feel right at home, and it is a nice way to warm up before a cold sit in the reeds.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Glossy ceramic construction and vivid printing hold up to years of daily use in the microwave and dishwasher. Whether it is a birthday, Christmas, or just-because gift, every mug is made to order and ships free through our Etsy shop with Etsy's buyer protection on every purchase.

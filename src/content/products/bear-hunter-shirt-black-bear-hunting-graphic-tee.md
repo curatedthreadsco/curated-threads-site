@@ -9,16 +9,18 @@ etsy_listing_url: "https://www.etsy.com/listing/4536901418/bear-hunter-shirt-bla
 etsy_listing_id: "4536901418"
 short_description: "Bear Hunter Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Sturdy, medium-weight 100% ring-spun cotton
+  - Tubular knit construction with no side seams for a smooth fit
+  - Ribbed collar and shoulder tape for shape retention and stability
+  - Dual professional printing for crisp, detailed artwork on front and sleeves
+  - OEKO-TEX certified fabric with a tear-away label for comfort
+  - Relaxed crew neck fit, true to size
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - Machine wash cold (max 30°C / 90°F)
+  - Tumble dry low heat
+  - Do not iron the print
+  - Do not dry-clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/9dc4c0/8244900806/il_fullxfull.8244900806_dut0.jpg"
     alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee product photo"
@@ -43,8 +45,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This bear hunter tee is built for the one who follows the hounds up the mountain and lives for the bay of a treed bear. A hand-illustrated scene covers the front: a camp-ready hunter, a roaring black bear, hounds in full pursuit, and pine-lined mountains rising behind, all in vintage browns and forest greens with rugged lettering that feels lived-in from the first wear.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Cut from sturdy, ring-spun cotton with a tubular knit construction, the shirt has no side seams for a smooth fit, and a ribbed collar with shoulder tape keeps it holding its shape through repeated washes. Dual printing keeps the artwork crisp on the front and sleeves alike, and the relaxed crew neck fit runs true to size, so size up for a looser feel.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Give it to the hunter in your life, dad, mom, grandpa, grandma, spouse, or best friend, especially the one who plans every fall around bear season. Hound hunters, spot-and-stalk hunters, and backcountry campers will all recognize this one as their own. Great for a birthday or holiday gift.

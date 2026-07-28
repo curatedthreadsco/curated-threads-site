@@ -8,14 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4435633570/funny-spike-ive-got-a
 etsy_listing_id: "4435633570"
 short_description: "Funny Spike - Ive Got a Big Buck Baby Mixing Glass. A 16oz mixing glass and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - 16oz mixing glass
-  - Etched or printed design
+  - 16oz capacity in a single, versatile size
+  - "100% clear glass with durable construction"
+  - Heavy solid base for stability and spill reduction while stirring
+  - Vibrant, high-resolution printed design
+  - Dishwasher-safe for easy cleanup
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - Dishwasher safe on the top rack
-  - "Hand wash recommended for long-term durability"
+  - "Dishwasher-safe on the top rack, or wash by hand with warm water and dish soap"
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/a52a19/7854385415/il_fullxfull.7854385415_30yg.jpg"
     alt: "Funny Spike - Ive Got a Big Buck Baby Mixing Glass, 16oz product photo"
@@ -40,8 +41,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This mixing glass was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This 16oz mixing glass brings a playful outdoorsy spirit to any bar cart. A bold, vintage-style deer illustration and the cheeky line "I've got a Big Buck Baby!" wrap around clear, heavy-base glass built for cocktails, shakes, or an everyday drink after a long day. It is the kind of glass that starts a conversation before anyone even takes a sip.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is an easy gift for the hunter in your life, whether that is dad, mom, grandpa, grandma, a spouse, or the friend whose man cave could use one more good conversation piece. The sturdy base keeps it steady while stirring, and the smooth rim makes it just as comfortable for sipping as it is for mixing, so it earns a spot in the everyday rotation rather than sitting on a shelf.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Keep it on the counter for impromptu cocktails after a day in the woods, or wrap it up for a birthday, Christmas, or housewarming gift. The bright print is dishwasher-safe and built to stay vivid through regular use, and every glass is made to order and ships free through our Etsy shop with Etsy's buyer protection on every purchase.

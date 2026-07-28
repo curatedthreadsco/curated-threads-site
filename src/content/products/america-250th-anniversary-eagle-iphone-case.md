@@ -8,14 +8,14 @@ etsy_listing_url: "https://www.etsy.com/listing/4436391462/american-eagle-flag-p
 etsy_listing_id: "4436391462"
 short_description: America 250th Anniversary Eagle iPhone Case. A phone case and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - "Impact-resistant phone case"
-  - Precision cut for buttons and ports
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Shock-absorbing TPU sides paired with a polycarbonate back for drop protection
+  - Slim, lightweight profile with smooth edges for easy pocket carry
+  - Vivid, crisp printing that keeps the design's colors bold
+  - Precise cutouts for camera, ports, and wireless charging
+  - Scratch-resistant surface that meets safety and material compliance standards
 care_instructions:
-  - Wipe clean with a soft cloth
-  - Avoid harsh chemical cleaners
+  - Clean with a damp cotton or microfiber cloth
+  - Add a small drop of dish soap to the cloth if needed
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/a44ea9/8133108069/il_fullxfull.8133108069_sjxi.jpg"
     alt: America 250th Anniversary Eagle iPhone Case product photo
@@ -40,8 +40,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This phone case was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This clear iPhone case wraps America's 250th anniversary in one bold graphic: a soaring eagle, a waving flag, a nod to military service, and lines from the Declaration of Independence, all built around the classic "Start Your Engines" line. Because the back stays transparent, your phone's own color still shows through, so the case adds pride without hiding what's underneath.
 
-Whether you are shopping for yourself or picking out a gift for the patriot in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Underneath the graphics, it is built to actually protect your phone. A slim polycarbonate back pairs with flexible, shock-absorbing TPU sides to guard against everyday drops and bumps, while precise cutouts keep every camera lens, port, and button fully accessible. It stays compatible with wireless charging, so you can set your phone on a charging pad without removing the case. Fits iPhone 14, 15, 16, and 17 series.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This one makes an easy gift for the veteran, the racing fan, or the proud American in your life who wants their phone case to say something. Give it for a birthday, a Fourth of July gathering, or any occasion worth celebrating 250 years of freedom.

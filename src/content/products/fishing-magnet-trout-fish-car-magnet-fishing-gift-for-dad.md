@@ -8,14 +8,13 @@ etsy_listing_url: "https://www.etsy.com/listing/4498800155/weekend-hooker-fishin
 etsy_listing_id: "4498800155"
 short_description: Fishing Magnet. A car magnet and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - "Weather-resistant car magnet"
-  - Removes without residue
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - 100% vinyl (PVC) construction
+  - All-weather durable, built for outdoor use
+  - White vinyl with a black magnetic backing and matte finish
+  - Available in three sizes to fit vehicles or gear
+  - Printed with digital-direct printing; made in the USA
 care_instructions:
-  - Wipe car surface and magnet clean before applying
-  - Remove periodically to clean underneath
+  - Wipe the dust off gently with a soft, dry cloth
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/bd8ba6/8028379407/il_fullxfull.8028379407_ihhl.jpg"
     alt: "Fishing Magnet, Trout Fish Car Magnet, Fishing Gift for Dad product photo"
@@ -40,8 +39,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This car magnet was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This trout car magnet brings a riverside morning wherever the truck goes, a vibrant rainbow trout bursting from frothy mountain water, pine-lined peaks in the background, and bold, vintage-style lettering that gives any vehicle a little fishing pride. Stick it on a truck, tackle box, cooler, or metal locker for a design that travels with you.
 
-Whether you are shopping for yourself or picking out a gift for the fishing fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The matte white vinyl holds fine printed detail with a slightly rugged, weathered look that pairs naturally with outdoor gear, and the magnetic backing goes on and comes off without damaging paint. Built to handle sun and rain, it is made in the USA using digital-direct printing for crisp color that does not fade after a season outside. It looks equally at home on a tailgate, a tackle box, or a metal locker at the shop.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This one makes an easy gift for the angler in your life, dad, mom, grandpa, or anyone whose truck could use a little personality. It is a simple gift kids can give on Father's Day, and it works just as well for birthdays or as a send-off before a fishing trip.

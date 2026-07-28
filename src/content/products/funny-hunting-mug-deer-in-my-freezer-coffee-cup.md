@@ -8,16 +8,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4536801290/funny-hunting-mug-dee
 etsy_listing_id: "4536801290"
 short_description: Funny Hunting Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
 product_features:
-  - 11oz ceramic mug
-  - Wraparound print
-  - Dishwasher and microwave safe
+  - Glossy white ceramic with a comfortable C-handle
+  - "Vibrant, long-lasting full-color printing"
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy everyday cleanup
+  - "Available in 11oz and 15oz sizes"
+  - Lead-free and BPA-free construction
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - "Dishwasher-safe, or wash by hand with warm water and dish soap"
+  - Design resists fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/c9bb04/8292071017/il_fullxfull.8292071017_r2ct.jpg"
     alt: "Funny Hunting Mug, Deer In My Freezer Coffee Cup product photo"
@@ -42,8 +43,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Every deer hunter has heard some version of the joke: fitness is measured in pounds of venison, not miles on a treadmill. This mug puts that punchline front and center with a bold, weathered whitetail illustration, a buck curling a dumbbell, and rustic distressed lettering that earns a laugh before the first sip of coffee.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is a natural pick for the hunter in your life: dad, mom, grandpa, grandma, a spouse, or the buddy who takes opening day more seriously than any holiday. Bow hunters, rifle hunters, and anyone proud of a full freezer will appreciate the humor immediately, and the mug earns a permanent spot at the kitchen table or the cabin counter after a long morning in the treestand.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Glossy ceramic construction and vivid printing hold up to years of daily use, and it works equally well solo or paired with one of our matching hoodies or tees. It handles the microwave and dishwasher without losing its color, so it stays part of the daily routine. Whether it is a birthday, Christmas, or just-because gift, every mug is made to order and ships free through our Etsy shop with Etsy's buyer protection on every purchase.

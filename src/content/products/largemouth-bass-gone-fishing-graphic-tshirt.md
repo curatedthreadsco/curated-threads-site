@@ -9,16 +9,19 @@ etsy_listing_url: "https://www.etsy.com/listing/4498041335/gone-fishing-bass-gra
 etsy_listing_id: "4498041335"
 short_description: "Largemouth Bass Gone Fishing Graphic TShirt. A t-shirt and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
+  - "100% cotton, medium-weight 180 g/m² fabric for year-round comfort"
+  - "Tubular knit construction with no side seams for a clean fit"
+  - Ribbed collar with shoulder tape to prevent stretching
+  - "Dual DTG and DTF printing for crisp, detailed graphics"
+  - "Tear-away label, OEKO-TEX certified, ethically sourced US cotton"
   - Free shipping
-  - Fulfilled through our Etsy shop
   - Made to order
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - "Machine wash cold, max 30°C or 90°F"
+  - Tumble dry on low heat
+  - Do not iron
+  - Do not dry clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/7c02a4/8248755400/il_fullxfull.8248755400_mrca.jpg"
     alt: Largemouth Bass Gone Fishing Graphic TShirt product photo
@@ -43,8 +46,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Some weekends get planned entirely around the water, and this Gone Fishing tee is made for exactly that mindset. A bold, vintage-style illustration centers a largemouth bass breaking the surface, complete with rod, reel, misty pines, and open water in the background, the kind of scene that needs no explanation to anyone who has spent a morning waiting for a bite.
 
-Whether you are shopping for yourself or picking out a gift for the fishing fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+It is an easy gift for the bass fisherman in your life: dad, mom, grandpa, grandma, a spouse, or the friend who plans every trip around a boat launch. It also works well as a matching pick for the fishing couple who share the same weekend priorities and the same favorite spot on the lake.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Durable 100% cotton fabric and a relaxed, classic fit make it easy to wear at the dock or layered under a flannel when the wind picks up, and the print stays crisp season after season. It is a solid choice for Father's Day, birthdays, anniversaries, or Christmas, made to order and shipped free through our Etsy shop with Etsy's buyer protection on every order.

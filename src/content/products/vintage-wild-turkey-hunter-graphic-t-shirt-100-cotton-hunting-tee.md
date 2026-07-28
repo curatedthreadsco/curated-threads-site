@@ -9,16 +9,16 @@ etsy_listing_url: "https://www.etsy.com/listing/4472134825/vintage-wild-turkey-h
 etsy_listing_id: "4472134825"
 short_description: "Vintage Wild Turkey Hunter Graphic T-Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - "100% cotton, medium-weight 180 g/m² fabric, breathable and sturdy"
+  - Tubular knit construction with no side seams for a clean silhouette
+  - Ribbed, seam-free collar and shoulder tape for lasting shape
+  - Dual DTG/DTF printing for vivid, detailed artwork
+  - Tear-away label with Oeko-Tex certified, ethically sourced cotton
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - "Machine wash cold (max 30°C / 90°F)"
+  - Tumble dry on low heat
+  - Skip the iron and the dry cleaner
+  - "Non-chlorine bleach only, if needed"
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/2a1f34/8292334459/il_fullxfull.8292334459_zhau.jpg"
     alt: "Vintage Wild Turkey Hunter Graphic T-Shirt, 100% Cotton Hunting Tee product photo"
@@ -43,8 +43,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Before the truck door even shuts, this tee sets the tone: a strutting tom rendered beside a worn shotgun in warm, vintage autumn tones, with blocky lettering across the chest that reads like it came straight out of the field. It is built for hunters who are up before the alarm and patient enough to wait for the right shot.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The fabric is 100% cotton at a substantial medium weight, breathable for long days outside and sturdy enough to handle regular wear. There are no side seams thanks to the tubular knit construction, and the ribbed, seam-free collar keeps its shape whether it is worn alone or layered under a vest during a cold sit. Dual printing keeps the graphic sharp and vivid through repeated washes.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+Ethically sourced, Oeko-Tex certified cotton and a tear-away label round out a shirt built for real wear, not just a shelf. It makes an easy gift for the turkey hunter or hunting parent in your life, whether the occasion is Father's Day, a birthday, or opening day of spring season.

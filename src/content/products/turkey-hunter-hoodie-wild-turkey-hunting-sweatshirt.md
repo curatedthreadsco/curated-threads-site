@@ -8,17 +8,20 @@ etsy_listing_url: "https://www.etsy.com/listing/4544668850/turkey-hunter-hoodie-
 etsy_listing_id: "4544668850"
 short_description: "Turkey Hunter Hoodie. A hoodie and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "50/50 cotton-poly blend hoodie"
-  - "8.0 oz medium-heavy fabric weight"
-  - Double-lined hood with kangaroo pocket
-  - "DTG and DTF printing"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - "50/50 cotton-poly blend for a soft, warm, durable feel"
+  - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"
+  - Seamless tubular construction for a clean fit
+  - Double-lined hood with a matching drawcord
+  - Roomy kangaroo pocket up front
+  - Ribbed cuffs and hem that hold their shape
+  - Long-lasting DTG/DTF printing that resists fading
+  - "Available in white, sport grey, sand, military green, black, and more"
 care_instructions:
   - "Machine wash cold, inside out"
-  - Tumble dry medium heat
-  - Iron on low heat only, avoid the print
+  - Tumble dry on medium heat
+  - "Iron on low heat, avoiding the print"
+  - "Non-chlorine bleach only, if needed"
+  - Skip the dry cleaner
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/1d7364/8350043401/il_fullxfull.8350043401_del3.jpg"
     alt: "Turkey Hunter Hoodie, Wild Turkey Hunting Sweatshirt product photo"
@@ -43,8 +46,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This hoodie was designed by the family behind Curated Threads Outdoors, born out of predawn calls, cold coffee in the vest pocket, and the long walk in before first light. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+Predawn calls, cold coffee in the vest pocket, and the long walk in before first light, this hoodie was made for that exact routine. A detailed wild turkey scene sits front and center, shotgun leaned against the tall grass, rendered in bold hunter-green lettering with a vintage, lodge-poster look that feels right at home in turkey camp.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Soft on the inside and sturdy on the outside, the 50/50 cotton-poly blend and double-lined hood make it a natural fit for chilly sits in the blind and warm-ups by the fire afterward. The roomy kangaroo pocket and relaxed, true-to-size fit make it just as comfortable off the hunt as on it, and the durable printing keeps the artwork looking sharp season after season, wash after wash.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It is a solid pick for the hunter in your life, dad, mom, grandpa, grandma, a spouse, or the buddy who owns more turkey calls than sweatshirts. Spring gobbler chasers, fall flock hunters, and anyone who measures a good morning by how many toms answered the call will get plenty of use out of this one, from the truck ride out to the walk back in.

@@ -8,16 +8,15 @@ etsy_listing_url: "https://www.etsy.com/listing/4544622748/whitetail-deer-huntin
 etsy_listing_id: "4544622748"
 short_description: "Whitetail Deer Hunting Scene Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - 11oz glossy ceramic mug with C-handle
-  - Vibrant, full-color print
-  - Dishwasher and microwave safe
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Glossy white ceramic body with a comfortable C-handle
+  - Vibrant, full-color wraparound printing
+  - Microwave-safe for quick reheats
+  - Dishwasher-safe for easy cleanup
+  - Available in 11 oz and 15 oz sizes
+  - Lead-free and BPA-free
 care_instructions:
-  - "Top-rack dishwasher safe"
-  - Microwave safe
-  - Do not scrub with abrasive pads
+  - Dishwasher-safe or wash by hand with warm water and dish soap
+  - Print resists fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/38f5d4/8301918218/il_fullxfull.8301918218_8c67.jpg"
     alt: "Whitetail Deer Hunting Scene Mug, Whitetail Buck and Rifle Hunter Coffee Cup product photo"
@@ -42,8 +41,8 @@ featured: false
 publish_date: 2026-07-26
 ---
 
-This mug 11oz was designed by the family behind Curated Threads Outdoors, born out of frost-tipped mornings, campfire coffee, and the slow walk down a trail before first light. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This mug captures the quiet part of the hunt, frost-tipped mornings, campfire coffee, and the slow walk down a trail before first light. A rich, hand-illustrated scene wraps the ceramic body top to bottom: a whitetail buck holding its ground in a sunlit meadow, a hunter taking aim nearby, and pine groves, shed antlers, and fall pine cones filling out the border under vintage antler-crest lettering.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The glossy white ceramic is built for regular use, with a comfortable C-handle and a vibrant full-color print that resists fading, cracking, and peeling. It is microwave-safe for quick reheats and dishwasher-safe for easy cleaning, made from lead-free, BPA-free materials in your choice of 11 oz or 15 oz, so there is a size that fits any coffee routine.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It is an easy gift for the hunter in your life, dad, mom, grandpa, grandma, spouse, or best friend, especially the one who has been scouting the same ridge for twenty years. Bow hunters, rifle hunters, and freezer-fillers all speak this language. Every order ships free from our Etsy shop with their buyer protection included on every purchase.

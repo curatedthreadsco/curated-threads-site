@@ -9,16 +9,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4476202590/whitetail-deer-hunter
 etsy_listing_id: "4476202590"
 short_description: "Whitetail Deer Hunter Graphic Tee. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - Medium-weight 100% cotton body for durable wear and good print clarity
+  - Tubular knit, no side seams for a cleaner look and less fabric waste
+  - Ribbed knit collar with shoulder tape for shape retention
+  - "Dual printing: DTG for the main art and DTF for sleeve and neck details"
+  - Tear-away label, Oeko-Tex certified, with an EU 2-year warranty
 care_instructions:
-  - "Machine wash cold, inside out"
-  - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - Machine wash cold, max 30C/90F
+  - Tumble dry low heat
+  - Do not iron
+  - Do not dry clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/213bac/7979391348/il_fullxfull.7979391348_pxha.jpg"
     alt: "Whitetail Deer Hunter Graphic Tee, Wildlife Buck Hunting Apparel product photo"
@@ -43,8 +44,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+A detailed wildlife scene covers the chest of this one, a buck, a doe, and a rifle rendered in rich natural tones, paired with bold WHITETAIL and DEER HUNTER lettering that says exactly what needs to be said. No explanation required, just honest hunter pride on a shirt built to last.
 
-Whether you are shopping for yourself or picking out a gift for the hunting fan in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+The fabric is medium-weight 100% cotton, durable enough to hold that printed detail wash after wash and breathable enough to layer under a flannel at dawn or wear straight through a long day at the lodge. Tubular knit construction skips the side seams for a cleaner silhouette, and the ribbed collar with shoulder tape keeps its shape season after season. Dual printing keeps the artwork crisp and the colors vivid long after opening day.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+It is available in a wide range of colors, so there is an easy option whether you are shopping for yourself or picking a gift for a fellow hunter, bowhunter, hunting dad, or the woman who hunts just as hard. Works great for Father's Day, birthdays, Christmas, or the kickoff to hunting season. Ships free from our Etsy shop with their buyer protection included.

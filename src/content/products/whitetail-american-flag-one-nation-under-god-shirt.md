@@ -9,16 +9,17 @@ etsy_listing_url: "https://www.etsy.com/listing/4506744768/whitetail-american-fl
 etsy_listing_id: "4506744768"
 short_description: "Whitetail American Flag One Nation Under God Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
 product_features:
-  - "100% cotton graphic t-shirt"
-  - Unisex fit
-  - "Screen-printed design"
-  - Free shipping
-  - Fulfilled through our Etsy shop
-  - Made to order
+  - 100% cotton, medium-weight 180 g/m2 fabric built for durable, year-round wear
+  - Tubular knit construction with no side seams for a clean silhouette
+  - Ribbed knit collar with shoulder tape holds its shape wash after wash
+  - Dual DTG and DTF printing keeps the flag and skull graphic sharp and vivid
+  - Oeko-Tex certified with a tear-away label and EU safety standards
 care_instructions:
-  - "Machine wash cold, inside out"
+  - Machine wash cold, max 30C/90F
   - Tumble dry low
-  - Do not bleach or iron directly on the print
+  - Do not iron directly on the print
+  - Do not dry clean
+  - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/e439eb/8292335231/il_fullxfull.8292335231_gue0.jpg"
     alt: Whitetail American Flag One Nation Under God Shirt product photo
@@ -43,8 +44,8 @@ featured: false
 publish_date: 2026-07-20
 ---
 
-This tee was designed by the family behind Curated Threads Outdoors. Every design starts on a sketch pad or camera roll from time spent in the field, on the water, or around the campfire, then gets built into apparel and drinkware we would happily gift to the people in our lives.
+This tee puts faith, flag, and field on one chest. A weathered American flag backdrop frames a detailed deer skull with a full antler spread, with bold ONE NATION UNDER GOD lettering stacked underneath like a veteran's patch or an old lodge emblem. The worn edges and muted earth tones give it a lived-in character you will not find on a mass-produced shirt, the kind of design that looks just as at home at the cabin as it does layered under a flannel around a bonfire.
 
-Whether you are shopping for yourself or picking out a gift for the patriot in your life, this piece is made to order and ships free from our Etsy shop. Every order ships through Etsy so you get their buyer protection on every purchase.
+Built from medium-weight 100% cotton, this shirt holds its printed detail season after season while staying breathable enough for year-round wear. The tubular knit construction skips side seams for a cleaner silhouette, and the ribbed collar with shoulder tape keeps its shape wash after wash. It comes in a range of colors, so there is an easy option whether you are shopping for yourself or picking something out for the hunter, veteran, or patriot in your life.
 
-Have a color, size, or variation question? Message us through the Etsy listing and we will get back to you within one business day.
+This one earns its spot on gift lists for Father's Day, birthdays, Fourth of July, Veterans Day, and Christmas. Every order ships free from our Etsy shop with their buyer protection built in, and if you have a color or sizing question, sending us a message through the listing is the fastest way to reach us.
