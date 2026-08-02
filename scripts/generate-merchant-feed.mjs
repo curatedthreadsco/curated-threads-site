@@ -69,15 +69,17 @@ function toFullRes(src) {
   );
 }
 
-function buildEtsyLink(data, slug) {
-  const base = data.etsy_listing_url.split('?')[0];
+// Merchant Center enforces that the feed's landing URL must match the
+// registered store domain (curatedthreadsoutdoors.com). Point the link at
+// our product page — shoppers click through to Etsy from there.
+function buildSiteLink(slug) {
   const params = new URLSearchParams({
     utm_source: 'google',
     utm_medium: 'shopping',
     utm_campaign: 'merchant_free_listings',
     utm_content: slug,
   });
-  return `${base}?${params.toString()}`;
+  return `https://curatedthreadsoutdoors.com/products/${slug}?${params.toString()}`;
 }
 
 // Google caps description at 5000 chars total but Shopping tab truncates
@@ -157,7 +159,7 @@ for (const file of files) {
     continue;
   }
 
-  const link = buildEtsyLink(data, slug);
+  const link = buildSiteLink(slug);
   const images = (data.images ?? []).map((img) => toFullRes(img.src));
   const [mainImage, ...restImages] = images;
 

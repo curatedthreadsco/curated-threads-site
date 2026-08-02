@@ -37,6 +37,11 @@ const priceValidUntil = (() => {
   return d.toISOString().split('T')[0];
 })();
 
+// Google Merchant Center free-listings requires the landing URL to match
+// the registered store domain, so the Product url and Offer url both point
+// at our own product page. The buy-now link on the page still routes to Etsy.
+const productPageUrl = `${siteBase}/products/${product.id}`;
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
@@ -45,11 +50,11 @@ const productSchema = {
   image: data.images.map((img) => img.src),
   sku: data.etsy_listing_id,
   productID: `etsy:${data.etsy_listing_id}`,
-  url: primaryEtsy,
+  url: productPageUrl,
   brand: { '@type': 'Brand', name: 'Curated Threads Outdoors' },
   offers: {
     '@type': 'Offer',
-    url: primaryEtsy,
+    url: productPageUrl,
     priceCurrency: 'USD',
     price: (data.sale_price ?? data.list_price).toFixed(2),
     priceValidUntil,
