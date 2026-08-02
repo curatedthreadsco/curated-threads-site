@@ -29,18 +29,30 @@ const siteBase = Astro.site!.origin;
 
 const categoryLabel = data.category.charAt(0).toUpperCase() + data.category.slice(1);
 
+// Auto-refreshes to ~6 months from each build. Vercel redeploys on every push,
+// so this keeps the offer eligible for Google Shopping without manual updates.
+const priceValidUntil = (() => {
+  const d = new Date();
+  d.setMonth(d.getMonth() + 6);
+  return d.toISOString().split('T')[0];
+})();
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: data.title,
   description: data.short_description,
   image: data.images.map((img) => img.src),
+  sku: data.etsy_listing_id,
+  productID: `etsy:${data.etsy_listing_id}`,
+  url: primaryEtsy,
   brand: { '@type': 'Brand', name: 'Curated Threads Outdoors' },
   offers: {
     '@type': 'Offer',
     url: primaryEtsy,
     priceCurrency: 'USD',
     price: (data.sale_price ?? data.list_price).toFixed(2),
+    priceValidUntil,
     availability: 'https://schema.org/InStock',
     seller: { '@type': 'Organization', name: 'Curated Threads Outdoors' },
     shippingDetails: {
