@@ -46,6 +46,7 @@ const products = defineCollection({
       .default([]),
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
+    youth: z.boolean().default(false),
     publish_date: z.coerce.date().optional(),
   }),
 });

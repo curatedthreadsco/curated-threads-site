@@ -2,7 +2,7 @@
 title: "America 250th Anniversary Eagle Tank Top, Patriotic God Bless America Shirt"
 category: patriotic
 product_type: "tank-top"
-list_price: 27.99
+list_price: 19.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436376785/american-bald-eagle-flag-unisex-tank-top"

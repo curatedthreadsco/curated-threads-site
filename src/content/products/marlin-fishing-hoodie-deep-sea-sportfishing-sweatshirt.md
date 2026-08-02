@@ -2,7 +2,7 @@
 title: "Marlin Fishing Hoodie, Deep Sea Sportfishing Sweatshirt"
 category: fishing
 product_type: hoodie
-list_price: 34.99
+list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544669732/marlin-fishing-hoodie-deep-sea"
 etsy_listing_id: "4544669732"

@@ -2,7 +2,7 @@
 title: "Funny Hunting Hoodie, Deer In My Freezer Sweatshirt"
 category: hunting
 product_type: hoodie
-list_price: 34.99
+list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544631851/funny-hunting-hoodie-deer-in-my-freezer"
 etsy_listing_id: "4544631851"

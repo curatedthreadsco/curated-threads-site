@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { product } = Astro.props;
-const { title, images, list_price, sale_price, product_type } = product.data;
+const { title, images, list_price, sale_price, product_type, youth } = product.data;
 const cover = images[0];
 const href = `/products/${product.id}`;
 
@@ -65,7 +65,7 @@ const typeLabel: Record<string, string> = {
   }
   <div class="flex flex-1 flex-col p-4">
     <p class="text-[10px] font-semibold uppercase tracking-[0.2em] text-gold">
-      {typeLabel[product_type] ?? product_type}
+      {youth ? 'Youth ' : ''}{typeLabel[product_type] ?? product_type}
     </p>
     <h3 class="font-display mt-1 line-clamp-2 text-base leading-tight text-sepia">
       {title}

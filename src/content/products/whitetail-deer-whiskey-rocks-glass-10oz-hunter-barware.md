@@ -2,7 +2,7 @@
 title: "Whitetail Deer Whiskey Rocks Glass, 10oz Hunter Barware"
 category: hunting
 product_type: "whiskey-glass"
-list_price: 26.99
+list_price: 24.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389306103/rustic-whitetail-deer-whiskey-glass"
 etsy_listing_id: "4389306103"

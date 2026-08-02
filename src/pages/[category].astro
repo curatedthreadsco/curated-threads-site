@@ -14,11 +14,36 @@ export async function getStaticPaths() {
 type Category = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
 const category = Astro.params.category as Category;
 
-const shirtTypes = new Set(['tee', 'tank-top', 'hoodie']);
-const typeRank = (productType: string) => {
-  if (shirtTypes.has(productType)) return 0;
-  if (productType === 'mug-11oz') return 1;
-  return 2;
+// Sections mirror how the Etsy shop itself is organized (Tees, Hoodies,
+// Youth, Cups/Mugs/Koozies, Decals & Accessories), so a shopper who knows
+// the Etsy layout finds the same groupings here.
+type Section = 'tees' | 'hoodies' | 'youth' | 'cups' | 'decals';
+const sectionOrder: Section[] = ['tees', 'hoodies', 'youth', 'cups', 'decals'];
+const sectionLabel: Record<Section, string> = {
+  tees: 'T-Shirts',
+  hoodies: 'Hoodies',
+  youth: 'Youth',
+  cups: 'Cups, Mugs & Koozies',
+  decals: 'Decals & Accessories',
+};
+const cupTypes = new Set([
+  'mug-11oz',
+  'mug-15oz',
+  'tumbler-22oz',
+  'tumbler-40oz',
+  'can-cooler',
+  'whiskey-glass',
+  'shot-glass',
+  'pint-glass',
+  'mixing-glass',
+]);
+const decalTypes = new Set(['vinyl-decal', 'vinyl-sticker', 'car-magnet', 'phone-case']);
+const sectionOf = (p: { data: { product_type: string; youth: boolean } }): Section => {
+  if (p.data.youth) return 'youth';
+  if (p.data.product_type === 'tee' || p.data.product_type === 'tank-top') return 'tees';
+  if (p.data.product_type === 'hoodie') return 'hoodies';
+  if (cupTypes.has(p.data.product_type)) return 'cups';
+  return 'decals';
 };
 
 // Hunting page leads with the whiskey glass, then shirts grouped by
@@ -64,15 +89,19 @@ const products = allProducts
         }
       }
     }
-    // Shirts first, then mugs, then everything else
-    const typeDiff = typeRank(a.data.product_type) - typeRank(b.data.product_type);
-    if (typeDiff !== 0) return typeDiff;
-    // Within each group: featured first, then newest publish_date
+    // Within each section: featured first, then newest publish_date
     if (a.data.featured !== b.data.featured) return a.data.featured ? -1 : 1;
     const da = a.data.publish_date?.getTime() ?? 0;
     const db = b.data.publish_date?.getTime() ?? 0;
     return db - da;
   });
+
+// Group into the Etsy-style sections, preserving the sort order above
+// within each group. Sections with no products for this category are
+// simply omitted from the page.
+const sections = sectionOrder
+  .map((key) => ({ key, label: sectionLabel[key], products: products.filter((p) => sectionOf(p) === key) }))
+  .filter((s) => s.products.length > 0);
 
 const meta: Record<Category, { title: string; description: string; heroKicker: string; heroTitle: string; heroBody: string; storyLine?: string; bodyIntro: string }> = {
   hunting: {
@@ -179,9 +208,30 @@ const breadcrumbSchema = {
   <section class="mx-auto max-w-6xl px-6 py-12">
     {
       products.length > 0 ? (
-        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
-          {products.map((p) => <ProductCard product={p} />)}
-        </div>
+        <>
+          {sections.length > 1 && (
+            <nav aria-label="Jump to section" class="mb-10 flex flex-wrap justify-center gap-2">
+              {sections.map((s) => (
+                <a
+                  href={`#${s.key}`}
+                  class="rounded-full border border-gold/40 bg-cream px-4 py-1.5 text-sm font-semibold text-sepia transition hover:border-forest hover:text-forest"
+                >
+                  {s.label}
+                </a>
+              ))}
+            </nav>
+          )}
+          {sections.map((s, i) => (
+            <div id={s.key} class:list={['scroll-mt-24', i > 0 && 'mt-14 border-t border-gold/20 pt-12']}>
+              {sections.length > 1 && (
+                <h2 class="font-display mb-6 text-center text-2xl text-sepia">{s.label}</h2>
+              )}
+              <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+                {s.products.map((p) => <ProductCard product={p} />)}
+              </div>
+            </div>
+          ))}
+        </>
       ) : (
         <div class="mx-auto max-w-xl rounded-sm border border-gold/40 bg-cream p-8 text-center">
           <p class="font-display text-xl text-sepia">New designs are on their way.</p>
