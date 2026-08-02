@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536796405/vintage-wild-turkey-hunter-mug-wild"
 etsy_listing_id: "4536796405"
-short_description: Vintage Wild Turkey Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "A strutting gobbler and a shotgun leaned in the tall grass anchor this mug's vintage-style artwork, rendered in warm autumn tones with rustic…"
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - Vibrant, long-lasting full-color printed artwork

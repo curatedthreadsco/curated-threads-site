@@ -6,7 +6,7 @@ list_price: 27.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544544635/whitetail-hunter-shirt-whitetail-deer"
 etsy_listing_id: "4544544635"
-short_description: "Whitetail Hunter Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Late-afternoon light, pine-scented air, and the hush of the woods just before the shot, that is the scene wrapped around this tee. Free shipping from our Etsy shop."
 product_features:
   - 100% ring-spun cotton, medium-weight 180 g/m2 for year-round comfort
   - Tubular knit construction, no side seams for a clean silhouette

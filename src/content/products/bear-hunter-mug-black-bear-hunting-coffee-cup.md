@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536888421/bear-hunter-mug-black-bear-hunting"
 etsy_listing_id: "4536888421"
-short_description: Bear Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Cold mountain mornings and the bay of a hound on a hot track come to mind with this bear hunter mug. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - Vibrant, long-lasting full-color printing

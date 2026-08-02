@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4533098568/pheasant-hunting-shirt-for-men-upland"
 etsy_listing_id: "4533098568"
-short_description: "Pheasant Hunting Shirt for Men. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Cold mornings, wet boots, and a good dog locked on point, this tee captures that feeling right on the chest. Free shipping from our Etsy shop."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric for durable, year-round wear"
   - Tubular knit construction with no side seams for a cleaner fit

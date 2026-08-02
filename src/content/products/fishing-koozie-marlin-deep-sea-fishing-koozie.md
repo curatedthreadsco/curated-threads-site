@@ -6,7 +6,7 @@ list_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536719993/fishing-koozie-marlin-deep-sea-fishing"
 etsy_listing_id: "4536719993"
-short_description: Fishing koozie. A can cooler and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Cold drinks and salt air come standard with this marlin koozie, built for the angler who measures a good day by tight lines and a full cooler."
 product_features:
   - Durable polyester exterior with a vibrant, full-color marlin print
   - Soft foam liner that insulates and grips the can securely

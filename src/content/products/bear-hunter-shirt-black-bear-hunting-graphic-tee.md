@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536901418/bear-hunter-shirt-black-bear-hunting"
 etsy_listing_id: "4536901418"
-short_description: "Bear Hunter Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This bear hunter tee is built for the one who follows the hounds up the mountain and lives for the bay of a treed bear. Free shipping from our Etsy shop."
 product_features:
   - Sturdy, medium-weight 100% ring-spun cotton
   - Tubular knit construction with no side seams for a smooth fit

@@ -6,7 +6,7 @@ list_price: 29.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4545297819/youth-bear-hunter-hoodie-kids-hunting"
 etsy_listing_id: "4545297819"
-short_description: "Youth Bear Hunter Hoodie. A kids' hoodie and a great gift for the young hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "For the young hunter who is already asking when opening day is and how many days until bear camp. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for warmth with a soft, durable feel"
   - "Medium-heavy 8.0 oz fabric built for year-round wear"

@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4376862870/distressed-american-flag-t-shirt"
 etsy_listing_id: "4376862870"
-short_description: "Patriotic Freedom Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "Bold red, white, and blue FREEDOM lettering sits over a distressed American flag graphic on this tee, a design built to make a statement without saying a…"
 product_features:
   - 100% ring-spun cotton for extra softness and comfort
   - Ribbed collar that keeps its shape wash after wash

@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4538989199/pheasant-hunting-shirt-upland-bird"
 etsy_listing_id: "4538989199"
-short_description: "Pheasant Hunting Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "The wind at your back, the pointer locked up, and a rooster bursting from the grass in a rush of wings, this tee puts that whole scene on the chest."
 product_features:
   - "100% ring-spun cotton, medium-weight 180 g/m² fabric for year-round wear"
   - Tubular knit construction with no side seams for a cleaner silhouette

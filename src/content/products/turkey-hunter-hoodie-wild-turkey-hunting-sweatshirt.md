@@ -6,7 +6,7 @@ list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544668850/turkey-hunter-hoodie-wild-turkey-hunting"
 etsy_listing_id: "4544668850"
-short_description: "Turkey Hunter Hoodie. A hoodie and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Predawn calls, cold coffee in the vest pocket, and the long walk in before first light, this hoodie was made for that exact routine. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for a soft, warm, durable feel"
   - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"

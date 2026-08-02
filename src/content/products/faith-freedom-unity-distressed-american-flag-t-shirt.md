@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4369450673/patriotic-american-flag-t-shirt-faith"
 etsy_listing_id: "4369450673"
-short_description: "Faith Freedom Unity Distressed American Flag T-Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "This tee keeps things simple: a bold, distressed American flag centered on the chest with three words underneath that say everything they need to, Faith."
 product_features:
   - 100% ring-spun cotton for a soft, lightweight feel
   - Comfortable unisex fit that works for men and women

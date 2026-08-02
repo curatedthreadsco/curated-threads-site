@@ -6,7 +6,7 @@ list_price: 34.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389378024/hunt-life-skull-tumbler-insulated"
 etsy_listing_id: "4389378024"
-short_description: Whitetail Hunt Life Skull Tumbler. A 22oz insulated tumbler and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "This tumbler is built for hunters who need their coffee as tough as they are. Free shipping from our Etsy shop."
 product_features:
   - Durable stainless steel construction resists rust and stains
   - Double-wall insulation keeps drinks hot for 6 hours or cold for 24 hours

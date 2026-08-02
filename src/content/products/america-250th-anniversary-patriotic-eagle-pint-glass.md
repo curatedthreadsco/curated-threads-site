@@ -6,7 +6,7 @@ list_price: 26.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436378683/patriotic-mixing-glass-god-bless-america"
 etsy_listing_id: "4436378683"
-short_description: America 250th Anniversary Patriotic Eagle Pint Glass. A pint glass and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
+short_description: "Raise a glass to 250 years of freedom with this patriotic pint glass, printed with a bold eagle, waving flag, a nod to military service, and the classic…"
 product_features:
   - Dishwasher-safe for easy cleaning
   - Vibrant, high-resolution printed design

@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536677121/funny-fishing-mug-for-men-rainbow-trout"
 etsy_listing_id: "4536677121"
-short_description: Funny Fishing Mug for Men. A 11oz ceramic mug and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "This funny fishing mug is for the person who already owns three tackle boxes and still swears they need one more rod. Free shipping from our Etsy shop."
 product_features:
   - Premium glossy white ceramic mug
   - Vibrant, full-color printed design

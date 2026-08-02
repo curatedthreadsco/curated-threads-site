@@ -6,7 +6,7 @@ list_price: 19.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436380643/american-eagle-patriotic-shot-glass-usa"
 etsy_listing_id: "4436380643"
-short_description: Patriotic American Eagle 250th Shot Glass. A shot glass and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
+short_description: "Nothing rounds out a 4th of July cookout or backyard tailgate like a proper toast, and this shot glass is built for exactly that. Free shipping from our Etsy shop."
 product_features:
   - Dishwasher safe for easy cleanup
   - Bright, high-definition printed eagle artwork

@@ -7,7 +7,7 @@ sale_price: 20.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544192063/elk-hunting-shirt-big-game-hunter"
 etsy_listing_id: "4544192063"
-short_description: "Elk Hunting Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This big game hunter tee is for the one who chases bugles at first light and lives for the pack-out. Free shipping from our Etsy shop."
 product_features:
   - Medium-weight, 100% ring-spun cotton for durability and comfort
   - Tubular knit construction with no side seams for a clean silhouette

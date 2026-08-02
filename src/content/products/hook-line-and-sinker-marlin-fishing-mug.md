@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536749966/hook-line-sinker-marlin-fishing-mug-deep"
 etsy_listing_id: "4536749966"
-short_description: Hook. A 11oz ceramic mug and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Slow mornings before the boat leaves and long afternoons spent reliving the last catch both deserve a mug that fits the mood. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - "Vibrant, high-resolution full-color printing"

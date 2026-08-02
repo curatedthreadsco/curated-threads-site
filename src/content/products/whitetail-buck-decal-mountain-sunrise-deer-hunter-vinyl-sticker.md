@@ -6,7 +6,7 @@ list_price: 10.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4543023944/whitetail-buck-decal-mountain-sunrise"
 etsy_listing_id: "4543023944"
-short_description: Whitetail Buck Decal. A vinyl decal and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
+short_description: "This whitetail buck decal wraps a proud stag against a misty mountain sunrise, pine silhouettes fading into warm, earthy tones, all framed inside a bold…"
 product_features:
   - Rich, saturated colors from eco-solvent inks
   - Matte UV-protective laminate shields against weather and sun

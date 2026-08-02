@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4472578733/turkey-hunter-shirt-vintage-wild-turkey"
 etsy_listing_id: "4472578733"
-short_description: "Turkey Hunter Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "There is a look to this tee that says the wearer was up before the alarm, patient in the blind, and knows exactly what it takes to earn a shot."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric, sturdy and breathable"
   - Tubular knit construction with no side seams for a cleaner look

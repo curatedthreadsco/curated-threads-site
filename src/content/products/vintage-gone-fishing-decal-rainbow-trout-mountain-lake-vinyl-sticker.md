@@ -6,7 +6,7 @@ list_price: 10.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4543032050/vintage-gone-fishing-decal-rainbow-trout"
 etsy_listing_id: "4543032050"
-short_description: Vintage Gone Fishing Decal. A vinyl decal and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
+short_description: "A rainbow trout arcs across a mountain stream on this decal, framed by pine silhouettes and a warm, weathered Gone Fishing circle badge. Free shipping from our Etsy shop."
 product_features:
   - Vibrant, long-lasting colors from eco-solvent printing
   - Matte UV-protective laminate resists fading and weathering

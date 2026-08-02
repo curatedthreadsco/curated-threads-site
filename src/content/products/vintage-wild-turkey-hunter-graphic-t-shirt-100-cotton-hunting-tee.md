@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4472134825/vintage-wild-turkey-hunter-graphic-t"
 etsy_listing_id: "4472134825"
-short_description: "Vintage Wild Turkey Hunter Graphic T-Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Before the truck door even shuts, this tee sets the tone: a strutting tom rendered beside a worn shotgun in warm, vintage autumn tones, with blocky…"
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric, breathable and sturdy"
   - Tubular knit construction with no side seams for a clean silhouette

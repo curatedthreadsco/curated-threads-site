@@ -6,7 +6,7 @@ list_price: 24.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436391462/american-eagle-flag-phone-case-patriotic"
 etsy_listing_id: "4436391462"
-short_description: America 250th Anniversary Eagle iPhone Case. A phone case and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
+short_description: "This clear iPhone case wraps America's 250th anniversary in one bold graphic: a soaring eagle, a waving flag, a nod to military service, and lines from…"
 product_features:
   - Shock-absorbing TPU sides paired with a polycarbonate back for drop protection
   - Slim, lightweight profile with smooth edges for easy pocket carry

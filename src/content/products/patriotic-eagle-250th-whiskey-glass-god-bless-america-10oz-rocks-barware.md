@@ -6,7 +6,7 @@ list_price: 24.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436382121/patriotic-american-eagle-flag-rocks"
 etsy_listing_id: "4436382121"
-short_description: Patriotic Eagle 250th Whiskey Glass. A 10oz whiskey rocks glass and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
+short_description: "This rocks glass was made for raising a toast to 250 years of American freedom. Free shipping from our Etsy shop."
 product_features:
   - 10 oz clear tempered glass with a solid, weighty base
   - Wraparound, high-definition print with a vibrant patriotic eagle design

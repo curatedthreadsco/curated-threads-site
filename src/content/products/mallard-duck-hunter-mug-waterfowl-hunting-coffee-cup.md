@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536845622/mallard-duck-hunter-mug-waterfowl"
 etsy_listing_id: "4536845622"
-short_description: Mallard Duck Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Predawn stillness in the marsh, mallards cupping into the decoys, steam rising off a cup of black coffee. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - "Vibrant, high-resolution full-color printing"

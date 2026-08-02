@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4533036891/hook-line-and-sinker-blue-marlin-fishing"
 etsy_listing_id: "4533036891"
-short_description: "Hook Line and Sinker Blue Marlin Fishing Shirt. A t-shirt and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Hook, Line, and Sinker captures the feeling of early morning light on the bow: slow, steady, and full of the promise of a good fight. Free shipping from our Etsy shop."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric in solid colors"
   - "Tubular knit construction with no side seams for a cleaner drape"

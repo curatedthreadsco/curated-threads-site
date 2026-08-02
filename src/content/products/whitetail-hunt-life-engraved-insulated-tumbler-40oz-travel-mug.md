@@ -6,7 +6,7 @@ list_price: 36.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389349906/hunt-life-engraved-tumbler-40oz"
 etsy_listing_id: "4389349906"
-short_description: Whitetail Hunt Life Engraved Insulated Tumbler. A 40oz insulated tumbler and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "This 40oz insulated tumbler is built for anyone who lives outdoors as much as possible, from early mornings at hunting camp to long days on the trail."
 product_features:
   - Spill-resistant press-fit slider lid with a matching straw
   - Convenient handle for easy transport

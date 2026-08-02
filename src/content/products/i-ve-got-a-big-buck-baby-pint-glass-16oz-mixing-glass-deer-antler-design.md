@@ -6,7 +6,7 @@ list_price: 24.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4435631934/ive-got-a-big-buck-baby-pint-glass-16oz"
 etsy_listing_id: "4435631934"
-short_description: "I've Got a Big Buck Baby Pint Glass. A pint glass and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This 16oz mixing glass brings rugged lodge charm to whatever you are pouring. Free shipping from our Etsy shop."
 product_features:
   - Dishwasher-safe for easy cleaning
   - "Vibrant, long-lasting printed colors"

@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4498041335/gone-fishing-bass-graphic-tee-vintage"
 etsy_listing_id: "4498041335"
-short_description: "Largemouth Bass Gone Fishing Graphic TShirt. A t-shirt and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Some weekends get planned entirely around the water, and this Gone Fishing tee is made for exactly that mindset. Free shipping from our Etsy shop."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric for year-round comfort"
   - "Tubular knit construction with no side seams for a clean fit"

@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389278330/rustic-whitetail-buck-t-shirt-deer"
 etsy_listing_id: "4389278330"
-short_description: "Rustic Whitetail Buck Graphic Tee. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "A detailed whitetail buck design brings rugged, outdoorsy charm to this tee, the kind of graphic that looks just as at home at a cabin weekend as it does…"
 product_features:
   - Reinforced shoulder tape for added durability and comfort
   - Seamless construction for a clean, modern silhouette

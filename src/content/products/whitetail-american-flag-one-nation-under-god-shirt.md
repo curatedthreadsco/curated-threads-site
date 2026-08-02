@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4506744768/whitetail-american-flag-one-nation-under"
 etsy_listing_id: "4506744768"
-short_description: "Whitetail American Flag One Nation Under God Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "This tee puts faith, flag, and field on one chest. Free shipping from our Etsy shop."
 product_features:
   - 100% cotton, medium-weight 180 g/m2 fabric built for durable, year-round wear
   - Tubular knit construction with no side seams for a clean silhouette

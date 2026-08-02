@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4538998887/pheasant-hunting-mug-upland-bird-hunter"
 etsy_listing_id: "4538998887"
-short_description: Pheasant Hunting Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Rise early, hunt hard, chase the flush. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - Vibrant, crisp full-color printed artwork

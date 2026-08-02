@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4511344159/bear-down-one-nation-under-god-shirt"
 etsy_listing_id: "4511344159"
-short_description: "Bear Down One Nation Under God Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "This Bear Down tee puts a charging grizzly front and center against a mountain backdrop, framed by weathered earth tones, bold stars, and \"One Nation…"
 product_features:
   - Medium-weight 100% cotton for durability and comfort
   - Tubular knit construction with no side seams for a cleaner look

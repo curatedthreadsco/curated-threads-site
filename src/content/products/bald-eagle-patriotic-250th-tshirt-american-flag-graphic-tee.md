@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436377514/american-bald-eagle-flag-unisex-t-shirt"
 etsy_listing_id: "4436377514"
-short_description: "Bald Eagle Patriotic 250th TShirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "This tee puts a bold bald eagle and American flag graphic front and center, the kind of design that works for the Fourth of July, Memorial Day, Veterans…"
 product_features:
   - Tubular knit construction with no side seams for a clean, comfortable fit
   - Ribbed collar that keeps the neckline elastic and shape-retaining

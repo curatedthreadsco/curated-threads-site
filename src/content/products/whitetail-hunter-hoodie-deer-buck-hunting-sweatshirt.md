@@ -6,7 +6,7 @@ list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548032023/whitetail-hunter-hoodie-deer-buck"
 etsy_listing_id: "4548032023"
-short_description: "Whitetail Hunter Hoodie. A hoodie and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Late-afternoon light, pine-scented air, and the hush of the woods before the shot. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for a soft, warm, durable feel"
   - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"

@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4491312304/mallard-duck-hunter-vintage-graphic-tee"
 etsy_listing_id: "4491312304"
-short_description: "Mallard Duck Hunter Vintage Graphic Tee. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This Duck Hunter tee is built for the ones who are up before the marsh wakes up, the early risers who know the sound of wings before they ever see them."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric for year-round comfort"
   - "Tubular knit construction with no side seams for a cleaner look"

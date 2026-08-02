@@ -6,7 +6,7 @@ list_price: 11.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389358651/hunt-life-vinyl-decal-deer-skull-outdoor"
 etsy_listing_id: "4389358651"
-short_description: Hunt Life Vinyl Sticker. A vinyl sticker and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
+short_description: "This die-cut Hunt Life vinyl sticker brings rugged, outdoorsy style to a truck, cooler, laptop, or water bottle, wherever a little personality is welcome."
 product_features:
   - Vibrant, high-quality colors from advanced printing techniques
   - Eco-friendly inks for a more sustainable finish

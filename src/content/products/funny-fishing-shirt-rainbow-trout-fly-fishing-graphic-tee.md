@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4498022708/funny-fishing-shirt-rainbow-trout-fly"
 etsy_listing_id: "4498022708"
-short_description: "Funny Fishing Shirt. A t-shirt and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Some people need an alarm clock. Others just need to know the river opens at first light. Free shipping from our Etsy shop."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric that breathes and holds up to daily wear"
   - "Tubular knit construction with no side seams for a cleaner fit"

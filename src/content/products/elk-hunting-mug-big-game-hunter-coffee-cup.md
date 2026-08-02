@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544194951/elk-hunting-mug-big-game-hunter-coffee"
 etsy_listing_id: "4544194951"
-short_description: Elk Hunting Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Bugles at first light and the long walk back down the mountain with meat on the frame inspired this elk hunting mug. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - Vibrant, fade-resistant full-color printing

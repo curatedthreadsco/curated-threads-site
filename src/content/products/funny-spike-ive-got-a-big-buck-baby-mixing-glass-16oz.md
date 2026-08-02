@@ -6,7 +6,7 @@ list_price: 24.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4435633570/funny-spike-ive-got-a-big-buck-baby"
 etsy_listing_id: "4435633570"
-short_description: "Funny Spike - Ive Got a Big Buck Baby Mixing Glass. A 16oz mixing glass and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This 16oz mixing glass brings a playful outdoorsy spirit to any bar cart. A bold, vintage-style deer illustration and the cheeky line \"I've got a Big Buck…"
 product_features:
   - 16oz capacity in a single, versatile size
   - "100% clear glass with durable construction"

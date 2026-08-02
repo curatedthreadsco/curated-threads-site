@@ -6,7 +6,7 @@ list_price: 10.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4542976675/whitetail-deer-hunter-decal-deer-hunter"
 etsy_listing_id: "4542976675"
-short_description: Whitetail Deer Hunter Decal. A vinyl decal and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
+short_description: "This whitetail hunter decal features a hand-illustrated buck rendered in warm earth tones against layered pines and distant mountains, all wrapped inside…"
 product_features:
   - Vibrant, fade-resistant colors from eco-solvent inks
   - Matte UV-protective laminate shields against weather and sun

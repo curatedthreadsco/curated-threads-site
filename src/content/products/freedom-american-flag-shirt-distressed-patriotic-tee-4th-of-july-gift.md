@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4376875965/distressed-american-flag-t-shirt-unisex"
 etsy_listing_id: "4376875965"
-short_description: "Freedom American Flag Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "This Freedom tee keeps things simple: a bold, distressed American flag centered on the chest with one word underneath that says everything it needs to."
 product_features:
   - No side seams for a sleek look and reduced fabric waste
   - Ribbed knit collar that retains shape and enhances comfort

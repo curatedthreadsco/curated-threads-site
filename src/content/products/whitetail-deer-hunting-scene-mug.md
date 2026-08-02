@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544622748/whitetail-deer-hunting-scene-mug"
 etsy_listing_id: "4544622748"
-short_description: "Whitetail Deer Hunting Scene Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This mug captures the quiet part of the hunt, frost-tipped mornings, campfire coffee, and the slow walk down a trail before first light. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic body with a comfortable C-handle
   - Vibrant, full-color wraparound printing

@@ -6,7 +6,7 @@ list_price: 11.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389360971/hunt-life-vinyl-decal-water-resistant"
 etsy_listing_id: "4389360971"
-short_description: Hunt Life Vinyl Decal. A vinyl decal and a great gift for anyone who lives for the outdoors. Fulfilled through our Etsy shop with free shipping.
+short_description: "This Hunt Life vinyl decal adds a rugged personality to a truck, cooler, laptop, or any piece of gear that could use a little outdoor attitude."
 product_features:
   - Removable adhesive for easy application and repositioning
   - Water, scratch, and UV-resistant for long-lasting vibrancy

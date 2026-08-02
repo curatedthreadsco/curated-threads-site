@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4539024912/rise-early-hunt-hard-mug-vintage-chase"
 etsy_listing_id: "4539024912"
-short_description: Rise Early Hunt Hard Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Rise early. Hunt hard. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - Vibrant, full-color printed artwork

@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536850378/whitetail-deer-hunter-mug-buck-and-rifle"
 etsy_listing_id: "4536850378"
-short_description: Whitetail Deer Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Frost-tipped mornings and campfire coffee inspired this one. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic body with a comfortable C-handle
   - Vibrant, full-color wraparound printing

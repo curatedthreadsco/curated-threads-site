@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4435317088/funny-ive-got-a-big-buck-baby-spike-deer"
 etsy_listing_id: "4435317088"
-short_description: "Funny Big Buck Baby Deer Hunting T-Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This funny deer hunting tee mixes rugged outdoor humor with everyday comfort, the kind of graphic tee that fits right in at hunting camp or around town."
 product_features:
   - Medium-weight 100% cotton for year-round durability
   - Tubular knit construction with no side seams for a cleaner look

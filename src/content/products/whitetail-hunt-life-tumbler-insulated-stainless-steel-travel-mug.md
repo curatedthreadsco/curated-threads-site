@@ -6,7 +6,7 @@ list_price: 29.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389363980/hunt-life-22oz-tumbler-copper-insulated"
 etsy_listing_id: "4389363980"
-short_description: Whitetail Hunt Life Tumbler. A 22oz insulated tumbler and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Built for hunting camp mornings and long drives home, this insulated tumbler pairs a rugged skull graphic with a durable powder-coated stainless steel body."
 product_features:
   - Durable stainless steel construction resists rust and stains
   - Double-wall insulation keeps drinks hot for 6 hours or cold for 24 hours

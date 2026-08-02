@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4476202590/whitetail-deer-hunter-graphic-tee"
 etsy_listing_id: "4476202590"
-short_description: "Whitetail Deer Hunter Graphic Tee. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "A detailed wildlife scene covers the chest of this one, a buck, a doe, and a rifle rendered in rich natural tones, paired with bold WHITETAIL and DEER…"
 product_features:
   - Medium-weight 100% cotton body for durable wear and good print clarity
   - Tubular knit, no side seams for a cleaner look and less fabric waste

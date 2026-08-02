@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536801290/funny-hunting-mug-deer-in-my-freezer"
 etsy_listing_id: "4536801290"
-short_description: Funny Hunting Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Every deer hunter has heard some version of the joke: fitness is measured in pounds of venison, not miles on a treadmill. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - "Vibrant, long-lasting full-color printing"

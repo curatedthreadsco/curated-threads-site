@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548017214/youth-bear-hunter-shirt-kids-hunting"
 etsy_listing_id: "4548017214"
-short_description: "Youth Bear Hunter Shirt. A kids' t-shirt and a great gift for the young hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "For the young hunter who is already asking when opening day is and how many days until deer camp. Free shipping from our Etsy shop."
 product_features:
   - "100% midweight cotton (about 180 gsm), soft and durable for everyday play"
   - Tubular knit construction with no side seams for a clean fit

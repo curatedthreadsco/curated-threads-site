@@ -6,7 +6,7 @@ list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548075518/pheasant-hunting-hoodie-upland-bird"
 etsy_listing_id: "4548075518"
-short_description: "Pheasant Hunting Hoodie. A hoodie and a great gift for the bird hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Frost on the CRP, a pointer locked up hard, and a rooster busting from the grass in a rush of wings. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for a soft, warm, durable feel"
   - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"

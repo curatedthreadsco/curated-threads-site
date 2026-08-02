@@ -6,7 +6,7 @@ list_price: 24.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389306103/rustic-whitetail-deer-whiskey-glass"
 etsy_listing_id: "4389306103"
-short_description: Whitetail Deer Whiskey Rocks Glass. A 10oz whiskey rocks glass and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "This 10oz rocks glass wraps a detailed rustic deer design around durable, clear tempered glass, combining rugged charm with a little timeless elegance."
 product_features:
   - Modern 10oz rocks glass with a wraparound print
   - Vibrant, high-quality colors from advanced printing techniques

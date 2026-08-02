@@ -6,7 +6,7 @@ list_price: 12.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4498800155/weekend-hooker-fishing-magnet-trout-fish"
 etsy_listing_id: "4498800155"
-short_description: Fishing Magnet. A car magnet and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "This trout car magnet brings a riverside morning wherever the truck goes, a vibrant rainbow trout bursting from frothy mountain water, pine-lined peaks in…"
 product_features:
   - 100% vinyl (PVC) construction
   - All-weather durable, built for outdoor use

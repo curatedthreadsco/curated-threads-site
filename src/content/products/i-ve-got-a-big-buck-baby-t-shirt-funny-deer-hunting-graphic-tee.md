@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4435295961/ive-got-a-big-buck-hunting-t-shirt-deer"
 etsy_listing_id: "4435295961"
-short_description: "I've Got A Big Buck Baby T-Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This I've Got a Big Buck Baby tee brings rugged, playful outdoor personality to everyday wear. Free shipping from our Etsy shop."
 product_features:
   - "100% cotton, medium-weight 180 g/m² fabric for year-round comfort"
   - Shoulder twill tape and ribbed knit collar to help hold its shape

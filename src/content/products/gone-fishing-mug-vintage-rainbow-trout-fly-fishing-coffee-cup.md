@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4543038768/gone-fishing-mug-vintage-rainbow-trout"
 etsy_listing_id: "4543038768"
-short_description: Gone Fishing Mug. A 11oz ceramic mug and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "Slow mornings before the river call for a mug that fits right in with the flies, the compass, and the last unfinished cup of coffee. Free shipping from our Etsy shop."
 product_features:
   - Glossy white ceramic with a comfortable C-handle
   - "Vibrant, long-lasting full-color printing"

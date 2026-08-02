@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4506843605/whitetail-fitness-deer-in-my-freezer"
 etsy_listing_id: "4506843605"
-short_description: "Whitetail Fitness Deer In My Freezer Shirt. A t-shirt and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "This one is built to get a laugh. A muscular buck in sunglasses curls a dumbbell in front of a rustic freezer, with YEAH, I'M INTO FITNESS... Free shipping from our Etsy shop."
 product_features:
   - 100% cotton, medium-weight 180 g/m2 fabric that is durable and breathable
   - Tubular knit, no side seams for a clean, waste-reducing silhouette

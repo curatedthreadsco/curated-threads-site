@@ -6,7 +6,7 @@ list_price: 15.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4498023991/funny-fishing-koozie-rainbow-trout"
 etsy_listing_id: "4498023991"
-short_description: Funny Fishing Koozie. A can cooler and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "This trout koozie is built for that first cold one after a long morning of casting. Free shipping from our Etsy shop."
 product_features:
   - Durable 100% polyester exterior with an edge-to-edge vibrant print
   - Soft foam liner for a stable grip and steady insulation

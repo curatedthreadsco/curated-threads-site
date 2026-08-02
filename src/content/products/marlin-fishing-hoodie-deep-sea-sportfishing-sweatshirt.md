@@ -6,7 +6,7 @@ list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544669732/marlin-fishing-hoodie-deep-sea"
 etsy_listing_id: "4544669732"
-short_description: "Marlin Fishing Hoodie. A hoodie and a great gift for the angler in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Some mornings start at the marina before the sun is even up, coffee in hand and salt already in the air. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for a soft, warm, durable feel"
   - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"

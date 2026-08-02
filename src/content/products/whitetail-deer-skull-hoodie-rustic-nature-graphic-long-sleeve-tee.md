@@ -7,7 +7,7 @@ sale_price: 29.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389237056/rustic-whitetail-deer-skull-hoodie"
 etsy_listing_id: "4389237056"
-short_description: Whitetail Deer Skull Hoodie. A hooded long sleeve tee and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "A bold golden deer skull, full rack and clean detail, sits centered on the chest of this hooded long-sleeve tee. Free shipping from our Etsy shop."
 product_features:
   - 100% airlume combed and ring-spun cotton for exceptional softness
   - Regular fit, ideal for casual wear or layering

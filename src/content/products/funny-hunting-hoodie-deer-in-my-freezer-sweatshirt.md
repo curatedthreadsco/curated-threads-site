@@ -6,7 +6,7 @@ list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544631851/funny-hunting-hoodie-deer-in-my-freezer"
 etsy_listing_id: "4544631851"
-short_description: "Funny Hunting Hoodie. A hoodie and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Every deer hunter has heard some version of the joke: fitness is measured in pounds of venison, not miles on a treadmill. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for warmth with a soft, durable feel"
   - "Medium-heavy 8.0 oz fabric weight built for year-round wear"

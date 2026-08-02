@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4461401539/patriotic-bald-eagle-usa-250th-shirt-est"
 etsy_listing_id: "4461401539"
-short_description: "Patriotic Bald Eagle USA 250th Shirt. A t-shirt and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping."
+short_description: "A fierce bald eagle rendered in American flag colors anchors this tee's chest graphic, bold enough to wear proudly at a Fourth of July parade or a quiet…"
 product_features:
   - "Unisex sizing that fits both men and women (see size chart in photos)"
   - "100% cotton, medium-weight 180 g/m² fabric for year-round comfort"

@@ -6,7 +6,7 @@ list_price: 39.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548034576/bear-hunter-hoodie-black-bear-hunting"
 etsy_listing_id: "4548034576"
-short_description: "Bear Hunter Hoodie. A hoodie and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping."
+short_description: "Cold mountain mornings, the bay of a hound on a hot track, and the walk out with a story worth telling. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for a soft, warm, durable feel"
   - "Medium-heavy 8.0 oz fabric for cozy, year-round wear"

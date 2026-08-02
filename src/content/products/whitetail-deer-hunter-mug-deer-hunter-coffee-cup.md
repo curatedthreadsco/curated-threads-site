@@ -6,7 +6,7 @@ list_price: 18.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4542995296/whitetail-deer-hunter-mug-deer-hunter"
 etsy_listing_id: "4542995296"
-short_description: Whitetail Deer Hunter Mug. A 11oz ceramic mug and a great gift for the hunter in your life. Fulfilled through our Etsy shop with free shipping.
+short_description: "There is a certain kind of morning this mug was made for: frost on the windshield, coffee steaming in the truck, the walk down the trail before first light."
 product_features:
   - Glossy white ceramic body with a comfortable C-handle
   - Vibrant, full-color wraparound printing

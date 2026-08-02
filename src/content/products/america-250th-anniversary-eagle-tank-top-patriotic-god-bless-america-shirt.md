@@ -7,7 +7,7 @@ sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436376785/american-bald-eagle-flag-unisex-tank-top"
 etsy_listing_id: "4436376785"
-short_description: America 250th Anniversary Eagle Tank Top. A tank top and a great gift for anyone who flies the flag proud. Fulfilled through our Etsy shop with free shipping.
+short_description: "This tank top carries a bold eagle graphic across the chest, a soaring eagle, a waving flag, a nod to military service, and the classic \"Start Your…"
 product_features:
   - 100% cotton solids, with select heathers in a cotton-poly blend
   - Medium-weight 5.3 oz/yd² fabric for structure and breathability
