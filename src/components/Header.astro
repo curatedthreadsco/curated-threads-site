@@ -32,16 +32,16 @@ const isActive = (href: string) =>
 </div>
 <a
   href="/"
-  class="block"
+  class="block w-full"
   aria-label="Curated Threads Outdoors home"
 >
   <Image
     src={banner}
     alt="Curated Threads Outdoors"
     widths={[600, 900, 1200, 1600, 2000]}
-    sizes="100vw"
+    sizes="(min-width: 1536px) 1536px, 100vw"
     quality={92}
-    class="block h-auto w-full"
+    class="mx-auto block h-auto w-full max-w-screen-2xl"
     loading="eager"
   />
 </a>
