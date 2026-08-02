@@ -38,7 +38,7 @@ tags:
   - fishing birthday
   - angler gift idea
   - boat coffee mug
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 

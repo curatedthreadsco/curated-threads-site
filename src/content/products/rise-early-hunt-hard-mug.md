@@ -37,7 +37,7 @@ tags:
   - hunter gift idea
   - vintage hunting mug
   - hunting birthday
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 

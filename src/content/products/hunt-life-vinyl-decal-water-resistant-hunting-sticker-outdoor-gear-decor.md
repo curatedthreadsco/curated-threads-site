@@ -39,7 +39,7 @@ tags:
   - gift for coworker
   - white elephant gift
   - yankee swap gift
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 

@@ -36,7 +36,7 @@ tags:
   - fishing birthday
   - angler gift idea
   - fishing beer gift
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 

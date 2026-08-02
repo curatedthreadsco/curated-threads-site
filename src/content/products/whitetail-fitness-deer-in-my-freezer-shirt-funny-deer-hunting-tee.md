@@ -40,7 +40,7 @@ tags:
   - hunting shirt women
   - deer freezer shirt
   - funny gift hunter
-featured: false
+featured: true
 publish_date: 2026-07-20
 ---
 

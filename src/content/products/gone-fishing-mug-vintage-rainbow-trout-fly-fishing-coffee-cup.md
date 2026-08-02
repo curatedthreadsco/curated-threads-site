@@ -40,7 +40,7 @@ tags:
   - vintage fishing mug
   - fishing birthday
   - trout hunter gift
-featured: false
+featured: true
 publish_date: 2026-07-23
 ---
 

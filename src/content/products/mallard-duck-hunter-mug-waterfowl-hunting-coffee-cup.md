@@ -39,7 +39,7 @@ tags:
   - hunter gift idea
   - rustic hunting mug
   - hunting birthday
-featured: false
+featured: true
 publish_date: 2026-07-20
 ---
 

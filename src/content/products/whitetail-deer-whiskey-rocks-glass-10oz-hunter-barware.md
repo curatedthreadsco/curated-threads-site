@@ -35,7 +35,7 @@ tags:
   - deer hunting decor
   - deer glass dad gift
   - hunting gift dad
-featured: false
+featured: true
 publish_date: 2026-07-20
 ---
 

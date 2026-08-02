@@ -39,7 +39,7 @@ tags:
   - outdoor hunt shirt
   - gift for hunter
   - hunt apparel men
-featured: false
+featured: true
 publish_date: 2026-07-20
 ---
 

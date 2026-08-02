@@ -40,7 +40,7 @@ tags:
   - memorial day shirt
   - july 4th tee
   - mens patriotic tee
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 

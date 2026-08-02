@@ -38,7 +38,7 @@ tags:
   - yankee swap gift
   - gift for coworker
   - deer hunting
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 
