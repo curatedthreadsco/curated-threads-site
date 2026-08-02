@@ -13,7 +13,27 @@ import patrioticCover from '../assets/categories/patriotic.jpg';
 const etsyShopUrl = shopWithUtm('home');
 
 const allProducts = await getCollection('products');
-const featured = allProducts.filter((p) => p.data.featured).slice(0, 8);
+
+// Explicit display order for the Fan Favorites grid. Filename alphabetical
+// sort put strong sellers in awkward slots; this list mirrors the order
+// the shop owner wants. Change this list to reorder the homepage tiles.
+const featuredOrder = [
+  'whitetail-fitness-deer-in-my-freezer-shirt-funny-deer-hunting-tee',
+  'whitetail-deer-whiskey-rocks-glass-10oz-hunter-barware',
+  'turkey-hunter-shirt-vintage-wild-turkey-graphic-tee',
+  'vintage-wild-turkey-hunter-graphic-t-shirt-100-cotton-hunting-tee',
+  'mallard-duck-hunter-mug-waterfowl-hunting-coffee-cup',
+  'hook-line-and-sinker-blue-marlin-fishing-shirt',
+  'freedom-american-flag-shirt-distressed-patriotic-tee-4th-of-july-gift',
+  'gone-fishing-mug-vintage-rainbow-trout-fly-fishing-coffee-cup',
+];
+const featuredById = new Map(
+  allProducts.filter((p) => p.data.featured).map((p) => [p.id, p]),
+);
+const featured = featuredOrder
+  .map((id) => featuredById.get(id))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p))
+  .slice(0, 8);
 
 type Cat = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
 
