@@ -51,19 +51,19 @@ const isActive = (href: string) =>
   aria-label="Main"
   class="sticky top-0 z-40 border-y border-gold/30 bg-parchment/95 shadow-sm backdrop-blur"
 >
-  <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-6 py-2">
+  <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-8 gap-y-2 px-6 py-3">
     <a href="/" class="shrink-0" aria-label="Curated Threads Outdoors home">
       <Image
         src={logo}
         alt=""
-        widths={[48, 96, 144]}
-        sizes="48px"
+        widths={[56, 112, 168]}
+        sizes="56px"
         quality={92}
         class="rounded-full border border-gold/50 object-cover"
-        style="height: 3rem; width: 3rem;"
+        style="height: 3.5rem; width: 3.5rem;"
       />
     </a>
-    <ul class="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-sm font-semibold uppercase tracking-wider text-sepia">
+    <ul class="flex flex-1 flex-wrap items-center justify-evenly gap-x-6 gap-y-1 text-base font-semibold uppercase tracking-wider text-sepia lg:text-lg">
       {
         navItems.map((item) => (
           <li>
