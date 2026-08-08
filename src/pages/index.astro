@@ -7,7 +7,6 @@ import { shopWithUtm, etsyImage, etsyImageSrcSet } from '../lib/etsy';
 import heroGlacier from '../assets/hero-glacier.jpg';
 import huntingCover from '../assets/categories/hunting.jpg';
 import fishingCover from '../assets/categories/fishing.jpg';
-import outdoorCover from '../assets/categories/outdoor.jpg';
 import patrioticCover from '../assets/categories/patriotic.jpg';
 
 const etsyShopUrl = shopWithUtm('home');
@@ -35,7 +34,7 @@ const featured = featuredOrder
   .filter((p): p is NonNullable<typeof p> => Boolean(p))
   .slice(0, 8);
 
-type Cat = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
+type Cat = 'hunting' | 'fishing' | 'patriotic';
 
 // Secondary/hover image comes from a representative product photo in that
 // category (Etsy CDN), so the primary is the branded lifestyle shot and the
@@ -68,13 +67,6 @@ const categories: {
     cover: fishingCover,
   },
   {
-    name: 'Outdoor',
-    href: '/outdoor',
-    category: 'outdoor',
-    blurb: 'Gear and gifts for anyone who lives outside.',
-    cover: outdoorCover,
-  },
-  {
     name: 'Patriotic',
     href: '/patriotic',
     category: 'patriotic',
@@ -100,8 +92,8 @@ const organizationSchema = {
 ---
 
 <BaseLayout
-  title="Curated Threads Outdoors | Hunting, Fishing, Outdoor and Patriotic Gifts"
-  description="Family-owned shop for hunting, fishing, outdoor, and patriotic apparel, drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop."
+  title="Curated Threads Outdoors | Hunting, Fishing, and Patriotic Gifts"
+  description="Family-owned shop for hunting, fishing, and patriotic apparel, drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
@@ -121,10 +113,10 @@ const organizationSchema = {
         Family Owned & Operated
       </p>
       <h1 class="font-display mt-4 text-5xl leading-[1.05] text-cream drop-shadow-lg sm:text-6xl">
-        For the field, the water, the trail, and the flag.
+        For the field, the water, and the flag.
       </h1>
       <p class="mx-auto mt-6 max-w-2xl text-lg text-cream/95 drop-shadow sm:text-xl">
-        Hunting, fishing, outdoor, and patriotic designs on made-to-order apparel,
+        Hunting, fishing, and patriotic designs on made-to-order apparel,
         drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop.
       </p>
       <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
@@ -149,12 +141,12 @@ const organizationSchema = {
   <section id="collections" class="mx-auto max-w-6xl scroll-mt-24 px-6 py-14">
     <div class="text-center">
       <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Shop by collection</p>
-      <h2 class="font-display mt-2 text-3xl text-sepia sm:text-4xl">Four ways to gear up</h2>
+      <h2 class="font-display mt-2 text-3xl text-sepia sm:text-4xl">Three ways to gear up</h2>
       <p class="mx-auto mt-3 max-w-2xl text-ink/70">
         Every collection is stocked in our Etsy shop and updated as new designs drop.
       </p>
     </div>
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {
         categories.map((cat) => {
           const hover = hoverFor(cat.category);

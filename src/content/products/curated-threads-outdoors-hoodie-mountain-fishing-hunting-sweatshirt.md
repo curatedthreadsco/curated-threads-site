@@ -1,6 +1,8 @@
 ---
 title: "Curated Threads Outdoors Hoodie, Mountain Fishing Hunting Sweatshirt"
-category: outdoor
+category: hunting
+extra_categories:
+  - fishing
 product_type: hoodie
 list_price: 44.99
 free_shipping: true

@@ -1,30 +1,28 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import { shopWithUtm, categoryCampaign } from '../lib/etsy';
-import alaskaFjord from '../assets/alaska-fjord.jpg';
 
 export async function getStaticPaths() {
-  const categories = ['hunting', 'fishing', 'outdoor', 'patriotic'] as const;
+  const categories = ['hunting', 'fishing', 'patriotic'] as const;
   return categories.map((c) => ({ params: { category: c } }));
 }
 
-type Category = 'hunting' | 'fishing' | 'outdoor' | 'patriotic';
+type Category = 'hunting' | 'fishing' | 'patriotic';
 const category = Astro.params.category as Category;
 
 // Sections mirror how the Etsy shop itself is organized (Tees, Hoodies,
-// Youth, Cups/Mugs/Koozies, Decals & Accessories), so a shopper who knows
-// the Etsy layout finds the same groupings here.
-type Section = 'tees' | 'hoodies' | 'youth' | 'cups' | 'decals';
-const sectionOrder: Section[] = ['tees', 'hoodies', 'youth', 'cups', 'decals'];
+// Youth, Cups/Mugs/Koozies, Accessories), so a shopper who knows the Etsy
+// layout finds the same groupings here.
+type Section = 'tees' | 'hoodies' | 'youth' | 'cups' | 'accessories';
+const sectionOrder: Section[] = ['tees', 'hoodies', 'youth', 'cups', 'accessories'];
 const sectionLabel: Record<Section, string> = {
   tees: 'T-Shirts',
   hoodies: 'Hoodies',
   youth: 'Youth',
   cups: 'Cups, Mugs & Koozies',
-  decals: 'Decals & Accessories',
+  accessories: 'Accessories',
 };
 const cupTypes = new Set([
   'mug-11oz',
@@ -37,13 +35,12 @@ const cupTypes = new Set([
   'pint-glass',
   'mixing-glass',
 ]);
-const decalTypes = new Set(['vinyl-decal', 'vinyl-sticker', 'car-magnet', 'phone-case']);
 const sectionOf = (p: { data: { product_type: string; youth: boolean } }): Section => {
   if (p.data.youth) return 'youth';
   if (p.data.product_type === 'tee' || p.data.product_type === 'tank-top') return 'tees';
   if (p.data.product_type === 'hoodie') return 'hoodies';
   if (cupTypes.has(p.data.product_type)) return 'cups';
-  return 'decals';
+  return 'accessories';
 };
 
 // Hunting page leads with the whiskey glass, then shirts grouped by
@@ -73,7 +70,7 @@ const huntingLowPriority = new Set([
 
 const allProducts = await getCollection('products');
 const products = allProducts
-  .filter((p) => p.data.category === category)
+  .filter((p) => p.data.category === category || p.data.extra_categories.includes(category))
   .sort((a, b) => {
     if (category === 'hunting') {
       const aLow = huntingLowPriority.has(a.id);
@@ -128,17 +125,6 @@ const meta: Record<Category, { title: string; description: string; heroKicker: s
     bodyIntro:
       'From largemouth bass to rainbow trout to deep sea marlin, this lineup is built for anglers who mark their calendars by the season. Tees and hoodies come in soft cotton and cotton-poly blends meant for early mornings on the dock or a boat, koozies and can coolers keep drinks cold between casts, and the mug and tumbler options are sized for coffee before sunrise or something colder after a good day out. Everything ships free and made to order through our Etsy shop. Looking for a gift for the angler in your life, whether that is dad, mom, a spouse, or the friend who plans every vacation around a charter, these pieces are designed to be worn on the water, not just displayed at home.',
   },
-  outdoor: {
-    title: 'Outdoor Apparel and Gifts | Curated Threads Outdoors',
-    description:
-      'Outdoor lifestyle apparel, gear, and gifts from Curated Threads Outdoors. Made to order, free shipping through our Etsy shop.',
-    heroKicker: 'For the trail and the truck',
-    heroTitle: 'Outdoor',
-    heroBody:
-      'Designs for anyone who spends their weekends chasing sunsets, dirt roads, and campfires.',
-    bodyIntro:
-      'This is the catalog for anyone whose weekends revolve around trailheads, campfires, and long drives with the windows down, not just hunting or fishing trips. Apparel is printed on soft, durable cotton and cotton-poly blends built to layer up at camp or wear around town, and the drinkware and accessories are made for coffee at the trailhead or a drink back at the tailgate. Every item is made to order and ships free through our Etsy shop. It is a solid pick for a birthday, holiday, or just-because gift for the outdoor lover in your life, whether that is a parent, a spouse, or a best friend who is always finding a reason to get outside.',
-  },
   patriotic: {
     title: 'Patriotic USA Apparel and Gifts | Curated Threads Outdoors',
     description:
@@ -180,37 +166,14 @@ const itemListSchema = {
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
   {products.length > 0 && <script type="application/ld+json" slot="head" set:html={JSON.stringify(itemListSchema)} />}
 
-  {
-    category === 'outdoor' ? (
-      <section class="relative overflow-hidden border-b border-gold/30 bg-forest-dark text-cream">
-        <Image
-          src={alaskaFjord}
-          alt="Calm Alaska fjord reflecting the surrounding mountains"
-          widths={[768, 1280, 1920, 2400]}
-          sizes="100vw"
-          quality={85}
-          loading="eager"
-          class="absolute inset-0 h-full w-full object-cover"
-        />
-        <div class="absolute inset-0 bg-gradient-to-b from-forest-dark/70 via-forest-dark/55 to-forest-dark/85" />
-        <div class="relative mx-auto max-w-4xl px-6 py-14 text-center sm:py-20">
-          <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold drop-shadow">{info.heroKicker}</p>
-          <h1 class="font-display mt-3 text-4xl text-cream drop-shadow-lg sm:text-5xl">{info.heroTitle}</h1>
-          <p class="mx-auto mt-4 max-w-2xl text-lg text-cream/95 drop-shadow">{info.heroBody}</p>
-          {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-cream/80 drop-shadow">{info.storyLine}</p>}
-        </div>
-      </section>
-    ) : (
-      <section class="border-b border-gold/30 bg-parchment px-6 py-14 sm:py-20">
-        <div class="mx-auto max-w-4xl text-center">
-          <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">{info.heroKicker}</p>
-          <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">{info.heroTitle}</h1>
-          <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/75">{info.heroBody}</p>
-          {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-sepia/70">{info.storyLine}</p>}
-        </div>
-      </section>
-    )
-  }
+  <section class="border-b border-gold/30 bg-parchment px-6 py-14 sm:py-20">
+    <div class="mx-auto max-w-4xl text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">{info.heroKicker}</p>
+      <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">{info.heroTitle}</h1>
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/75">{info.heroBody}</p>
+      {info.storyLine && <p class="mx-auto mt-4 max-w-2xl text-sm italic text-sepia/70">{info.storyLine}</p>}
+    </div>
+  </section>
 
   <section class="mx-auto max-w-4xl px-6 pt-10 text-center sm:pt-12">
     <p class="text-ink/75">{info.bodyIntro}</p>

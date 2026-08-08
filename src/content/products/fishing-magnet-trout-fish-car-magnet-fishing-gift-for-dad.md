@@ -1,6 +1,6 @@
 ---
 title: "Fishing Magnet, Trout Fish Car Magnet, Fishing Gift for Dad"
-category: outdoor
+category: fishing
 product_type: "car-magnet"
 list_price: 12.99
 free_shipping: true

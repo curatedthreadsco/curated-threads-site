@@ -2,5 +2,15 @@
   "trailingSlash": true,
   "rewrites": [
     { "source": "/sitemap.xml", "destination": "/sitemap-index.xml" }
+  ],
+  "redirects": [
+    { "source": "/outdoor", "destination": "/hunting", "statusCode": 308 },
+    { "source": "/outdoor/", "destination": "/hunting/", "statusCode": 308 },
+    { "source": "/products/gone-fishing-decal-rainbow-trout-vinyl-fishing-sticker", "destination": "/fishing", "statusCode": 308 },
+    { "source": "/products/vintage-gone-fishing-decal-rainbow-trout-mountain-lake-vinyl-sticker", "destination": "/fishing", "statusCode": 308 },
+    { "source": "/products/hunt-life-vinyl-decal-water-resistant-hunting-sticker-outdoor-gear-decor", "destination": "/hunting", "statusCode": 308 },
+    { "source": "/products/hunt-life-vinyl-sticker-die-cut-outdoor-decal-adventure-gear-decor", "destination": "/hunting", "statusCode": 308 },
+    { "source": "/products/whitetail-buck-decal-mountain-sunrise-deer-hunter-vinyl-sticker", "destination": "/hunting", "statusCode": 308 },
+    { "source": "/products/whitetail-deer-hunter-decal-deer-hunter-vinyl-hunting-sticker", "destination": "/hunting", "statusCode": 308 }
   ]
 }

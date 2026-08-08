@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const category = z.enum(['hunting', 'fishing', 'outdoor', 'patriotic']);
+const category = z.enum(['hunting', 'fishing', 'patriotic']);
 
 const productType = z.enum([
   'tee',
@@ -16,8 +16,6 @@ const productType = z.enum([
   'shot-glass',
   'pint-glass',
   'mixing-glass',
-  'vinyl-decal',
-  'vinyl-sticker',
   'car-magnet',
   'phone-case',
 ]);
@@ -27,6 +25,7 @@ const products = defineCollection({
   schema: z.object({
     title: z.string(),
     category,
+    extra_categories: z.array(category).default([]),
     product_type: productType,
     list_price: z.number(),
     sale_price: z.number().optional(),

@@ -2,7 +2,6 @@ export type UtmCampaign =
   | 'home'
   | 'category_hunting'
   | 'category_fishing'
-  | 'category_outdoor'
   | 'category_patriotic'
   | 'product_page'
   | 'gift_guide'
@@ -38,7 +37,7 @@ export function etsyLink(opts: {
 }
 
 export function categoryCampaign(
-  category: 'hunting' | 'fishing' | 'outdoor' | 'patriotic',
+  category: 'hunting' | 'fishing' | 'patriotic',
 ): UtmCampaign {
   return `category_${category}` as UtmCampaign;
 }
