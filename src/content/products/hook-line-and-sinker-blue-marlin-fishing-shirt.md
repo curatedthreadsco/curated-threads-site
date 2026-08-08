@@ -24,11 +24,25 @@ care_instructions:
   - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/53ee04/8243850926/il_fullxfull.8243850926_156m.jpg"
-    alt: Hook Line and Sinker Blue Marlin Fishing Shirt product photo
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/a697df/8215862370/il_fullxfull.8215862370_5gpo.jpg"
-    alt: Hook Line and Sinker Blue Marlin Fishing Shirt additional view 2
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/9bc586/8215862948/il_fullxfull.8215862948_nqqu.jpg"
-    alt: Hook Line and Sinker Blue Marlin Fishing Shirt additional view 3
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/7900f4/8263789471/il_fullxfull.8263789471_2hrl.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/69ab4a/8215864006/il_fullxfull.8215864006_8k77.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/d56c79/8215864426/il_fullxfull.8215864426_1vm2.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/967d9b/8215864840/il_fullxfull.8215864840_7p5p.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/292b17/8263791297/il_fullxfull.8263791297_nfg7.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/c4332c/8263791845/il_fullxfull.8263791845_72cj.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/37ceb3/8263792587/il_fullxfull.8263792587_c53t.jpg"
+    alt: "Hook Line and Sinker Blue Marlin Fishing Shirt additional view 10"
 tags:
   - fishing shirt
   - marlin tshirt

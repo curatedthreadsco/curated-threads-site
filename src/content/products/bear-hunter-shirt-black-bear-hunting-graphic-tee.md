@@ -28,6 +28,20 @@ images:
     alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/7cdb94/8292791435/il_fullxfull.8292791435_2tcy.jpg"
     alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/9b3bd7/8244876174/il_fullxfull.8244876174_jtgz.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/636dd5/8244876382/il_fullxfull.8244876382_4uaj.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/dd5389/8292792073/il_fullxfull.8292792073_q9of.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/70a159/8292792261/il_fullxfull.8292792261_sp45.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/21b22c/8244877028/il_fullxfull.8244877028_94h3.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/5f0121/8292792699/il_fullxfull.8292792699_ro6u.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/0717b3/8244877438/il_fullxfull.8244877438_spyj.jpg"
+    alt: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee additional view 10"
 tags:
   - bear hunter shirt
   - bear hunting tee

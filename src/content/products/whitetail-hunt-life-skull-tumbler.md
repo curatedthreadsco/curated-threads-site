@@ -17,11 +17,25 @@ care_instructions:
   - Hand wash only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/64e6aa/8292331569/il_fullxfull.8292331569_3ual.jpg"
-    alt: Whitetail Hunt Life Skull Tumbler product photo
+    alt: "Whitetail Hunt Life Skull Tumbler product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/6ff770/7301245756/il_fullxfull.7301245756_o0v6.jpg"
-    alt: Whitetail Hunt Life Skull Tumbler additional view 2
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/6ceb08/7301246340/il_fullxfull.7301246340_q6i6.jpg"
-    alt: Whitetail Hunt Life Skull Tumbler additional view 3
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/6a32af/7301246674/il_fullxfull.7301246674_30e1.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/23f011/7301246858/il_fullxfull.7301246858_81t3.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/8503ca/7301247078/il_fullxfull.7301247078_1txm.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/78a574/7301247328/il_fullxfull.7301247328_2xvr.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/736cd2/7301247562/il_fullxfull.7301247562_8hbb.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/d186cb/7349199181/il_fullxfull.7349199181_3j8s.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/e43536/7349199501/il_fullxfull.7349199501_kkjn.jpg"
+    alt: "Whitetail Hunt Life Skull Tumbler additional view 10"
 tags:
   - hunt life tumbler
   - hunting tumbler gift

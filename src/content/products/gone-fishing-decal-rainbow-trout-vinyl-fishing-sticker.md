@@ -25,6 +25,14 @@ images:
     alt: "Gone Fishing Decal, Rainbow Trout Vinyl Fishing Sticker additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/bcb6f5/8290468360/il_fullxfull.8290468360_k9ar.jpg"
     alt: "Gone Fishing Decal, Rainbow Trout Vinyl Fishing Sticker additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/60829e/8290468614/il_fullxfull.8290468614_sf1i.jpg"
+    alt: "Gone Fishing Decal, Rainbow Trout Vinyl Fishing Sticker additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/c35406/8338372585/il_fullxfull.8338372585_8wq6.jpg"
+    alt: "Gone Fishing Decal, Rainbow Trout Vinyl Fishing Sticker additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/e85a77/8290469208/il_fullxfull.8290469208_h98v.jpg"
+    alt: "Gone Fishing Decal, Rainbow Trout Vinyl Fishing Sticker additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/4c0fa6/8290469476/il_fullxfull.8290469476_488k.jpg"
+    alt: "Gone Fishing Decal, Rainbow Trout Vinyl Fishing Sticker additional view 7"
 tags:
   - gone fishing decal
   - fishing sticker

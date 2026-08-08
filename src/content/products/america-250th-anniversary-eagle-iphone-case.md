@@ -18,11 +18,25 @@ care_instructions:
   - Add a small drop of dish soap to the cloth if needed
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/a44ea9/8133108069/il_fullxfull.8133108069_sjxi.jpg"
-    alt: America 250th Anniversary Eagle iPhone Case product photo
+    alt: "America 250th Anniversary Eagle iPhone Case product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/4ad8c3/7784323205/il_fullxfull.7784323205_8tp7.jpg"
-    alt: America 250th Anniversary Eagle iPhone Case additional view 2
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/b53e18/7784324307/il_fullxfull.7784324307_9gqr.jpg"
-    alt: America 250th Anniversary Eagle iPhone Case additional view 3
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/6c4985/7784325343/il_fullxfull.7784325343_3dvc.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/7feb3d/7736370494/il_fullxfull.7736370494_f7x9.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/7338dd/7736371530/il_fullxfull.7736371530_7lv3.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/2dd1ee/7784327961/il_fullxfull.7784327961_h63k.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/113440/7784328433/il_fullxfull.7784328433_l10f.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/525c68/7736373922/il_fullxfull.7736373922_hw33.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/21c694/7736374508/il_fullxfull.7736374508_6uuu.jpg"
+    alt: "America 250th Anniversary Eagle iPhone Case additional view 10"
 tags:
   - patriotic phone case
   - god bless america

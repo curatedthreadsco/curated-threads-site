@@ -25,6 +25,18 @@ images:
     alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/b955dd/8291686263/il_fullxfull.8291686263_19ve.jpg"
     alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/8ace00/8243772088/il_fullxfull.8243772088_qrfz.jpg"
+    alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/e9d795/8291687419/il_fullxfull.8291687419_r77y.jpg"
+    alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/eb56a8/8243773052/il_fullxfull.8243773052_pte0.jpg"
+    alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/ade407/8243773736/il_fullxfull.8243773736_g0ee.jpg"
+    alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/850db2/8243774160/il_fullxfull.8243774160_exvc.jpg"
+    alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/196e0d/8243774940/il_fullxfull.8243774940_cfyo.jpg"
+    alt: "Hook, Line, & Sinker Marlin Fishing Mug additional view 9"
 tags:
   - fishing mug
   - marlin mug

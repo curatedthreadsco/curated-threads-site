@@ -27,6 +27,20 @@ images:
     alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/51e9e5/7783371277/il_fullxfull.7783371277_nmoy.jpg"
     alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/238eec/7783372485/il_fullxfull.7783372485_5nop.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/2f3416/7735420640/il_fullxfull.7735420640_2cum.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/c12809/7735421526/il_fullxfull.7735421526_9fre.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/9dbcdc/7735422724/il_fullxfull.7735422724_fi3d.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/1f44c7/7735423186/il_fullxfull.7735423186_hek3.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/b0c8e5/7783376925/il_fullxfull.7783376925_s4x5.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/2d7c6a/7783377691/il_fullxfull.7783377691_ien6.jpg"
+    alt: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee additional view 10"
 tags:
   - bald eagle shirt
   - patriotic tee men

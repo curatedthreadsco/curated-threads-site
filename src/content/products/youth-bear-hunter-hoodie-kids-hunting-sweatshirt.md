@@ -29,6 +29,20 @@ images:
     alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/323499/8356447842/il_fullxfull.8356447842_hsip.jpg"
     alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/a444b3/8356448388/il_fullxfull.8356448388_nm27.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/460ced/8356448912/il_fullxfull.8356448912_4w5a.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/4ee72e/8356449750/il_fullxfull.8356449750_hlfb.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/0657d9/8356450456/il_fullxfull.8356450456_3l1p.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/3aef00/8404337193/il_fullxfull.8404337193_ik3z.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/ac709f/8356451460/il_fullxfull.8356451460_sltf.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/4c11ca/8356451792/il_fullxfull.8356451792_rpja.jpg"
+    alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 10"
 tags:
   - youth hunting hoodie
   - kids hunting hoodie

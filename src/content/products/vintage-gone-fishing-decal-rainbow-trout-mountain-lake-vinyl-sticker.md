@@ -24,6 +24,14 @@ images:
     alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/c53873/8338485329/il_fullxfull.8338485329_biz1.jpg"
     alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/47f8da/8290583348/il_fullxfull.8290583348_1qdm.jpg"
+    alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/365adc/8338486513/il_fullxfull.8338486513_r6xm.jpg"
+    alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/f5cdc7/8338487113/il_fullxfull.8338487113_7c6t.jpg"
+    alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/f79b37/8290585010/il_fullxfull.8290585010_n254.jpg"
+    alt: "Vintage Gone Fishing Decal, Rainbow Trout Mountain Lake Vinyl Sticker additional view 7"
 tags:
   - vintage trout decal
   - trout decal

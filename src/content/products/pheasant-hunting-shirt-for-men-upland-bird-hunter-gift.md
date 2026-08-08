@@ -26,6 +26,20 @@ images:
     alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/1446d8/8263927079/il_fullxfull.8263927079_fa41.jpg"
     alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/1d8c51/8263927647/il_fullxfull.8263927647_dfx4.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/50b58c/8216003696/il_fullxfull.8216003696_dkw1.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/107a92/8216004312/il_fullxfull.8216004312_9olp.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/59148f/8216004524/il_fullxfull.8216004524_6ebv.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/0a39ad/8216005006/il_fullxfull.8216005006_rgez.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/e9e9ce/8263930441/il_fullxfull.8263930441_1d63.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/5f9cea/8216005802/il_fullxfull.8216005802_p2dw.jpg"
+    alt: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift additional view 10"
 tags:
   - pheasant hunting
   - hunting shirt

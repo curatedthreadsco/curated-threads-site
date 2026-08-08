@@ -26,6 +26,12 @@ images:
     alt: "Hunt Life Vinyl Decal, Water-Resistant Hunting Sticker, Outdoor Gear Decor additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/9a717c/7349022581/il_fullxfull.7349022581_ap7k.jpg"
     alt: "Hunt Life Vinyl Decal, Water-Resistant Hunting Sticker, Outdoor Gear Decor additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/c0dc14/7349022979/il_fullxfull.7349022979_pgw3.jpg"
+    alt: "Hunt Life Vinyl Decal, Water-Resistant Hunting Sticker, Outdoor Gear Decor additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/3e51d4/7349023223/il_fullxfull.7349023223_19ak.jpg"
+    alt: "Hunt Life Vinyl Decal, Water-Resistant Hunting Sticker, Outdoor Gear Decor additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/3c1e11/7301071794/il_fullxfull.7301071794_isb9.jpg"
+    alt: "Hunt Life Vinyl Decal, Water-Resistant Hunting Sticker, Outdoor Gear Decor additional view 6"
 tags:
   - Outdoor Stickers
   - Hunting Stickers

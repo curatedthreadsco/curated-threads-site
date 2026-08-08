@@ -147,8 +147,8 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
         }
         {
           data.images.length > 1 && (
-            <div class="grid grid-cols-3 gap-2">
-              {data.images.slice(1, 4).map((img) => (
+            <div class="grid grid-cols-4 gap-2 sm:grid-cols-5">
+              {data.images.slice(1).map((img) => (
                 <button
                   type="button"
                   data-product-thumb

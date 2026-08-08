@@ -18,11 +18,17 @@ care_instructions:
   - Or wash by hand with warm water and dish soap
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/9044c1/8085199096/il_fullxfull.8085199096_1q1r.jpg"
-    alt: America 250th Anniversary Patriotic Eagle Pint Glass product photo
+    alt: "America 250th Anniversary Patriotic Eagle Pint Glass product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/43c073/7736343868/il_fullxfull.7736343868_iq0d.jpg"
-    alt: America 250th Anniversary Patriotic Eagle Pint Glass additional view 2
+    alt: "America 250th Anniversary Patriotic Eagle Pint Glass additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/f4d421/7736344284/il_fullxfull.7736344284_puoh.jpg"
-    alt: America 250th Anniversary Patriotic Eagle Pint Glass additional view 3
+    alt: "America 250th Anniversary Patriotic Eagle Pint Glass additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/bcf7c6/7736344658/il_fullxfull.7736344658_nm9c.jpg"
+    alt: "America 250th Anniversary Patriotic Eagle Pint Glass additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/64e3f9/7784300523/il_fullxfull.7784300523_d137.jpg"
+    alt: "America 250th Anniversary Patriotic Eagle Pint Glass additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/1bf6ea/7736345410/il_fullxfull.7736345410_8kw2.jpg"
+    alt: "America 250th Anniversary Patriotic Eagle Pint Glass additional view 6"
 tags:
   - patriotic pint glass
   - mixing glass gift

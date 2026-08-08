@@ -23,6 +23,18 @@ images:
     alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/d39c84/7736281006/il_fullxfull.7736281006_avrn.jpg"
     alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/dd7ae0/7784236993/il_fullxfull.7784236993_5gqr.jpg"
+    alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/4f1786/7736283598/il_fullxfull.7736283598_cyks.jpg"
+    alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/05bad1/7784239905/il_fullxfull.7784239905_qz7s.jpg"
+    alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/7164c0/7736285452/il_fullxfull.7736285452_khtz.jpg"
+    alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/60faf7/7784241575/il_fullxfull.7784241575_cm78.jpg"
+    alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/fb59d7/7784242381/il_fullxfull.7784242381_cspl.jpg"
+    alt: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware additional view 9"
 tags:
   - patriotic shot glass
   - 4th of july glass

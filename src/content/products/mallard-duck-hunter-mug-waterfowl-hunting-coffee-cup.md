@@ -26,6 +26,20 @@ images:
     alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/8d8535/8292472253/il_fullxfull.8292472253_lz96.jpg"
     alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/ef3afa/8244556278/il_fullxfull.8244556278_da8h.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/105f9b/8244556764/il_fullxfull.8244556764_5qgl.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/b73eea/8292473273/il_fullxfull.8292473273_oic9.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/7ef26a/8244557542/il_fullxfull.8244557542_o9v1.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/101e34/8244558080/il_fullxfull.8244558080_a6q3.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/f59360/8244558674/il_fullxfull.8244558674_2958.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/5ed3fc/8244559144/il_fullxfull.8244559144_i028.jpg"
+    alt: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup additional view 10"
 tags:
   - duck hunting mug
   - duck hunter gift

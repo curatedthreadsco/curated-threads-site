@@ -22,11 +22,25 @@ care_instructions:
   - Non-chlorine bleach only
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/e439eb/8292335231/il_fullxfull.8292335231_gue0.jpg"
-    alt: Whitetail American Flag One Nation Under God Shirt product photo
+    alt: "Whitetail American Flag One Nation Under God Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/362bbd/8030344368/il_fullxfull.8030344368_10kc.jpg"
-    alt: Whitetail American Flag One Nation Under God Shirt additional view 2
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/f1e66e/8078253939/il_fullxfull.8078253939_me1o.jpg"
-    alt: Whitetail American Flag One Nation Under God Shirt additional view 3
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/325112/8078254269/il_fullxfull.8078254269_fucf.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/9e5dfb/8078254609/il_fullxfull.8078254609_b15o.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/1930d3/8078254893/il_fullxfull.8078254893_7g4s.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/dcf4ce/8078255215/il_fullxfull.8078255215_gubh.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/f063a8/8030346334/il_fullxfull.8030346334_2o50.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/4e569e/8078255861/il_fullxfull.8078255861_qzad.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/21ac71/8078256117/il_fullxfull.8078256117_h4n3.jpg"
+    alt: "Whitetail American Flag One Nation Under God Shirt additional view 10"
 tags:
   - one nation under god
   - patriotic hunt tee

@@ -22,6 +22,8 @@ images:
     alt: "Fishing Magnet, Trout Fish Car Magnet, Fishing Gift for Dad additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/62ea70/8028377939/il_fullxfull.8028377939_il79.jpg"
     alt: "Fishing Magnet, Trout Fish Car Magnet, Fishing Gift for Dad additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/90fa2c/8027646645/il_fullxfull.8027646645_h59n.jpg"
+    alt: "Fishing Magnet, Trout Fish Car Magnet, Fishing Gift for Dad additional view 4"
 tags:
   - fishing car magnet
   - fishing gift for dad

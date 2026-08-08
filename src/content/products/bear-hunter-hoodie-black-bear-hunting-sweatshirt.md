@@ -29,6 +29,20 @@ images:
     alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/da9a71/8373859167/il_fullxfull.8373859167_jgn3.jpg"
     alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/913736/8373859489/il_fullxfull.8373859489_ezl5.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/58091c/8373859763/il_fullxfull.8373859763_73la.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/cb1796/8325965848/il_fullxfull.8325965848_mwv4.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/3b1dc0/8325966192/il_fullxfull.8325966192_cvbn.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/e86a31/8373860681/il_fullxfull.8373860681_7ftt.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/25dae5/8325966796/il_fullxfull.8325966796_6dex.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/df14ef/8373861353/il_fullxfull.8373861353_r0l4.jpg"
+    alt: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt additional view 10"
 tags:
   - bear hunter hoodie
   - bear hunting hoodie

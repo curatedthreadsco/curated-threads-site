@@ -19,11 +19,25 @@ care_instructions:
   - Print resists fading, cracking, and peeling with normal use
 images:
   - src: "https://i.etsystatic.com/57889570/r/il/78926b/8260865984/il_fullxfull.8260865984_aqer.jpg"
-    alt: Rise Early Hunt Hard Mug product photo
+    alt: "Rise Early Hunt Hard Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/6b61b4/8260835528/il_fullxfull.8260835528_ooz9.jpg"
-    alt: Rise Early Hunt Hard Mug additional view 2
+    alt: "Rise Early Hunt Hard Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/f6e762/8308746397/il_fullxfull.8308746397_tk0a.jpg"
-    alt: Rise Early Hunt Hard Mug additional view 3
+    alt: "Rise Early Hunt Hard Mug additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/0126d9/8308747589/il_fullxfull.8308747589_5skc.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/2197e6/8260838534/il_fullxfull.8260838534_8aib.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/5a2915/8260839368/il_fullxfull.8260839368_kh39.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/8de664/8308750583/il_fullxfull.8308750583_9rm3.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/8536f5/8260841246/il_fullxfull.8260841246_h3b5.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/3e66d6/8260842382/il_fullxfull.8260842382_jdxc.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/95943d/8260843576/il_fullxfull.8260843576_1080.jpg"
+    alt: "Rise Early Hunt Hard Mug additional view 10"
 tags:
   - pheasant hunting mug
   - pheasant hunter gift

@@ -24,6 +24,14 @@ images:
     alt: "Whitetail Buck Decal, Mountain Sunrise Deer Hunter Vinyl Sticker additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/138e11/8290531406/il_fullxfull.8290531406_a2h8.jpg"
     alt: "Whitetail Buck Decal, Mountain Sunrise Deer Hunter Vinyl Sticker additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/5c5e24/8338434945/il_fullxfull.8338434945_lk0t.jpg"
+    alt: "Whitetail Buck Decal, Mountain Sunrise Deer Hunter Vinyl Sticker additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/21c192/8338435293/il_fullxfull.8338435293_580f.jpg"
+    alt: "Whitetail Buck Decal, Mountain Sunrise Deer Hunter Vinyl Sticker additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/943105/8290532582/il_fullxfull.8290532582_dson.jpg"
+    alt: "Whitetail Buck Decal, Mountain Sunrise Deer Hunter Vinyl Sticker additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/1678a6/8338436205/il_fullxfull.8338436205_1yj5.jpg"
+    alt: "Whitetail Buck Decal, Mountain Sunrise Deer Hunter Vinyl Sticker additional view 7"
 tags:
   - whitetail buck decal
   - deer buck sticker

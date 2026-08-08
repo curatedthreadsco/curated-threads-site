@@ -29,6 +29,20 @@ images:
     alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/4dca96/7978037277/il_fullxfull.7978037277_jcsg.jpg"
     alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/b770ad/7978037733/il_fullxfull.7978037733_mlr7.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/842a86/7978038091/il_fullxfull.7978038091_ghpx.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/317167/7930083502/il_fullxfull.7930083502_jz72.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/b8d19f/7978038647/il_fullxfull.7978038647_e7ge.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/b4fca6/7930084136/il_fullxfull.7930084136_1sv4.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/cc1a3c/7930084430/il_fullxfull.7930084430_a08l.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/a0fdbf/7978039585/il_fullxfull.7978039585_a55l.jpg"
+    alt: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel additional view 10"
 tags:
   - duck hunter shirt
   - duck hunting shirt

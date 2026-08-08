@@ -24,6 +24,14 @@ images:
     alt: "Whitetail Deer Hunter Decal, Deer Hunter Vinyl Hunting Sticker additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/89a2a8/8338229539/il_fullxfull.8338229539_1cjb.jpg"
     alt: "Whitetail Deer Hunter Decal, Deer Hunter Vinyl Hunting Sticker additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/9b3c0e/8290325496/il_fullxfull.8290325496_a1jf.jpg"
+    alt: "Whitetail Deer Hunter Decal, Deer Hunter Vinyl Hunting Sticker additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/3d2d84/8290325948/il_fullxfull.8290325948_ivi9.jpg"
+    alt: "Whitetail Deer Hunter Decal, Deer Hunter Vinyl Hunting Sticker additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/d8c694/8290326246/il_fullxfull.8290326246_3tzi.jpg"
+    alt: "Whitetail Deer Hunter Decal, Deer Hunter Vinyl Hunting Sticker additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/7ac8a6/8290326600/il_fullxfull.8290326600_1n3e.jpg"
+    alt: "Whitetail Deer Hunter Decal, Deer Hunter Vinyl Hunting Sticker additional view 7"
 tags:
   - whitetail decal
   - deer hunting decal

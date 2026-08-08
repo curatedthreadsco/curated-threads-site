@@ -26,6 +26,20 @@ images:
     alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/8d0be4/8338525801/il_fullxfull.8338525801_hpo1.jpg"
     alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 3"
+  - src: "https://i.etsystatic.com/57889570/r/il/46d2ad/8338526631/il_fullxfull.8338526631_97lg.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 4"
+  - src: "https://i.etsystatic.com/57889570/r/il/b2bf34/8290625264/il_fullxfull.8290625264_pdwz.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 5"
+  - src: "https://i.etsystatic.com/57889570/r/il/9cd2bb/8338527971/il_fullxfull.8338527971_1bdr.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 6"
+  - src: "https://i.etsystatic.com/57889570/r/il/9e1511/8290626408/il_fullxfull.8290626408_tqtg.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 7"
+  - src: "https://i.etsystatic.com/57889570/r/il/9448d3/8338528873/il_fullxfull.8338528873_j5iw.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 8"
+  - src: "https://i.etsystatic.com/57889570/r/il/3c7baa/8290627596/il_fullxfull.8290627596_tf6a.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 9"
+  - src: "https://i.etsystatic.com/57889570/r/il/4059f8/8338529895/il_fullxfull.8338529895_qi1b.jpg"
+    alt: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup additional view 10"
 tags:
   - gone fishing mug
   - fishing mug
