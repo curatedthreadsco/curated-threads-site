@@ -123,8 +123,13 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
       <div class="space-y-3">
         {
           cover && (
-            <div class="aspect-square w-full overflow-hidden rounded-sm border border-gold/40 bg-parchment">
+            <div
+              id="product-main-slot"
+              data-original={cover.src}
+              class="aspect-square w-full overflow-hidden rounded-sm border border-gold/40 bg-parchment"
+            >
               <img
+                id="product-main-image"
                 src={etsyImage(cover.src, 'il_1140xN')}
                 srcset={etsyImageSrcSet(cover.src, [
                   { variant: 'il_794xN', width: 794 },
@@ -144,7 +149,13 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
           data.images.length > 1 && (
             <div class="grid grid-cols-3 gap-2">
               {data.images.slice(1, 4).map((img) => (
-                <div class="aspect-square overflow-hidden rounded-sm border border-gold/30 bg-parchment">
+                <button
+                  type="button"
+                  data-product-thumb
+                  data-original={img.src}
+                  aria-label={`Show ${img.alt} as the main image`}
+                  class="product-thumb aspect-square overflow-hidden rounded-sm border border-gold/30 bg-parchment p-0 transition hover:border-forest hover:ring-2 hover:ring-forest/40 focus:border-forest focus:outline-none focus-visible:ring-2 focus-visible:ring-forest/60"
+                >
                   <img
                     src={etsyImage(img.src, 'il_570xN')}
                     srcset={etsyImageSrcSet(img.src, [
@@ -159,7 +170,7 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
                     decoding="async"
                     class="h-full w-full object-cover"
                   />
-                </div>
+                </button>
               ))}
             </div>
           )
@@ -234,6 +245,58 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
     </div>
 
     <script>
+      // Product image gallery: click a thumbnail to swap it into the main slot
+      // (and demote the previous main into the clicked thumbnail's slot).
+      (function () {
+        const mainSlot = document.getElementById('product-main-slot');
+        const mainImg = document.getElementById('product-main-image');
+        if (!mainSlot || !mainImg) return;
+        const thumbs = document.querySelectorAll('[data-product-thumb]');
+        const ETSY_VARIANT_RE = /il_(?:75x75|170x135|340x270|570xN|794xN|1140xN|1588xN|2000xN|fullxfull)\./;
+
+        function withVariant(src, variant) {
+          return ETSY_VARIANT_RE.test(src) ? src.replace(ETSY_VARIANT_RE, variant + '.') : src;
+        }
+
+        function paintMain(src, alt) {
+          mainSlot.setAttribute('data-original', src);
+          mainImg.src = withVariant(src, 'il_1140xN');
+          mainImg.srcset = [
+            withVariant(src, 'il_794xN') + ' 794w',
+            withVariant(src, 'il_1140xN') + ' 1140w',
+            withVariant(src, 'il_1588xN') + ' 1588w',
+          ].join(', ');
+          mainImg.alt = alt;
+        }
+
+        function paintThumb(thumb, src, alt) {
+          thumb.setAttribute('data-original', src);
+          thumb.setAttribute('aria-label', 'Show ' + alt + ' as the main image');
+          const img = thumb.querySelector('img');
+          if (!img) return;
+          img.src = withVariant(src, 'il_570xN');
+          img.srcset = [
+            withVariant(src, 'il_570xN') + ' 570w',
+            withVariant(src, 'il_794xN') + ' 794w',
+          ].join(', ');
+          img.alt = alt;
+        }
+
+        thumbs.forEach((thumb) => {
+          thumb.addEventListener('click', () => {
+            const prevMainSrc = mainSlot.getAttribute('data-original');
+            const prevMainAlt = mainImg.alt;
+            const clickedSrc = thumb.getAttribute('data-original');
+            const clickedImg = thumb.querySelector('img');
+            const clickedAlt = clickedImg ? clickedImg.alt : '';
+            if (!prevMainSrc || !clickedSrc) return;
+
+            paintMain(clickedSrc, clickedAlt);
+            paintThumb(thumb, prevMainSrc, prevMainAlt);
+          });
+        });
+      })();
+
       if (typeof window.pintrk === 'function') {
         window.pintrk('track', 'pagevisit', {
           event_id: crypto.randomUUID(),
