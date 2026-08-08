@@ -11,7 +11,7 @@ product_features:
   - "50/50 cotton-poly blend for warmth with a soft, durable feel"
   - "Medium-heavy 8.0 oz fabric built for year-round wear"
   - Roomy kangaroo pocket up front
-  - Double-lined hood with a matching drawcord
+  - Double-lined hood
   - Ribbed cuffs and hem that hold their shape
   - Twill neck tape and a sewn-in label for comfort
   - Long-lasting DTG/DTF printing that resists fading
@@ -23,11 +23,11 @@ care_instructions:
   - "Non-chlorine bleach only, if needed"
   - Skip the dry cleaner
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/f6f34a/8306607536/il_fullxfull.8306607536_7l27.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/1c1409/8356472726/il_fullxfull.8356472726_plqo.jpg"
     alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt product photo"
-  - src: "https://i.etsystatic.com/57889570/r/il/a81004/8354485471/il_fullxfull.8354485471_bs0t.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/3f2b04/8404332869/il_fullxfull.8404332869_s7yl.jpg"
     alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 2"
-  - src: "https://i.etsystatic.com/57889570/r/il/e2ce55/8306587396/il_fullxfull.8306587396_okfn.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/323499/8356447842/il_fullxfull.8356447842_hsip.jpg"
     alt: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt additional view 3"
 tags:
   - youth hunting hoodie

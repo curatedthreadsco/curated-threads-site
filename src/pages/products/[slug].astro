@@ -29,6 +29,9 @@ const siteBase = Astro.site!.origin;
 
 const categoryLabel = data.category.charAt(0).toUpperCase() + data.category.slice(1);
 
+const apparelTypes = new Set(['tee', 'hoodie', 'tank-top']);
+const isApparel = apparelTypes.has(data.product_type);
+
 // Auto-refreshes to ~6 months from each build. Vercel redeploys on every push,
 // so this keeps the offer eligible for Google Shopping without manual updates.
 const priceValidUntil = (() => {
@@ -52,6 +55,12 @@ const productSchema = {
   productID: `etsy:${data.etsy_listing_id}`,
   url: productPageUrl,
   brand: { '@type': 'Brand', name: 'Curated Threads Outdoors' },
+  ...(isApparel && {
+    size: {
+      '@type': 'SizeSpecification',
+      sizeSystem: 'https://schema.org/WearableSizeSystemUS',
+    },
+  }),
   offers: {
     '@type': 'Offer',
     url: productPageUrl,
@@ -173,6 +182,7 @@ const pageTitle = `${data.title} | Curated Threads Outdoors`;
             )
           }
           {data.free_shipping && <span class="ml-2 rounded-sm bg-forest/10 px-2 py-1 text-xs font-semibold uppercase tracking-wider text-forest">Free shipping</span>}
+          {isApparel && <span class="rounded-sm bg-sepia/10 px-2 py-1 text-xs font-semibold uppercase tracking-wider text-sepia">US sizing</span>}
         </div>
 
         <p class="mt-6 text-lg text-ink/80">{data.short_description}</p>

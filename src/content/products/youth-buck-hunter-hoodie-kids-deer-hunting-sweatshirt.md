@@ -4,14 +4,14 @@ category: hunting
 product_type: hoodie
 list_price: 29.99
 free_shipping: true
-etsy_listing_url: "https://www.etsy.com/listing/4548825572/youth-buck-hunter-hoodie-kids-deer"
-etsy_listing_id: "4548825572"
+etsy_listing_url: "https://www.etsy.com/listing/4552282900/youth-buck-hunter-hoodie-kids-deer"
+etsy_listing_id: "4552282900"
 short_description: "Youth Buck Hunter Hoodie. A kids' hoodie and a great gift for the young hunter in your life. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly blend for warmth with a soft, durable feel"
   - "Medium-heavy 8.0 oz fabric built for year-round wear"
   - Roomy kangaroo pocket up front
-  - Double-lined hood with a matching drawcord
+  - Double-lined hood
   - Ribbed cuffs and hem that hold their shape
   - Twill neck tape and a sewn-in label for comfort
   - Long-lasting DTG/DTF printing that resists fading
@@ -23,11 +23,11 @@ care_instructions:
   - "Non-chlorine bleach only, if needed"
   - Skip the dry cleaner
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/e9bb1d/8331535094/il_fullxfull.8331535094_gf4e.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/88faf2/8404299585/il_fullxfull.8404299585_4duv.jpg"
     alt: "Youth Buck Hunter Hoodie, Kids Deer Hunting Sweatshirt product photo"
-  - src: "https://i.etsystatic.com/57889570/r/il/8cd7fa/8331526230/il_fullxfull.8331526230_djc3.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/28940b/8404288319/il_fullxfull.8404288319_du6k.jpg"
     alt: "Youth Buck Hunter Hoodie additional view 2"
-  - src: "https://i.etsystatic.com/57889570/r/il/7b34b8/8379411611/il_fullxfull.8379411611_q1rx.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/6b033e/8356403000/il_fullxfull.8356403000_nmx2.jpg"
     alt: "Youth Buck Hunter Hoodie additional view 3"
 tags:
   - youth deer hoodie
