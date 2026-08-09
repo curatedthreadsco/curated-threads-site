@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: `${siteBase}/contact` },
+  ],
+};
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact Curated Threads Outdoors',
+  url: `${siteBase}/contact`,
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'Curated Threads LLC',
+    email: 'curatedthreadsoutdoors@gmail.com',
+    url: siteBase,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: 'curatedthreadsoutdoors@gmail.com',
+      availableLanguage: ['English'],
+      areaServed: 'US',
+    },
+  },
+};
+---
+
+<BaseLayout
+  title="Contact Us | Curated Threads Outdoors"
+  description="Reach the Curated Threads Outdoors team by email or through our Etsy shop. Small family-run business, one business day response."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(contactSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 text-center sm:py-20">
+    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Get in touch</p>
+    <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Contact Us</h1>
+    <p class="mx-auto mt-4 max-w-2xl text-lg text-ink/70">
+      A real person reads every message. We usually reply within one business day.
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 py-12 text-ink/85">
+    <div class="grid gap-8 sm:grid-cols-2">
+      <div class="rounded-sm border border-gold/40 bg-cream p-6">
+        <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Email</p>
+        <p class="mt-3">
+          <a
+            href="mailto:curatedthreadsoutdoors@gmail.com"
+            class="font-display text-lg text-forest underline-offset-4 hover:underline"
+          >
+            curatedthreadsoutdoors@gmail.com
+          </a>
+        </p>
+        <p class="mt-2 text-sm text-ink/70">
+          Best for general questions, wholesale inquiries, media requests, or press.
+        </p>
+      </div>
+
+      <div class="rounded-sm border border-gold/40 bg-cream p-6">
+        <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Order questions</p>
+        <p class="mt-3">
+          <a
+            href="https://curatedthreadsllc.etsy.com/"
+            target="_blank"
+            rel="noopener"
+            class="font-display text-lg text-forest underline-offset-4 hover:underline"
+          >
+            Message us on Etsy
+          </a>
+        </p>
+        <p class="mt-2 text-sm text-ink/70">
+          For anything tied to a specific order, sizing, shipping status, or exchanges, message us
+          through Etsy so it stays with your order.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-10 space-y-6">
+      <div>
+        <h2 class="font-display text-xl text-sepia">Who you're reaching</h2>
+        <p class="mt-2">
+          Curated Threads Outdoors is the outdoor gift line of Curated Threads LLC, a small
+          family-run business in the United States. Every order is made to order and shipped free
+          through our Etsy shop.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Response time</h2>
+        <p class="mt-2">
+          We aim to respond to every message within one business day, Monday through Friday.
+          Messages sent over the weekend are answered on Monday.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Before you write</h2>
+        <p class="mt-2">
+          Many common questions are already answered on our
+          <a href="/shipping" class="text-forest underline">Shipping</a>,
+          <a href="/returns" class="text-forest underline">Returns</a>, and
+          <a href="/faq" class="text-forest underline">FAQ</a>
+          pages. If you've already checked those and still need help, send us a note using one of
+          the options above.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -15,6 +15,39 @@ const { title, description, ogImage = '/images/brand/banner.jpg', ogType = 'webs
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL(ogImage, Astro.site);
 
+const siteOrigin = Astro.site!.origin;
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Curated Threads Outdoors',
+  legalName: 'Curated Threads LLC',
+  url: siteOrigin,
+  logo: `${siteOrigin}/favicon-192.png`,
+  email: 'curatedthreadsoutdoors@gmail.com',
+  areaServed: 'US',
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer support',
+    email: 'curatedthreadsoutdoors@gmail.com',
+    availableLanguage: ['English'],
+    areaServed: 'US',
+  },
+  sameAs: [
+    'https://curatedthreadsllc.etsy.com/',
+    'https://www.instagram.com/curatedthreadsoutdoors/',
+    'https://www.tiktok.com/@curatedthreadsoutdoors',
+    'https://www.pinterest.com/CuratedThreadsOutdoors',
+    'https://www.facebook.com/profile.php?id=61587888253398',
+  ],
+};
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Curated Threads Outdoors',
+  url: siteOrigin,
+  publisher: { '@type': 'Organization', name: 'Curated Threads LLC' },
+};
+
 const GA_MEASUREMENT_ID = 'G-1JLQ73FPKR';
 const CLARITY_PROJECT_ID = 'xp39uxe5ke';
 const PINTEREST_TAG_ID = '2613670086864';
@@ -162,6 +195,9 @@ const TIKTOK_PIXEL_ID = 'D9IGK9BC77U820ARKRCG';
       })(window, document, 'ttq');
     </script>
     <!-- end TikTok Pixel -->
+
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 
     <slot name="head" />
   </head>

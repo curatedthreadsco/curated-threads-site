@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Shipping', item: `${siteBase}/shipping` },
+  ],
+};
+
+const lastUpdated = 'August 10, 2026';
+---
+
+<BaseLayout
+  title="Shipping Policy | Curated Threads Outdoors"
+  description="Shipping policy for Curated Threads Outdoors: free US shipping, 2 to 5 business days production, 3 to 8 business days transit, and how tracking works."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 text-center sm:py-20">
+    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Support</p>
+    <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Shipping Policy</h1>
+    <p class="mt-2 text-sm text-ink/60">Last updated {lastUpdated}</p>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 py-12 text-ink/85">
+    <p class="mb-8">
+      Every Curated Threads Outdoors order ships free within the United States. Orders are placed,
+      produced, and fulfilled through our Etsy shop under the terms below. Questions about a
+      specific order are best sent through
+      <a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">Etsy messaging</a>
+      so it stays with the order.
+    </p>
+
+    <div class="space-y-10">
+      <div>
+        <h2 class="font-display text-xl text-sepia">Free US shipping on every order</h2>
+        <p class="mt-2">
+          Shipping is free to the 50 US states, no minimum. There is no expedited shipping option
+          today, so please plan gift orders accordingly and check the estimated delivery date
+          shown at checkout on Etsy.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Production time</h2>
+        <p class="mt-2">
+          Every apparel item, mug, tumbler, and glass is made to order after you check out. Typical
+          production time is 2 to 5 business days. Larger orders and personalized items may take a
+          day or two longer, and we'll note it in the listing if that applies.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Transit time</h2>
+        <p class="mt-2">
+          After production, most orders arrive within 3 to 8 business days in the United States.
+          Delivery times can be longer during peak seasons (November through late December, and
+          around major holidays). Etsy shows a delivery estimate at checkout that is specific to
+          your zip code, and that estimate is the most accurate one to plan around.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Tracking</h2>
+        <p class="mt-2">
+          Every order includes tracking. As soon as your item ships, Etsy sends the tracking number
+          to the email on your Etsy account, and you can also find it in your Etsy order history
+          under
+          <em>You &rarr; Purchases and reviews</em>.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Multiple items in one order</h2>
+        <p class="mt-2">
+          Different products may be produced at different partner facilities. When that happens,
+          they can ship in separate packages and arrive on different days. Each package gets its
+          own tracking number, and every one still ships free.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Where we ship</h2>
+        <p class="mt-2">
+          Free shipping applies to all 50 US states, including Alaska and Hawaii. We do not
+          currently ship to international addresses, PO Boxes, or APO/FPO/DPO addresses. If that
+          changes, we'll update this page.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Lost, delayed, or damaged in transit</h2>
+        <p class="mt-2">
+          If your package tracking hasn't moved in 10+ business days after it shipped, or if it
+          arrives damaged, message us on
+          <a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">Etsy</a>
+          with your order number. We'll open a claim with the carrier and either reship or refund.
+          See our
+          <a href="/returns" class="text-forest underline">Returns and Exchanges</a>
+          page for the full defect and damage policy.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Address changes</h2>
+        <p class="mt-2">
+          If you need to change the shipping address on an order, message us as soon as possible.
+          We can usually update it while the order is still in production. Once an order ships, the
+          address can't be changed.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Questions</h2>
+        <p class="mt-2">
+          Anything not covered here, message us on
+          <a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">Etsy</a>
+          or email
+          <a href="mailto:curatedthreadsoutdoors@gmail.com" class="text-forest underline">curatedthreadsoutdoors@gmail.com</a>.
+          We respond within one business day.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

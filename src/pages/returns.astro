@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Returns and Exchanges', item: `${siteBase}/returns` },
+  ],
+};
+
+const lastUpdated = 'August 10, 2026';
+---
+
+<BaseLayout
+  title="Returns and Exchanges | Curated Threads Outdoors"
+  description="Return and exchange policy for orders placed through the Curated Threads Outdoors Etsy shop. 30-day window, free return shipping on defects, and how to request an exchange."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 text-center sm:py-20">
+    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Support</p>
+    <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Returns and Exchanges</h1>
+    <p class="mt-2 text-sm text-ink/60">Last updated {lastUpdated}</p>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-6 py-12 text-ink/85">
+    <p class="mb-8">
+      All orders are placed, produced, and fulfilled through our Etsy shop, so returns and
+      exchanges are handled by the Curated Threads LLC Etsy shop under the terms below. If anything
+      isn't clear, message us on
+      <a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">Etsy</a>
+      or email
+      <a href="mailto:curatedthreadsoutdoors@gmail.com" class="text-forest underline">curatedthreadsoutdoors@gmail.com</a>
+      and we'll make it right.
+    </p>
+
+    <div class="space-y-10">
+      <div>
+        <h2 class="font-display text-xl text-sepia">The 30-day window</h2>
+        <p class="mt-2">
+          You have 30 days from the delivery date to request a return, exchange, or refund. Contact
+          us within that window, and we'll walk you through the next step for your specific item.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Defective, damaged, or wrong item</h2>
+        <p class="mt-2">
+          If your order arrives damaged, defective, or different from what you ordered, we cover
+          it. Message us with your order number and a photo of the issue, and we'll replace the
+          item at no additional cost, or issue a full refund, your choice. Return shipping on
+          defects is on us.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Wrong size or changed your mind</h2>
+        <p class="mt-2">
+          Every apparel item is made to order after you place it, so we can't restock unopened
+          returns the way a retailer with warehouse inventory can. If you ordered the wrong size or
+          simply changed your mind, message us within 30 days of delivery. We'll do our best to
+          exchange for a different size at cost, or issue a store credit toward a future order.
+          Return shipping on non-defect returns is the buyer's responsibility.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Items that can't be returned</h2>
+        <p class="mt-2">Because every item is made to order, we cannot accept returns of:</p>
+        <ul class="mt-3 list-inside list-disc space-y-1">
+          <li>Items marked as personalized or customized</li>
+          <li>Items that have been washed, worn, or altered</li>
+          <li>Requests made more than 30 days after delivery</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">How to request a return or exchange</h2>
+        <ol class="mt-3 list-inside list-decimal space-y-1">
+          <li>
+            Open a message to us on
+            <a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">our Etsy shop</a>
+            (best, so it's tied to your order), or email
+            <a href="mailto:curatedthreadsoutdoors@gmail.com" class="text-forest underline">curatedthreadsoutdoors@gmail.com</a>.
+          </li>
+          <li>Include your order number, the item, and a short note on what you'd like (refund, exchange, replacement).</li>
+          <li>Add a photo if the item is damaged or incorrect, it speeds the process by a lot.</li>
+          <li>We reply within one business day with return instructions or the resolution.</li>
+        </ol>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Refund timing</h2>
+        <p class="mt-2">
+          Approved refunds go back to your original payment method through Etsy. Etsy typically
+          processes refunds within 3 to 5 business days after we approve the return. Your bank or
+          card issuer may take an additional few days to post the refund on your statement.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Where to send returns</h2>
+        <p class="mt-2">
+          Do not ship items back before contacting us. Return addresses vary by product because
+          different items ship from different fulfillment partners, and we need to route your
+          package to the right one. We'll send the correct return address in the message thread
+          once we've confirmed the return.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-display text-xl text-sepia">Questions</h2>
+        <p class="mt-2">
+          Anything not covered here, message us on
+          <a href="https://curatedthreadsllc.etsy.com/" target="_blank" rel="noopener" class="text-forest underline">Etsy</a>
+          or email
+          <a href="mailto:curatedthreadsoutdoors@gmail.com" class="text-forest underline">curatedthreadsoutdoors@gmail.com</a>.
+          We respond within one business day.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,208 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const siteBase = Astro.site!.origin;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBase}/` },
+    { '@type': 'ListItem', position: 2, name: 'Terms of Service', item: `${siteBase}/terms` },
+  ],
+};
+
+const lastUpdated = 'August 10, 2026';
+
+const sections = [
+  { id: 'acceptance', label: 'Acceptance of These Terms' },
+  { id: 'the-site', label: 'About This Site' },
+  { id: 'purchases', label: 'Purchases and Etsy' },
+  { id: 'accuracy', label: 'Product Information and Accuracy' },
+  { id: 'intellectual', label: 'Intellectual Property' },
+  { id: 'user-conduct', label: 'Acceptable Use' },
+  { id: 'third-party-links', label: 'Third-Party Links' },
+  { id: 'disclaimer', label: 'Disclaimer of Warranties' },
+  { id: 'liability', label: 'Limitation of Liability' },
+  { id: 'indemnification', label: 'Indemnification' },
+  { id: 'governing-law', label: 'Governing Law' },
+  { id: 'changes', label: 'Changes to These Terms' },
+  { id: 'contact', label: 'Contact' },
+];
+---
+
+<BaseLayout
+  title="Terms of Service | Curated Threads Outdoors"
+  description="Terms of service for the Curated Threads Outdoors website, including how it interacts with the Etsy shop that fulfills all orders."
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="border-b border-gold/30 bg-parchment px-6 py-16 text-center sm:py-20">
+    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Legal</p>
+    <h1 class="font-display mt-3 text-4xl text-sepia sm:text-5xl">Terms of Service</h1>
+    <p class="mt-2 text-sm text-ink/60">Last updated {lastUpdated}</p>
+  </section>
+
+  <section class="mx-auto max-w-4xl px-6 py-12 text-ink/85">
+    <p class="mb-8">
+      Curated Threads LLC ("Curated Threads Outdoors," "we," "us," or "our") operates
+      curatedthreadsoutdoors.com (the "Site"). These Terms of Service ("Terms") govern your use of
+      the Site. By accessing or using the Site, you agree to be bound by these Terms. If you do not
+      agree, please do not use the Site.
+    </p>
+
+    <nav aria-label="Table of contents" class="mb-10 rounded-sm border border-gold/40 bg-cream p-6">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">On this page</p>
+      <ol class="mt-3 grid gap-1 text-sm sm:grid-cols-2">
+        {
+          sections.map((s, i) => (
+            <li>
+              <a href={`#${s.id}`} class="text-forest underline-offset-2 hover:underline">
+                {i + 1}. {s.label}
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </nav>
+
+    <div class="space-y-10">
+      <div id="acceptance">
+        <h2 class="font-display text-xl text-sepia">1. Acceptance of These Terms</h2>
+        <p class="mt-2">
+          By using the Site, you represent that you are at least 18 years old, or accessing it
+          under the supervision of a parent or legal guardian, and that you have the authority to
+          agree to these Terms.
+        </p>
+      </div>
+
+      <div id="the-site">
+        <h2 class="font-display text-xl text-sepia">2. About This Site</h2>
+        <p class="mt-2">
+          The Site is an informational storefront for products designed by Curated Threads LLC. The
+          Site does not process orders, payments, or shipments directly. Every "Shop on Etsy" link
+          takes you to our shop on Etsy, where checkout, payment, and order fulfillment happen
+          under Etsy's own terms.
+        </p>
+      </div>
+
+      <div id="purchases">
+        <h2 class="font-display text-xl text-sepia">3. Purchases and Etsy</h2>
+        <p class="mt-2">
+          All purchases are governed by
+          <a href="https://www.etsy.com/legal/policy/terms-of-use/242960855924" target="_blank" rel="noopener" class="text-forest underline">Etsy's Terms of Use</a>
+          in addition to any product listing terms shown on the corresponding Etsy listing. Pricing,
+          availability, tax, and shipping shown on the Site are drawn from our Etsy listings and
+          may change without notice. The current price on the Etsy listing at the time of checkout
+          is authoritative.
+        </p>
+      </div>
+
+      <div id="accuracy">
+        <h2 class="font-display text-xl text-sepia">4. Product Information and Accuracy</h2>
+        <p class="mt-2">
+          We aim to keep product descriptions, images, prices, and availability on the Site
+          accurate and up to date. Colors displayed on your screen may differ slightly from the
+          finished product due to display and lighting differences. If a listing on the Site does
+          not match the corresponding Etsy listing, the Etsy listing governs.
+        </p>
+      </div>
+
+      <div id="intellectual">
+        <h2 class="font-display text-xl text-sepia">5. Intellectual Property</h2>
+        <p class="mt-2">
+          All content on the Site, including designs, illustrations, photographs, text, logos, and
+          the Curated Threads Outdoors brand, is owned by Curated Threads LLC or its licensors and
+          is protected by copyright, trademark, and other intellectual property laws. You may not
+          reproduce, distribute, sell, or create derivative works from any Site content without our
+          prior written permission, except that you may share links to individual Site pages for
+          personal, non-commercial use.
+        </p>
+      </div>
+
+      <div id="user-conduct">
+        <h2 class="font-display text-xl text-sepia">6. Acceptable Use</h2>
+        <p class="mt-2">You agree not to:</p>
+        <ul class="mt-3 list-inside list-disc space-y-1">
+          <li>Use the Site in a way that violates any law or regulation</li>
+          <li>Attempt to gain unauthorized access to the Site, our systems, or other users' data</li>
+          <li>Scrape, harvest, or copy Site content for republication or resale</li>
+          <li>Interfere with the operation of the Site, including uploading malware or overloading it with traffic</li>
+          <li>Misrepresent your identity or affiliation with us</li>
+        </ul>
+      </div>
+
+      <div id="third-party-links">
+        <h2 class="font-display text-xl text-sepia">7. Third-Party Links</h2>
+        <p class="mt-2">
+          The Site links to Etsy, Instagram, TikTok, Pinterest, Facebook, and other third-party
+          services. We are not responsible for the content, policies, or practices of those
+          third-party sites. Your use of them is governed by their own terms.
+        </p>
+      </div>
+
+      <div id="disclaimer">
+        <h2 class="font-display text-xl text-sepia">8. Disclaimer of Warranties</h2>
+        <p class="mt-2">
+          The Site is provided on an "as is" and "as available" basis, without warranties of any
+          kind, express or implied, including without limitation implied warranties of
+          merchantability, fitness for a particular purpose, and non-infringement. We do not
+          warrant that the Site will be uninterrupted, error-free, or free of viruses or other
+          harmful components.
+        </p>
+      </div>
+
+      <div id="liability">
+        <h2 class="font-display text-xl text-sepia">9. Limitation of Liability</h2>
+        <p class="mt-2">
+          To the maximum extent permitted by law, Curated Threads LLC, its owners, and its
+          affiliates are not liable for any indirect, incidental, special, consequential, or
+          punitive damages arising out of or related to your use of the Site, even if we have been
+          advised of the possibility of such damages. Our total aggregate liability arising out of
+          or related to these Terms or your use of the Site will not exceed one hundred US dollars
+          ($100).
+        </p>
+      </div>
+
+      <div id="indemnification">
+        <h2 class="font-display text-xl text-sepia">10. Indemnification</h2>
+        <p class="mt-2">
+          You agree to indemnify and hold harmless Curated Threads LLC, its owners, and its
+          affiliates from and against any claims, liabilities, damages, losses, and expenses
+          (including reasonable legal fees) arising out of or related to your violation of these
+          Terms or your misuse of the Site.
+        </p>
+      </div>
+
+      <div id="governing-law">
+        <h2 class="font-display text-xl text-sepia">11. Governing Law</h2>
+        <p class="mt-2">
+          These Terms are governed by the laws of the United States and the state in which Curated
+          Threads LLC is organized, without regard to its conflict of laws rules. Any dispute
+          arising under these Terms will be resolved in the state or federal courts located in
+          that state.
+        </p>
+      </div>
+
+      <div id="changes">
+        <h2 class="font-display text-xl text-sepia">12. Changes to These Terms</h2>
+        <p class="mt-2">
+          We may update these Terms from time to time. Material changes will be posted on this page
+          with an updated "Last updated" date. Continued use of the Site after changes are posted
+          constitutes acceptance of the revised Terms.
+        </p>
+      </div>
+
+      <div id="contact">
+        <h2 class="font-display text-xl text-sepia">13. Contact</h2>
+        <p class="mt-2">
+          Questions about these Terms can be sent to
+          <a href="mailto:curatedthreadsoutdoors@gmail.com" class="text-forest underline">curatedthreadsoutdoors@gmail.com</a>
+          or through our
+          <a href="/contact" class="text-forest underline">Contact</a>
+          page.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
