@@ -3,7 +3,8 @@ title: "Trophy Bass Fishing Mug, Hook Line and Sinker Lake Sunset Coffee Cup, Ba
 category: fishing
 product_type: "mug-11oz"
 list_price: 18.99
-free_shipping: true
+etsy_listing_url: "https://www.etsy.com/listing/4552483607/trophy-bass-fishing-mug-hook-line-and"
+etsy_listing_id: "4552483607"
 short_description: "Golden hour on the water, the last cast before the sun drops, and the still lake giving up one more fish. Free shipping from our Etsy shop."
 product_features:
   - "Glossy white ceramic with comfortable C-handle"

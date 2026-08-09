@@ -3,7 +3,8 @@ title: "Rise Early Hunt Hard Hoodie, Vintage Pheasant Hunting Sweatshirt, Upland
 category: hunting
 product_type: "hoodie"
 list_price: 39.99
-free_shipping: true
+etsy_listing_url: "https://www.etsy.com/listing/4552706633/rise-early-hunt-hard-hoodie-vintage"
+etsy_listing_id: "4552706633"
 short_description: "Rise early. Free shipping from our Etsy shop."
 product_features:
   - "50/50 cotton-poly midweight fleece (8.0 oz/yd²), cozy warmth with a soft hand"
