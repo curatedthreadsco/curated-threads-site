@@ -1,5 +1,5 @@
 ---
-title: Whitetail Hunt Life Skull Tumbler
+title: "Whitetail Hunt Life Skull Tumbler, Insulated Stainless Steel Hunting Mug, 22oz Travel Cup"
 category: hunting
 product_type: "tumbler-22oz"
 list_price: 34.99

@@ -1,5 +1,5 @@
 ---
-title: "Whitetail Deer Hunter Mug, Deer Hunter Coffee Cup"
+title: "Whitetail Deer Hunter Mug, Deer Hunter Coffee Cup, Whitetail Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

@@ -1,5 +1,5 @@
 ---
-title: Whitetail American Flag One Nation Under God Shirt
+title: "Whitetail American Flag One Nation Under God Shirt, Deer Skull American Flag Tee, Patriotic Hunting Gift"
 category: patriotic
 product_type: tee
 list_price: 27.99

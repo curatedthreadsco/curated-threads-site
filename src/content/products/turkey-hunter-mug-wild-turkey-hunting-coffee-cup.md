@@ -1,5 +1,5 @@
 ---
-title: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup"
+title: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup, Gobbler Hunter Gift for Dad Mom, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

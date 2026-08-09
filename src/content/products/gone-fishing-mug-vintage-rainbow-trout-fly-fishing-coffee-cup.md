@@ -1,5 +1,5 @@
 ---
-title: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup"
+title: "Gone Fishing Mug, Vintage Rainbow Trout Fly Fishing Coffee Cup, Fisherman Gift for Dad Mom, Fishing Birthday Christmas Gift Idea"
 category: fishing
 product_type: "mug-11oz"
 list_price: 18.99

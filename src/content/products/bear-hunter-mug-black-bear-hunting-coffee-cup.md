@@ -1,5 +1,5 @@
 ---
-title: "Bear Hunter Mug, Black Bear Hunting Coffee Cup"
+title: "Bear Hunter Mug, Black Bear Hunting Coffee Cup, Hound Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

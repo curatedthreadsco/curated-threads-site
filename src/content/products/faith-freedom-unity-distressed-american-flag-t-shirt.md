@@ -1,5 +1,5 @@
 ---
-title: "Faith Freedom Unity Distressed American Flag T-Shirt"
+title: "Faith Freedom Unity Distressed American Flag T-Shirt, Patriotic USA Pride Tee"
 category: patriotic
 product_type: tee
 list_price: 27.99

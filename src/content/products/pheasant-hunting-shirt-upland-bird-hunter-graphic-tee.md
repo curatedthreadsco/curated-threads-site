@@ -1,5 +1,5 @@
 ---
-title: "Pheasant Hunting Shirt, Upland Bird Hunter Graphic Tee"
+title: "Pheasant Hunting Shirt, Upland Bird Hunter Graphic Tee, Pointer Dog Hunting Gift for Dad Mom, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: tee
 list_price: 27.99

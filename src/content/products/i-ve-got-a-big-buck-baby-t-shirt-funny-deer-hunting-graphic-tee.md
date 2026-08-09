@@ -1,5 +1,5 @@
 ---
-title: "I've Got A Big Buck Baby T-Shirt, Funny Deer Hunting Graphic Tee"
+title: "I've Got A Big Buck Baby T-Shirt, Funny Deer Hunting Graphic Tee, 100% Cotton"
 category: hunting
 product_type: tee
 list_price: 27.99

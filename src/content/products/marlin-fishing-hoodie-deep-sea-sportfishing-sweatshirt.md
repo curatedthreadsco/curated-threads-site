@@ -1,5 +1,5 @@
 ---
-title: "Marlin Fishing Hoodie, Deep Sea Sportfishing Sweatshirt"
+title: "Marlin Fishing Hoodie, Deep Sea Sportfishing Sweatshirt, Saltwater Fisherman Gift for Dad Mom, Fishing Birthday Christmas Gift"
 category: fishing
 product_type: hoodie
 list_price: 39.99

@@ -1,5 +1,5 @@
 ---
-title: "Whitetail Deer Hunter Graphic Tee, Wildlife Buck Hunting Apparel"
+title: "Whitetail Deer Hunter Shirt, Buck Hunting Graphic Tee, Gift for Deer Hunter Men or Women"
 category: hunting
 product_type: tee
 list_price: 27.99

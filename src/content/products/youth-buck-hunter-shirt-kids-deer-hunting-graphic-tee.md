@@ -1,8 +1,8 @@
 ---
-title: "Youth Buck Hunter Shirt, Kids Deer Hunting Graphic Tee"
+title: "Youth Buck Hunter Shirt, Kids Deer Hunting Graphic Tee, Whitetail Hunter Gift for Son Grandson Nephew, Kids Birthday Christmas Gift"
 category: hunting
 product_type: tee
-list_price: 18.99
+list_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548819272/youth-buck-hunter-shirt-kids-deer"
 etsy_listing_id: "4548819272"

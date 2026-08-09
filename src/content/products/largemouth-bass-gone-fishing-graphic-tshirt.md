@@ -1,5 +1,5 @@
 ---
-title: Largemouth Bass Gone Fishing Graphic TShirt
+title: "Largemouth Bass Gone Fishing Graphic TShirt, Vintage Angler T-Shirt for Men Women"
 category: fishing
 product_type: tee
 list_price: 27.99

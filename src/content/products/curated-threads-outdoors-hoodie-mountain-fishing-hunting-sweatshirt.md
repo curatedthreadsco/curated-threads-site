@@ -1,5 +1,5 @@
 ---
-title: "Curated Threads Outdoors Hoodie, Mountain Fishing Hunting Sweatshirt"
+title: "Curated Threads Outdoors Hoodie, Mountain Fishing Hunting Sweatshirt, Adventure Gift"
 category: hunting
 extra_categories:
   - fishing

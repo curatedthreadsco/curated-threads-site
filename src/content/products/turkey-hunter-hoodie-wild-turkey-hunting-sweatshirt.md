@@ -1,5 +1,5 @@
 ---
-title: "Turkey Hunter Hoodie, Wild Turkey Hunting Sweatshirt"
+title: "Turkey Hunter Hoodie, Wild Turkey Hunting Sweatshirt, Gobbler Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
 list_price: 39.99

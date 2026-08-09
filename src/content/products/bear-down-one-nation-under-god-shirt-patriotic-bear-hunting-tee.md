@@ -1,5 +1,5 @@
 ---
-title: "Bear Down One Nation Under God Shirt, Patriotic Bear Hunting Tee"
+title: "Bear Down One Nation Under God Shirt, Patriotic Bear Hunting Tee, Hunter Gift Men and Women"
 category: patriotic
 product_type: tee
 list_price: 27.99

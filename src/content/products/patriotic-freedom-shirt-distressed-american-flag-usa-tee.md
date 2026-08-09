@@ -1,5 +1,5 @@
 ---
-title: "Patriotic Freedom Shirt, Distressed American Flag USA Tee"
+title: "Patriotic Freedom Shirt, Distressed American Flag USA Tee, United We Stand Graphic"
 category: patriotic
 product_type: tee
 list_price: 27.99

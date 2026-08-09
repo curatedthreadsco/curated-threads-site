@@ -1,5 +1,5 @@
 ---
-title: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee"
+title: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee, Hound Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: tee
 list_price: 27.99

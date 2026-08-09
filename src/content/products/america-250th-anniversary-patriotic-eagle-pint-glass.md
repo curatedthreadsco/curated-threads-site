@@ -1,5 +1,5 @@
 ---
-title: America 250th Anniversary Patriotic Eagle Pint Glass
+title: "America 250th Anniversary Patriotic Eagle Pint Glass, God Bless America Barware"
 category: patriotic
 product_type: "pint-glass"
 list_price: 26.99

@@ -1,5 +1,5 @@
 ---
-title: "Elk Hunting Shirt, Big Game Hunter Graphic Tee"
+title: "Elk Hunting Shirt, Big Game Hunter Graphic Tee, Western Rifle Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: tee
 list_price: 27.99

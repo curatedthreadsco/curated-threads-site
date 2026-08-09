@@ -1,5 +1,5 @@
 ---
-title: "Hook, Line, & Sinker Marlin Fishing Mug"
+title: "Hook, Line, & Sinker Marlin Fishing Mug, Deep Sea Sportfishing Coffee Cup, Saltwater Fisherman Gift for Dad Mom, Fishing Mug"
 category: fishing
 product_type: "mug-11oz"
 list_price: 18.99

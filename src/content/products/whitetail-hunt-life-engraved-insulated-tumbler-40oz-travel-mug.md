@@ -1,5 +1,5 @@
 ---
-title: "Whitetail Hunt Life Engraved Insulated Tumbler, 40oz Travel Mug"
+title: "Whitetail Hunt Life Engraved Insulated Tumbler, 40oz Travel Mug, Recycled Stainless Steel, Outdoor Adventure"
 category: hunting
 product_type: "tumbler-40oz"
 list_price: 36.99

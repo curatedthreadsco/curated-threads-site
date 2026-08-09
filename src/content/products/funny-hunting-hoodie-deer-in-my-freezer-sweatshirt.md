@@ -1,5 +1,5 @@
 ---
-title: "Funny Hunting Hoodie, Deer In My Freezer Sweatshirt"
+title: "Funny Hunting Hoodie, Deer In My Freezer Sweatshirt, Whitetail Buck Hunter Gift for Dad Mom, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
 list_price: 39.99

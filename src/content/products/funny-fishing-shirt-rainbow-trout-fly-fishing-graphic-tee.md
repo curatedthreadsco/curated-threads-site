@@ -1,5 +1,5 @@
 ---
-title: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee"
+title: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee, Fisherman Gift for Dad Mom Grandpa, Fishing Birthday Christmas Gift Idea"
 category: fishing
 product_type: tee
 list_price: 27.99

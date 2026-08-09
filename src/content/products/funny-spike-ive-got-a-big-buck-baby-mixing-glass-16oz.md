@@ -1,5 +1,5 @@
 ---
-title: "Funny Spike - Ive Got a Big Buck Baby Mixing Glass, 16oz"
+title: "Funny Spike - Ive Got a Big Buck Baby Mixing Glass, 16oz, Deer Hunting Barware"
 category: hunting
 product_type: "mixing-glass"
 list_price: 24.99

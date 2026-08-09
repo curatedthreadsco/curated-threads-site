@@ -1,5 +1,5 @@
 ---
-title: "Whitetail Hunter Shirt, Whitetail Deer Hunting Graphic Tee"
+title: "Whitetail Hunter Shirt, Whitetail Deer Hunting Graphic Tee, Rifle Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: tee
 list_price: 27.99

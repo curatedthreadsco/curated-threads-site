@@ -1,5 +1,5 @@
 ---
-title: "Pheasant Hunting Hoodie, Upland Bird Hunter Sweatshirt"
+title: "Pheasant Hunting Hoodie, Upland Bird Hunter Sweatshirt, Pointer Dog Hunter Gift for Dad Mom, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
 list_price: 39.99

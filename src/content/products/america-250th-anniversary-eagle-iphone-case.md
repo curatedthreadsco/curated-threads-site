@@ -1,5 +1,5 @@
 ---
-title: America 250th Anniversary Eagle iPhone Case
+title: "America 250th Anniversary Eagle iPhone Case, Patriotic God Bless America Phone Cover"
 category: patriotic
 product_type: "phone-case"
 list_price: 24.99

@@ -1,5 +1,5 @@
 ---
-title: "Funny Fishing Mug for Men, Rainbow Trout Fly Fishing Coffee Cup"
+title: "Funny Fishing Mug for Men, Rainbow Trout Fly Fishing Coffee Cup, Fisherman Gift"
 category: fishing
 product_type: "mug-11oz"
 list_price: 18.99

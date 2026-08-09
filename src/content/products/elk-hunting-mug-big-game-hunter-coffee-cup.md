@@ -1,5 +1,5 @@
 ---
-title: "Elk Hunting Mug, Big Game Hunter Coffee Cup"
+title: "Elk Hunting Mug, Big Game Hunter Coffee Cup, Western Rifle Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

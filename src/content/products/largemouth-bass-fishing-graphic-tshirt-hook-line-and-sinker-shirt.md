@@ -1,5 +1,5 @@
 ---
-title: "Largemouth Bass Fishing Graphic TShirt, Hook Line and Sinker Shirt"
+title: "Largemouth Bass Fishing Graphic TShirt, Hook Line and Sinker Shirt, Fishing Gift for Men Women"
 category: fishing
 product_type: tee
 list_price: 27.99

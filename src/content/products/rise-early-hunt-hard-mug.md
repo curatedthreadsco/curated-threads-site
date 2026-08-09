@@ -1,5 +1,5 @@
 ---
-title: Rise Early Hunt Hard Mug
+title: "Rise Early Hunt Hard Mug, Vintage Chase the Flush Pheasant Hunting Coffee Cup, Upland Bird Hunter Gift, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

@@ -1,5 +1,5 @@
 ---
-title: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift"
+title: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift, Rise Early Hunt Hard Tee, Bird Dog GSP Shirt, Fathers Day Gift for Hunter"
 category: hunting
 product_type: tee
 list_price: 27.99

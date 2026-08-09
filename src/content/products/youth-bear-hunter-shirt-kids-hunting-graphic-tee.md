@@ -1,8 +1,8 @@
 ---
-title: "Youth Bear Hunter Shirt, Kids Hunting Graphic Tee"
+title: "Youth Bear Hunter Shirt, Kids Hunting Graphic Tee, Bear Hunting Gift for Son Grandson Nephew, Kids Birthday Christmas Gift Idea"
 category: hunting
 product_type: tee
-list_price: 18.99
+list_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548017214/youth-bear-hunter-shirt-kids-hunting"
 etsy_listing_id: "4548017214"

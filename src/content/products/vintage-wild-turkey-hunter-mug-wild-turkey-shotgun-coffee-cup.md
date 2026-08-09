@@ -1,5 +1,5 @@
 ---
-title: "Vintage Wild Turkey Hunter Mug, Wild Turkey Shotgun Coffee Cup"
+title: "Vintage Wild Turkey Hunter Mug, Wild Turkey Shotgun Coffee Cup, Gobbler Hunting Gift for Dad Mom, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

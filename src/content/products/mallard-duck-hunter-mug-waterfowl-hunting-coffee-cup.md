@@ -1,5 +1,5 @@
 ---
-title: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup"
+title: "Mallard Duck Hunter Mug, Waterfowl Hunting Coffee Cup, Duck Hunter Gift for Dad Mom, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

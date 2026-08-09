@@ -1,5 +1,5 @@
 ---
-title: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware"
+title: "Patriotic American Eagle 250th Shot Glass, 4th of July Barware, USA Pride Drinkware Him"
 category: patriotic
 product_type: "shot-glass"
 list_price: 19.99

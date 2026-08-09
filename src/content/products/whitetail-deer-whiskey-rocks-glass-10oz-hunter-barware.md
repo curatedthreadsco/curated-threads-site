@@ -1,5 +1,5 @@
 ---
-title: "Whitetail Deer Whiskey Rocks Glass, 10oz Hunter Barware"
+title: "Whitetail Deer Whiskey Rocks Glass, 10oz Hunter Barware, Rustic Cabin Drinkware Gift"
 category: hunting
 product_type: "whiskey-glass"
 list_price: 24.99

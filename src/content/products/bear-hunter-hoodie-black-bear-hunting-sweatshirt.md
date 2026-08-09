@@ -1,5 +1,5 @@
 ---
-title: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt"
+title: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt, Hound Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: hoodie
 list_price: 39.99

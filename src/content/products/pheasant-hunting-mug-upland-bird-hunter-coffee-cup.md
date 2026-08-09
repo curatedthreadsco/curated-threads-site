@@ -1,5 +1,5 @@
 ---
-title: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup"
+title: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup, Pointer Dog Hunting Gift for Dad Mom, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: "mug-11oz"
 list_price: 18.99

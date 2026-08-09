@@ -1,5 +1,5 @@
 ---
-title: "Whitetail Hunt Life Tumbler, Insulated Stainless Steel Travel Mug"
+title: "Whitetail Hunt Life Tumbler, Insulated Stainless Steel Travel Mug, Outdoor Camping Cup, 22oz Capacity"
 category: hunting
 product_type: "tumbler-22oz"
 list_price: 29.99

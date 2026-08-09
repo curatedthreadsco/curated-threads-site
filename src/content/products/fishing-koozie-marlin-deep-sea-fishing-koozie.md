@@ -1,5 +1,5 @@
 ---
-title: "Fishing koozie, Marlin Deep Sea Fishing Koozie"
+title: "Fishing koozie, Marlin Deep Sea Fishing Koozie, Fisherman Gift for Dad Mom Grandpa, Fishing Birthday Christmas Gift Idea, Can Cooler"
 category: fishing
 product_type: "can-cooler"
 list_price: 15.99
