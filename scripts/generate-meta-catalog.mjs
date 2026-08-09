@@ -167,8 +167,14 @@ for (const file of files) {
   const price = `${data.list_price.toFixed(2)} USD`;
   const salePrice = data.sale_price ? `${data.sale_price.toFixed(2)} USD` : '';
 
+  // id must be the site slug (not the Etsy listing ID) so:
+  //   1. Meta's Checkout URL template can resolve
+  //      https://curatedthreadsoutdoors.com/products/{{product.retailer_id}}
+  //      to a live page (product URLs are keyed by slug, not by Etsy ID).
+  //   2. The Meta Pixel already emits content_ids: [slug], so aligning
+  //      catalog.id with pixel content_ids restores dedup + DPA attribution.
   rows.push({
-    id: data.etsy_listing_id,
+    id: slug,
     title: clampTitle(data.title),
     description: clampDescription(data.short_description),
     availability: 'in stock',
