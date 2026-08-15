@@ -38,11 +38,13 @@ const isActive = (href: string) =>
     <Image
       src={banner}
       alt="Curated Threads Outdoors"
-      widths={[480, 720, 900, 1200, 1600, 2000]}
+      widths={[480, 720, 900, 1200, 1600]}
       sizes="(min-width: 1152px) 1152px, 100vw"
-      quality={92}
+      quality={82}
+      format="webp"
       class="block h-auto w-full"
       loading="eager"
+      fetchpriority="high"
     />
   </a>
 </div>

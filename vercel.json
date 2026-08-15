@@ -3,6 +3,26 @@
   "rewrites": [
     { "source": "/sitemap.xml", "destination": "/sitemap-index.xml" }
   ],
+  "headers": [
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(png|jpg|jpeg|webp|avif|svg|ico|woff2)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, must-revalidate" }
+      ]
+    }
+  ],
   "redirects": [
     { "source": "/outdoor", "destination": "/hunting", "statusCode": 308 },
     { "source": "/outdoor/", "destination": "/hunting/", "statusCode": 308 },
