@@ -1,0 +1,222 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { etsyLink, etsyImage, etsyImageSrcSet, shopWithUtm } from '../lib/etsy';
+
+// Landing page for Meta Shops off-site checkout. Meta hands off carts as
+// `?products=slug1:qty,slug2:qty` on this URL. We can't pre-populate an Etsy
+// cart from outside, so we list what the shopper picked and give a clear
+// "Open on Etsy" button per item. Configure this URL in Commerce Manager as:
+//   https://curatedthreadsoutdoors.com/checkout
+// (no template placeholder — Meta appends ?products= itself).
+const allProducts = await getCollection('products');
+
+const manifest: Record<
+  string,
+  { title: string; price: number; salePrice?: number; image: string; etsy: string }
+> = {};
+for (const p of allProducts) {
+  const cover = p.data.images[0];
+  if (!cover) continue;
+  manifest[p.id] = {
+    title: p.data.title,
+    price: p.data.list_price,
+    salePrice: p.data.sale_price,
+    image: etsyImage(cover.src, 'il_570xN'),
+    etsy: etsyLink({
+      listingUrl: p.data.etsy_listing_url,
+      campaign: 'meta_checkout',
+      productSlug: p.id,
+    }),
+  };
+}
+
+const shopUrl = shopWithUtm('home');
+---
+
+<BaseLayout
+  title="Your Selection | Curated Threads Outdoors"
+  description="The items you picked, ready to open and buy on our Etsy shop."
+>
+  <meta name="robots" content="noindex, follow" slot="head" />
+
+  <section class="mx-auto max-w-4xl px-6 py-10 sm:py-14">
+    <div class="text-center">
+      <p class="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Your selection</p>
+      <h1 class="font-display mt-2 text-3xl text-sepia sm:text-4xl">Ready to check out</h1>
+      <p class="mx-auto mt-4 max-w-2xl text-ink/70">
+        Every order is fulfilled by our Etsy shop. Open each item below to add it to your
+        Etsy cart, then complete your order there. Free shipping applies at checkout.
+      </p>
+    </div>
+
+    <div id="checkout-items" class="mt-10 space-y-4"></div>
+
+    <div id="checkout-empty" class="mt-10 hidden rounded-sm border border-gold/40 bg-cream p-8 text-center">
+      <p class="text-lg text-sepia">We couldn't find those items.</p>
+      <p class="mt-2 text-ink/70">Head to the shop to keep browsing.</p>
+      <a
+        href={shopUrl}
+        target="_blank"
+        rel="noopener"
+        class="mt-6 inline-flex items-center justify-center rounded-sm bg-forest px-6 py-3 text-sm font-bold uppercase tracking-wider text-cream shadow-md transition hover:bg-forest-dark"
+      >
+        Browse the Etsy Shop
+      </a>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a
+        href={shopUrl}
+        target="_blank"
+        rel="noopener"
+        class="inline-block text-sm font-semibold uppercase tracking-widest text-forest hover:text-blaze"
+      >
+        Or browse the full Etsy shop &rarr;
+      </a>
+    </div>
+  </section>
+
+  <script type="application/json" id="checkout-manifest" set:html={JSON.stringify(manifest)} />
+
+  <script is:inline>
+    (function () {
+      const manifest = JSON.parse(document.getElementById('checkout-manifest').textContent || '{}');
+      const params = new URLSearchParams(window.location.search);
+      const raw = params.get('products') || '';
+
+      const items = raw
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+        .map((entry) => {
+          const [slug, qtyRaw] = entry.split(':');
+          const qty = Math.max(1, parseInt(qtyRaw || '1', 10) || 1);
+          const product = manifest[slug];
+          return product ? { slug, qty, ...product } : null;
+        })
+        .filter(Boolean);
+
+      const list = document.getElementById('checkout-items');
+      const empty = document.getElementById('checkout-empty');
+      if (items.length === 0) {
+        empty.classList.remove('hidden');
+        return;
+      }
+
+      const currency = (n) => '$' + Number(n).toFixed(2);
+
+      list.innerHTML = items
+        .map(
+          (i) => `
+          <div class="flex gap-4 rounded-sm border border-gold/40 bg-cream p-4 shadow-sm sm:gap-6 sm:p-5">
+            <div class="aspect-square w-24 shrink-0 overflow-hidden rounded-sm border border-gold/30 bg-parchment sm:w-32">
+              <img src="${i.image}" alt="" width="570" height="570" loading="eager" decoding="async" class="h-full w-full object-cover" />
+            </div>
+            <div class="flex flex-1 flex-col">
+              <h2 class="font-display text-base leading-tight text-sepia sm:text-lg">${i.title}</h2>
+              <div class="mt-1 flex flex-wrap items-baseline gap-2 text-sm text-ink/70">
+                <span class="font-display text-forest text-base">${currency(i.salePrice ?? i.price)}</span>
+                ${i.salePrice ? `<span class="text-ink/40 line-through">${currency(i.price)}</span>` : ''}
+                <span class="text-xs uppercase tracking-wider text-ink/50">Qty ${i.qty}</span>
+              </div>
+              <a
+                href="${i.etsy}"
+                target="_blank"
+                rel="noopener"
+                data-checkout-open
+                data-slug="${i.slug}"
+                data-name="${i.title.replace(/"/g, '&quot;')}"
+                data-value="${(i.salePrice ?? i.price).toFixed(2)}"
+                class="mt-auto inline-flex w-full items-center justify-center rounded-sm bg-forest px-5 py-2.5 text-sm font-bold uppercase tracking-wider text-cream shadow-sm transition hover:bg-forest-dark sm:w-auto sm:self-start"
+              >
+                Open on Etsy
+              </a>
+            </div>
+          </div>`,
+        )
+        .join('');
+
+      // Pixel events: fire InitiateCheckout once on landing, and AddToCart per
+      // "Open on Etsy" click. Mirrors the product page pixel pattern.
+      const contentIds = items.map((i) => i.slug);
+      const contents = items.map((i) => ({
+        id: i.slug,
+        quantity: i.qty,
+        item_price: (i.salePrice ?? i.price).toFixed(2),
+      }));
+      const totalValue = items
+        .reduce((sum, i) => sum + (i.salePrice ?? i.price) * i.qty, 0)
+        .toFixed(2);
+
+      if (typeof window.fbq === 'function') {
+        window.fbq('track', 'InitiateCheckout', {
+          content_ids: contentIds,
+          content_type: 'product',
+          num_items: items.reduce((s, i) => s + i.qty, 0),
+          value: totalValue,
+          currency: 'USD',
+          contents,
+        });
+      }
+      if (typeof window.pintrk === 'function') {
+        window.pintrk('track', 'checkout', {
+          event_id: crypto.randomUUID(),
+          value: totalValue,
+          currency: 'USD',
+          line_items: items.map((i) => ({
+            product_name: i.title,
+            product_id: i.slug,
+            product_quantity: i.qty,
+            product_price: (i.salePrice ?? i.price).toFixed(2),
+          })),
+        });
+      }
+      if (typeof window.ttq !== 'undefined') {
+        window.ttq.track('InitiateCheckout', {
+          contents: items.map((i) => ({
+            content_id: i.slug,
+            content_type: 'product',
+            content_name: i.title,
+            quantity: i.qty,
+            price: (i.salePrice ?? i.price).toFixed(2),
+          })),
+          value: totalValue,
+          currency: 'USD',
+        });
+      }
+
+      document.querySelectorAll('[data-checkout-open]').forEach((el) => {
+        el.addEventListener('click', () => {
+          const slug = el.getAttribute('data-slug');
+          const name = el.getAttribute('data-name');
+          const value = el.getAttribute('data-value');
+          if (typeof window.fbq === 'function') {
+            window.fbq('track', 'AddToCart', {
+              content_ids: [slug],
+              content_type: 'product',
+              content_name: name,
+              value,
+              currency: 'USD',
+            });
+          }
+          if (typeof window.pintrk === 'function') {
+            window.pintrk('track', 'AddToCart', {
+              event_id: crypto.randomUUID(),
+              value,
+              currency: 'USD',
+              line_items: [{ product_name: name, product_id: slug }],
+            });
+          }
+          if (typeof window.ttq !== 'undefined') {
+            window.ttq.track('AddToCart', {
+              contents: [{ content_id: slug, content_type: 'product', content_name: name }],
+              value,
+              currency: 'USD',
+            });
+          }
+        });
+      });
+    })();
+  </script>
+</BaseLayout>

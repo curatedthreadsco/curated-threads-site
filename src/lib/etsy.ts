@@ -5,7 +5,8 @@ export type UtmCampaign =
   | 'category_patriotic'
   | 'product_page'
   | 'gift_guide'
-  | 'footer';
+  | 'footer'
+  | 'meta_checkout';
 
 const SHOP_URL = 'https://curatedthreadsllc.etsy.com/';
 
