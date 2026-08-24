@@ -36,6 +36,7 @@ const GOOGLE_CATEGORY = {
   'car-magnet':
     'Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Exterior Accessories',
   'phone-case': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Cases',
+  'wall-canvas': 'Home & Garden > Decor > Artwork > Posters, Prints, & Visual Artwork',
 };
 
 // Meta's own taxonomy string (fb_product_category) — coarser than Google's.
@@ -54,6 +55,7 @@ const FB_CATEGORY = {
   'mixing-glass': 'Home & Garden > Kitchen & Dining',
   'car-magnet': 'Vehicles & Parts',
   'phone-case': 'Electronics',
+  'wall-canvas': 'Home & Garden',
 };
 
 const APPAREL_TYPES = new Set(['tee', 'tank-top', 'hoodie']);
@@ -73,6 +75,7 @@ const MATERIAL_BY_TYPE = {
   'mixing-glass': 'glass',
   'car-magnet': 'magnet',
   'phone-case': 'plastic',
+  'wall-canvas': 'canvas',
 };
 
 // Etsy CDN URLs carry a size segment. Meta caches images at fetch time, so we
