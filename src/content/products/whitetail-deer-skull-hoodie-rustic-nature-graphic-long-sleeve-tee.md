@@ -2,7 +2,7 @@
 title: "Whitetail Deer Skull Hoodie, Rustic Nature Graphic Long Sleeve Tee"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 sale_price: 29.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389237056/rustic-whitetail-deer-skull-hoodie"

@@ -2,7 +2,7 @@
 title: "Youth Buck Hunter Hoodie, Kids Deer Hunting Sweatshirt, Whitetail Hunter Gift for Son Grandson Nephew, Kids Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
-list_price: 31.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4552282900/youth-buck-hunter-hoodie-kids-deer"
 etsy_listing_id: "4552282900"

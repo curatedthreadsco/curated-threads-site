@@ -2,7 +2,7 @@
 title: "Whitetail Hunter Hoodie, Deer Buck Hunting Sweatshirt, Rifle Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548032023/whitetail-hunter-hoodie-deer-buck"
 etsy_listing_id: "4548032023"

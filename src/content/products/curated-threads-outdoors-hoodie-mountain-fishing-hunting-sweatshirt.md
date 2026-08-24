@@ -4,7 +4,7 @@ category: hunting
 extra_categories:
   - fishing
 product_type: hoodie
-list_price: 44.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548701603/curated-threads-outdoors-hoodie-mountain"
 etsy_listing_id: "4548701603"

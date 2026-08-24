@@ -2,7 +2,7 @@
 title: "Bass Fishing Hoodie, Hook Line and Sinker Lake Sunset Sweatshirt, Trophy Bass Fisherman Gift for Dad Mom, Fishing Birthday Christmas Gift"
 category: fishing
 product_type: "hoodie"
-list_price: 39.99
+list_price: 49.99
 etsy_listing_url: "https://www.etsy.com/listing/4552487234/bass-fishing-hoodie-hook-line-and-sinker"
 etsy_listing_id: "4552487234"
 short_description: "Evenings on the water, the last cast before the sun drops, and the one that finally didn't get away. Free shipping from our Etsy shop."

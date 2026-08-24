@@ -2,7 +2,7 @@
 title: "Bear Hunter Hoodie, Black Bear Hunting Sweatshirt, Hound Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift Idea"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548034576/bear-hunter-hoodie-black-bear-hunting"
 etsy_listing_id: "4548034576"

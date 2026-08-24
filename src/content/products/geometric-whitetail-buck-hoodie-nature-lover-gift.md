@@ -2,7 +2,7 @@
 title: "Geometric Whitetail Buck Hoodie, Minimalist Whitetail Deer Sweatshirt, Nature Lover Gift for Dad, Cabin Birthday Christmas Gift Idea"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4561464328/geometric-whitetail-buck-hoodie"
 etsy_listing_id: "4561464328"

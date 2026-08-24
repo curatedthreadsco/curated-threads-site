@@ -2,7 +2,7 @@
 title: "Born to Hunt Hoodie, Coonhound Hunting Dog Sweatshirt, Walker Plott Black and Tan Hound Gift for Dad, Hunter Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4561446245/born-to-hunt-hoodie-coonhound-hunting"
 etsy_listing_id: "4561446245"

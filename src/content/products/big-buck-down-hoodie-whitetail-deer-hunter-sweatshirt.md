@@ -2,7 +2,7 @@
 title: "Big Buck Down Hoodie, Whitetail Deer Hunter Sweatshirt, Hunt Camp Bragging Rights Gift for Dad, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: "hoodie"
-list_price: 39.99
+list_price: 49.99
 etsy_listing_url: "https://www.etsy.com/listing/4552776621/big-buck-down-hoodie-whitetail-deer"
 etsy_listing_id: "4552776621"
 short_description: "For the hunter who dropped their target buck and can't wait to tell everybody at deer camp about it, this Big Buck Down hoodie features a bold, detailed whitetail illustration with a proud rack, paired with rugged camo-pattern lettering that reads like a campfire brag and a grin. Free shipping from our Etsy shop."

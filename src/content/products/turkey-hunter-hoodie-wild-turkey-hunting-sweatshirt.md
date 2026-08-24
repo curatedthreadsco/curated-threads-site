@@ -2,7 +2,7 @@
 title: "Turkey Hunter Hoodie, Wild Turkey Hunting Sweatshirt, Gobbler Hunter Gift for Dad Mom Grandpa, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544668850/turkey-hunter-hoodie-wild-turkey-hunting"
 etsy_listing_id: "4544668850"

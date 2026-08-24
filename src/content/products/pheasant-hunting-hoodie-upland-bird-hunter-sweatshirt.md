@@ -2,7 +2,7 @@
 title: "Pheasant Hunting Hoodie, Upland Bird Hunter Sweatshirt, Pointer Dog Hunter Gift for Dad Mom, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: hoodie
-list_price: 39.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4548075518/pheasant-hunting-hoodie-upland-bird"
 etsy_listing_id: "4548075518"

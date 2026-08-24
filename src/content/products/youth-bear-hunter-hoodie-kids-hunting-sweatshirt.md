@@ -2,7 +2,7 @@
 title: "Youth Bear Hunter Hoodie, Kids Hunting Sweatshirt, Bear Hunting Gift for Son Grandson Nephew, Kids Birthday Christmas Gift Idea"
 category: hunting
 product_type: hoodie
-list_price: 31.99
+list_price: 49.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4545297819/youth-bear-hunter-hoodie-kids-hunting"
 etsy_listing_id: "4545297819"
