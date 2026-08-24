@@ -18,6 +18,7 @@ const productType = z.enum([
   'mixing-glass',
   'car-magnet',
   'phone-case',
+  'wall-canvas',
 ]);
 
 const products = defineCollection({

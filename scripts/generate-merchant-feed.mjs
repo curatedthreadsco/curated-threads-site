@@ -37,6 +37,7 @@ const GOOGLE_CATEGORY = {
   'vinyl-sticker': 'Arts & Entertainment > Hobbies & Creative Arts > Arts & Crafts > Craft Supplies & Tools > Stickers',
   'car-magnet': 'Vehicles & Parts > Vehicle Parts & Accessories > Motor Vehicle Parts > Motor Vehicle Exterior Accessories > Motor Vehicle Bumper Stickers, Decals & Magnets',
   'phone-case': 'Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Cases',
+  'wall-canvas': 'Home & Garden > Decor > Artwork > Posters, Prints, & Visual Artwork',
 };
 
 const APPAREL_TYPES = new Set(['tee', 'tank-top', 'hoodie']);
@@ -58,6 +59,7 @@ const MATERIAL_BY_TYPE = {
   'vinyl-sticker': 'Vinyl',
   'car-magnet': 'Magnet',
   'phone-case': 'Plastic',
+  'wall-canvas': 'Canvas',
 };
 
 // Etsy CDN URLs carry a size segment (il_570xN, il_1140xN, il_fullxfull, …).

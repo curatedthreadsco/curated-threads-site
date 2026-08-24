@@ -34,6 +34,8 @@ const cupTypes = new Set([
   'shot-glass',
   'pint-glass',
   'mixing-glass',
+  // wall-canvas parked here temporarily until it gets its own section
+  'wall-canvas',
 ]);
 const sectionOf = (p: { data: { product_type: string; youth: boolean } }): Section => {
   if (p.data.youth) return 'youth';
