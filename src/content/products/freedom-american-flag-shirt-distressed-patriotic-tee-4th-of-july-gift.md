@@ -54,7 +54,7 @@ tags:
   - america shirt women
   - patriotic gift her
   - distressed usa tee
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 
