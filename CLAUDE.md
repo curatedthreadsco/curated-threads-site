@@ -7,17 +7,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 npm install
 npm run dev       # http://localhost:4321
-npm run build     # production build to dist/
+npm run build     # production build to dist/ (prebuild regenerates public/meta-catalog.csv)
 npm run preview   # preview the production build
+npm run feeds     # regenerate both product feeds (meta catalog + merchant TSV)
 ```
 
 There is no lint or test script. Type checking is only what `astro build` performs.
 
 Ad-hoc scripts (run with `node scripts/<name>.mjs`):
-- `generate-merchant-feed.mjs` — emits `merchant-feed.tsv` at repo root for Google Merchant Center. Regenerate after adding/changing products.
+- `generate-meta-catalog.mjs` — emits `public/meta-catalog.csv` for Meta (Facebook/Instagram) Commerce Manager. Auto-runs on every build via the `prebuild` hook; Meta fetches the URL on a daily schedule. **Committed to git** (it's served as a public asset), so regenerate + commit whenever product data changes.
+- `generate-merchant-feed.mjs` — emits `merchant-feed.tsv` at repo root for Google Merchant Center. Regenerate after adding/changing products; the file is gitignored (owner pastes it into the Merchant Center sheet by hand).
 - `pinterest-*.mjs` — Pinterest API helpers (auth, pin queue, create pin, sandbox batch).
 
-`merchant-feed.tsv` is gitignored; do not commit it.
+Any change to `product_type`, price, or images affects both feeds — both generators keep their own `GOOGLE_CATEGORY` / `MATERIAL_BY_TYPE` maps, so a new product type needs to be added in both scripts (plus the `content.config.ts` enum and the `cupTypes` set in `[category].astro` if it should land in Cups vs. Accessories).
 
 ## Deploy
 

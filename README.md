@@ -32,8 +32,9 @@ For agent-facing conventions (voice rules, wiring you must not break), see [CLAU
 ```
 npm install
 npm run dev       # http://localhost:4321
-npm run build     # production build to dist/
+npm run build     # production build to dist/ (prebuild regenerates public/meta-catalog.csv)
 npm run preview   # preview the production build locally
+npm run feeds     # regenerate both product feeds (meta catalog + merchant TSV)
 ```
 
 There is no lint or test script. Type checking is only what `astro build` performs.
@@ -60,13 +61,19 @@ src/
     gift-guides/[slug].astro      # gift guide detail pages
     story.astro
     faq.astro
+    contact.astro
+    shipping.astro
+    returns.astro
     privacy.astro
+    terms.astro
+    checkout.astro                # Meta Shops off-site checkout landing (not a real cart)
     404.astro
   assets/                         # brand images consumed by <Image> (Sharp/WebP/retina srcset)
   styles/global.css               # Tailwind + brand theme
 public/
   robots.txt
   favicon.svg
+  meta-catalog.csv                # generated on prebuild; consumed by Meta Commerce Manager
   images/brand/                   # brand assets referenced by URL (not through <Image>)
 scripts/                          # ad-hoc Node scripts (see "Ad-hoc scripts")
 astro.config.mjs                  # site URL, sitemap integration, tailwind
@@ -102,7 +109,7 @@ These rules are non-negotiable and enforced by content review, not tooling. Appl
    - `title`: site title (follow the copy rules above)
    - `category`: one of `hunting`, `fishing`, `patriotic`
    - `extra_categories`: optional array of additional categories to cross-list the product under
-   - `product_type`: one of the allowed types listed in `content.config.ts` (`tee`, `hoodie`, `tank-top`, `mug-11oz`, `mug-15oz`, `tumbler-22oz`, `tumbler-40oz`, `can-cooler`, `whiskey-glass`, `shot-glass`, `pint-glass`, `mixing-glass`, `car-magnet`, `phone-case`)
+   - `product_type`: one of the allowed types listed in `content.config.ts` (`tee`, `hoodie`, `tank-top`, `mug-11oz`, `mug-15oz`, `tumbler-22oz`, `tumbler-40oz`, `can-cooler`, `whiskey-glass`, `shot-glass`, `pint-glass`, `mixing-glass`, `car-magnet`, `phone-case`, `wall-canvas`). If you add a new type, also extend `GOOGLE_CATEGORY` and `MATERIAL_BY_TYPE` in both feed generators, and (if it should land in the Cups section on the category page instead of Accessories) add it to the `cupTypes` set in `src/pages/[category].astro`.
    - `list_price` (and optional `sale_price`): numbers
    - `free_shipping`: boolean, defaults `true`
    - `etsy_listing_url`: full Etsy listing URL (the site strips any query string and appends UTMs automatically)
@@ -154,9 +161,10 @@ Some assets exist in both locations intentionally. If you're adding a new brand 
 
 ## Ad-hoc scripts
 
-Run with `node scripts/<name>.mjs` from the repo root.
+Run with `node scripts/<name>.mjs` from the repo root, or use `npm run feeds` to regenerate both product feeds at once.
 
-- **`generate-merchant-feed.mjs`** — emits `merchant-feed.tsv` at the repo root for Google Merchant Center. Regenerate after adding or changing products. **`merchant-feed.tsv` is gitignored; do not commit it.**
+- **`generate-meta-catalog.mjs`** — emits `public/meta-catalog.csv` for Meta (Facebook/Instagram) Commerce Manager. Auto-runs on every `npm run build` via the `prebuild` hook, so a normal push-to-main is enough to refresh it. Meta fetches the URL (`https://curatedthreadsoutdoors.com/meta-catalog.csv`) on a daily schedule. **This file is committed to git** since it's served as a public asset.
+- **`generate-merchant-feed.mjs`** — emits `merchant-feed.tsv` at the repo root for Google Merchant Center. Regenerate after adding or changing products. **`merchant-feed.tsv` is gitignored; do not commit it.** The owner pastes it into the Merchant Center Google Sheet by hand (see the script header for the exact steps).
 - **`pinterest-auth.mjs`, `pinterest-build-pin-queue.mjs`, `pinterest-create-pin.mjs`, `pinterest-sandbox-batch.mjs`** — Pinterest API helpers for OAuth, queue building, pin creation, and sandbox testing.
 
 ## Owner handoff checklist
@@ -174,7 +182,7 @@ Post-launch operational tasks. Some are one-time, some recurring.
 - [x] Footer social links (Instagram, TikTok, Pinterest, Facebook)
 - [ ] Verify the site in Google Search Console at https://search.google.com/search-console and submit `https://curatedthreadsoutdoors.com/sitemap-index.xml`
 - [ ] Set up Bing Webmaster Tools ([https://www.bing.com/webmasters](https://www.bing.com/webmasters)) and submit the same sitemap. Bing powers ChatGPT search and other AI answer engines.
-- [ ] Keep Google Merchant Center feed fresh: rerun `node scripts/generate-merchant-feed.mjs` after any product change and upload the resulting `merchant-feed.tsv`.
+- [ ] Keep Google Merchant Center feed fresh: rerun `npm run feeds` (or `node scripts/generate-merchant-feed.mjs`) after any product change and upload the resulting `merchant-feed.tsv`. The Meta catalog at `public/meta-catalog.csv` regenerates automatically on every `npm run build`, so a push-to-main is enough to refresh it.
 - [ ] Verify Open Graph previews with the [Pinterest debugger](https://www.pinterest.com/pin_creation/), [Facebook debugger](https://developers.facebook.com/tools/debug/), and [X card validator](https://cards-dev.twitter.com/validator)
 - [ ] Lighthouse audit target: 95+ on Performance, Accessibility, and SEO (run from Chrome DevTools)
 - [ ] Long-form product descriptions: rewrite the generic 3-paragraph bodies in-brand over time. Higher-margin items (mugs, drinkware) benefit most.
