@@ -2,7 +2,7 @@
 title: "Born to Hunt Shirt, Coonhound Hunting Dog Tee, Walker Plott Black and Tan Hound Gift for Dad, Hunter Birthday Christmas Gift Idea"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4561457230/born-to-hunt-shirt-coonhound-hunting-dog"
 etsy_listing_id: "4561457230"

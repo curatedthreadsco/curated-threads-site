@@ -2,7 +2,7 @@
 title: "On Point Pheasant Hunting Shirt, GSP Bird Dog Gift for Dad, Upland Hunter Birthday Christmas Gift Idea"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4570341443/on-point-pheasant-hunting-shirt-gsp-bird"
 etsy_listing_id: "4570341443"

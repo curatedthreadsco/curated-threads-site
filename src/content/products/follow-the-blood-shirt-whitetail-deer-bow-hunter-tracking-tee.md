@@ -2,7 +2,7 @@
 title: "Follow The Blood Shirt, Whitetail Deer Bow Hunter Tracking Tee, Blood Trail Hunter Gift for Dad, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4570362439/follow-the-blood-shirt-whitetail-deer"
 etsy_listing_id: "4570362439"

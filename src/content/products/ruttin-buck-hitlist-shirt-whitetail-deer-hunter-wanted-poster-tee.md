@@ -2,7 +2,7 @@
 title: "Ruttin Buck Hitlist Shirt, Whitetail Deer Hunter Wanted Poster Tee, Big Buck Hunter Gift for Dad, Hunting Birthday Christmas Gift"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4570410087/ruttin-buck-hitlist-shirt-whitetail-deer"
 etsy_listing_id: "4570410087"

@@ -2,7 +2,7 @@
 title: "Mallard Duck Hunter Vintage Graphic Tee, Waterfowl Hunting Apparel"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4491312304/mallard-duck-hunter-vintage-graphic-tee"

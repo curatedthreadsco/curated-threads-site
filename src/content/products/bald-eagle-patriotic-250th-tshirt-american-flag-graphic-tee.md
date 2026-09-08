@@ -2,7 +2,7 @@
 title: "Bald Eagle Patriotic 250th TShirt, American Flag Graphic Tee, USA Pride Unisex T-Shirt"
 category: patriotic
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4436377514/american-bald-eagle-flag-unisex-t-shirt"

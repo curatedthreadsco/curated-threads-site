@@ -2,7 +2,7 @@
 title: "Funny Big Buck Baby Deer Hunting T-Shirt, Whitetail Graphic Tee"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4435317088/funny-ive-got-a-big-buck-baby-spike-deer"

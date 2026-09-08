@@ -2,7 +2,7 @@
 title: "Hook Line and Sinker Blue Marlin Fishing Shirt, Blue Marlin T-Shirt, Deep Sea Fishing Gift, Saltwater Angler Tee, Fisherman Gift"
 category: fishing
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4533036891/hook-line-and-sinker-blue-marlin-fishing"

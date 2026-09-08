@@ -2,7 +2,7 @@
 title: "Geometric Whitetail Buck Tee, Whitetail Deer Shirt, Nature Lover Gift for Dad, Outdoor Cabin Birthday Christmas Gift Idea"
 category: hunting
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4561387572/geometric-whitetail-buck-tee-whitetail"
 etsy_listing_id: "4561387572"

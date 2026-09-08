@@ -2,7 +2,7 @@
 title: "Patriotic Bald Eagle USA 250th Shirt, Est 1776 American Flag Graphic Tee"
 category: patriotic
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4461401539/patriotic-bald-eagle-usa-250th-shirt-est"

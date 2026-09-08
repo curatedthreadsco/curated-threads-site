@@ -2,7 +2,7 @@
 title: "Freedom American Flag Shirt, Distressed Patriotic Tee, 4th of July Gift"
 category: patriotic
 product_type: tee
-list_price: 27.99
+list_price: 28.99
 sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4376875965/distressed-american-flag-t-shirt-unisex"
