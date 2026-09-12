@@ -119,13 +119,17 @@ for (const { slug, data } of products) {
     Title: data.title,
     'Media URL': toFullRes(cover.src),
     'Pinterest board': board.name,
+    Thumbnail: '', // video-only per Pinterest spec; column must be present but blank for image pins
     Description: data.short_description,
     Link: link.toString(),
+    'Publish date': '', // blank = publish immediately per Pinterest spec
     Keywords: (data.tags || []).slice(0, 10).join(', '),
   });
 }
 
-const headers = ['Title', 'Media URL', 'Pinterest board', 'Description', 'Link', 'Keywords'];
+// Column order matches Pinterest's bulk upload spec exactly:
+// https://help.pinterest.com/en/business/article/bulk-upload-video-pins
+const headers = ['Title', 'Media URL', 'Pinterest board', 'Thumbnail', 'Description', 'Link', 'Publish date', 'Keywords'];
 const csv = [headers.join(','), ...rows.map((r) => headers.map((h) => csvField(r[h])).join(','))].join('\n');
 
 const outPath = path.join(root, 'pinterest-pins-queue.csv');
