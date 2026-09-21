@@ -1,5 +1,5 @@
 ---
-title: "Hunt 'Em Up Deer Dog Hunting Tee, Dog Hunter Shirt, Beagle Whitetail Chase Gift for Hunter Dad Grandpa Husband"
+title: "Hunt 'Em Up Whitetail Deer Dog Hunting Tee, Dog Hunter Shirt, Beagle Whitetail Chase Gift for Hunter Dad Grandpa Husband"
 category: hunting
 product_type: tee
 list_price: 28.99
