@@ -165,7 +165,36 @@ Run with `node scripts/<name>.mjs` from the repo root, or use `npm run feeds` to
 
 - **`generate-meta-catalog.mjs`** — emits `public/meta-catalog.csv` for Meta (Facebook/Instagram) Commerce Manager. Auto-runs on every `npm run build` via the `prebuild` hook, so a normal push-to-main is enough to refresh it. Meta fetches the URL (`https://curatedthreadsoutdoors.com/meta-catalog.csv`) on a daily schedule. **This file is committed to git** since it's served as a public asset.
 - **`generate-merchant-feed.mjs`** — emits `merchant-feed.tsv` at the repo root for Google Merchant Center. Regenerate after adding or changing products. **`merchant-feed.tsv` is gitignored; do not commit it.** The owner pastes it into the Merchant Center Google Sheet by hand (see the script header for the exact steps).
-- **`pinterest-auth.mjs`, `pinterest-build-pin-queue.mjs`, `pinterest-create-pin.mjs`, `pinterest-sandbox-batch.mjs`** — Pinterest API helpers for OAuth, queue building, pin creation, and sandbox testing.
+- **`pinterest-refresh.mjs`** — renews the Pinterest OAuth access token using the stored refresh token, no browser flow required. Run this if any other Pinterest script fails with an authentication error (access tokens expire every 30 days).
+- **`pinterest-build-pin-queue.mjs`** — diffs every product against pins already on the two boards and writes `pinterest-pins-queue.csv` in Pinterest's exact bulk-upload column order. Upload the resulting CSV on Pinterest at **Settings → Import content → Upload .csv or .txt file** (desktop only).
+- **`pinterest-auth.mjs`** — one-time browser OAuth for first-run setup or if the refresh token itself expires. Listens on `localhost:8888` for the callback.
+- **`pinterest-create-pin.mjs`, `pinterest-sandbox-batch.mjs`** — API pin-creation helpers. The app is on Pinterest's Trial tier, which blocks production pin creation, so these are only useful for sandbox integration testing. Use the bulk-CSV path for real pin publishing.
+
+## Pricing tiers (current)
+
+Etsy is the source of truth; site prices are kept in sync with the listing prices.
+
+| Type | Price |
+|------|-------|
+| Adult tees | $28.99 |
+| Adult hoodies | $49.99 |
+| Adult mugs (11 oz / 15 oz variant) | $18.99 |
+| Youth tees | $19.99 (newer batches) or $21.99 (earlier batches) |
+| Youth hoodies | $31.99 |
+
+Other product types (tumblers, glassware, koozies, iPhone cases, canvases, car magnets) are priced per listing.
+
+## Adding a batch of new products (owner-facing summary)
+
+The heavy lifting is scripted. For each batch:
+
+1. **Export the current Etsy CSV** (Shop Manager → Settings → Options → Download Data) to your Desktop as `EtsyListingsDownload.csv`.
+2. **Paste the new listing titles + URLs into chat** with the CSV attached — Claude will parse the CSV, write the markdown files, regenerate both feeds, refresh the Pinterest token, and hand you the updated `merchant-feed.tsv` and `pinterest-pins-queue.csv`.
+3. **Upload the feeds:**
+   - Merchant Center: paste `merchant-feed.tsv` into cell A2 of the Google Sheet, then Continue.
+   - Pinterest: upload `pinterest-pins-queue.csv` at **Settings → Import content → Upload .csv or .txt file**.
+
+Meta Commerce Manager pulls `public/meta-catalog.csv` from the deployed site automatically on its daily fetch schedule — no manual upload needed there.
 
 ## Owner handoff checklist
 
