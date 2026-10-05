@@ -59,7 +59,7 @@ tags:
   - mens hunting gift
   - pack hunter tee
   - christmas gift
-featured: false
+featured: true
 publish_date: 2026-09-13
 ---
 

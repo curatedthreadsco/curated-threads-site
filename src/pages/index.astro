@@ -18,13 +18,13 @@ const allProducts = await getCollection('products');
 // the shop owner wants. Change this list to reorder the homepage tiles.
 const featuredOrder = [
   'whitetail-fitness-deer-in-my-freezer-shirt-funny-deer-hunting-tee',
-  'whitetail-deer-whiskey-rocks-glass-10oz-hunter-barware',
-  'turkey-hunter-shirt-vintage-wild-turkey-graphic-tee',
-  'vintage-wild-turkey-hunter-graphic-t-shirt-100-cotton-hunting-tee',
-  'mallard-duck-hunter-mug-waterfowl-hunting-coffee-cup',
-  'hook-line-and-sinker-blue-marlin-fishing-shirt',
   'ruttin-buck-hitlist-shirt-whitetail-deer-hunter-wanted-poster-tee',
-  'gone-fishing-mug-vintage-rainbow-trout-fly-fishing-coffee-cup',
+  'river-giants-catfishing-tee-catfish-hunter-shirt',
+  'high-country-mulie-tee-mule-deer-hunter-shirt',
+  'bow-hunters-are-a-different-breed-tee-compound-bow-archery-shirt',
+  'beagle-season-shirt-rabbit-hunter-beagle-dog-tee',
+  'gator-country-alligator-hunting-tee-swamp-gator-hunter-shirt',
+  'bayed-up-hog-hunting-tee-wild-boar-catch-dog-shirt',
 ];
 const featuredById = new Map(
   allProducts.filter((p) => p.data.featured).map((p) => [p.id, p]),

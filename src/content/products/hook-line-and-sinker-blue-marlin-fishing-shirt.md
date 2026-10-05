@@ -56,7 +56,7 @@ tags:
   - fishing tee
   - boat shirt
   - sport fishing shirt
-featured: true
+featured: false
 publish_date: 2026-07-20
 ---
 

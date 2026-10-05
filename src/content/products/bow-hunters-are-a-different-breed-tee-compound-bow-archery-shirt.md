@@ -59,7 +59,7 @@ tags:
   - bow hunt husband
   - deer archery gift
   - bow season shirt
-featured: false
+featured: true
 publish_date: 2026-09-20
 ---
 
