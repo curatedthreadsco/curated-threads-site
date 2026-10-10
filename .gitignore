@@ -21,3 +21,6 @@ Thumbs.db
 
 # generated merchant feed (regenerate on demand via scripts/generate-merchant-feed.mjs)
 merchant-feed.tsv
+
+# generated Pinterest bulk-upload queue (regenerate via scripts/pinterest-build-pin-queue.mjs)
+pinterest-pins-queue.csv
