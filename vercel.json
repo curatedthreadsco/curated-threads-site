@@ -32,7 +32,6 @@
     { "source": "/products/america-250th-anniversary-eagle-tank-top-patriotic-god-bless-america-shirt", "destination": "/", "statusCode": 308 },
     { "source": "/products/america-250th-anniversary-patriotic-eagle-pint-glass", "destination": "/", "statusCode": 308 },
     { "source": "/products/bald-eagle-patriotic-250th-tshirt-american-flag-graphic-tee", "destination": "/", "statusCode": 308 },
-    { "source": "/products/bear-down-one-nation-under-god-shirt-patriotic-bear-hunting-tee", "destination": "/hunting", "statusCode": 308 },
     { "source": "/products/faith-freedom-unity-distressed-american-flag-t-shirt", "destination": "/", "statusCode": 308 },
     { "source": "/products/freedom-american-flag-shirt-distressed-patriotic-tee-4th-of-july-gift", "destination": "/", "statusCode": 308 },
     { "source": "/products/patriotic-american-eagle-250th-shot-glass-4th-of-july-barware", "destination": "/", "statusCode": 308 },
