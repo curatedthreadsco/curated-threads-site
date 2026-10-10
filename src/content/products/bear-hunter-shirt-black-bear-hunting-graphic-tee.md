@@ -3,7 +3,6 @@ title: "Bear Hunter Shirt, Black Bear Hunting Graphic Tee, Hound Hunter Gift for
 category: hunting
 product_type: tee
 list_price: 28.99
-sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4536901418/bear-hunter-shirt-black-bear-hunting"
 etsy_listing_id: "4536901418"

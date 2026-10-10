@@ -3,7 +3,6 @@ title: "Elk Hunting Shirt, Big Game Hunter Graphic Tee, Western Rifle Hunter Gif
 category: hunting
 product_type: tee
 list_price: 28.99
-sale_price: 20.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4544192063/elk-hunting-shirt-big-game-hunter"
 etsy_listing_id: "4544192063"

@@ -3,7 +3,6 @@ title: "Big Buck Down Shirt, Whitetail Deer Hunter Tee, Hunt Camp Bragging Right
 category: hunting
 product_type: tee
 list_price: 28.99
-sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4389278330/rustic-whitetail-buck-t-shirt-deer"
 etsy_listing_id: "4389278330"

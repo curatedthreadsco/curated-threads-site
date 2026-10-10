@@ -3,7 +3,6 @@ title: "Largemouth Bass Fishing Graphic TShirt, Hook Line and Sinker Shirt, Fish
 category: fishing
 product_type: tee
 list_price: 28.99
-sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4498838527/largemouth-bass-fishing-graphic-tshirt"
 etsy_listing_id: "4498838527"

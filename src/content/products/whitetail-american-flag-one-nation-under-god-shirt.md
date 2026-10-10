@@ -3,7 +3,6 @@ title: "Whitetail American Flag One Nation Under God Shirt, Deer Skull American 
 category: hunting
 product_type: tee
 list_price: 28.99
-sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4506744768/whitetail-american-flag-one-nation-under"
 etsy_listing_id: "4506744768"

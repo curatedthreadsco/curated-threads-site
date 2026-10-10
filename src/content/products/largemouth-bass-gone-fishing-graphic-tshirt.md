@@ -3,7 +3,6 @@ title: "Largemouth Bass Gone Fishing Graphic TShirt, Vintage Angler T-Shirt for 
 category: fishing
 product_type: tee
 list_price: 28.99
-sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4498041335/gone-fishing-bass-graphic-tee-vintage"
 etsy_listing_id: "4498041335"

@@ -3,7 +3,6 @@ title: "Pheasant Hunting Shirt for Men, Upland Bird Hunter Gift, Rise Early Hunt
 category: hunting
 product_type: tee
 list_price: 28.99
-sale_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4533098568/pheasant-hunting-shirt-for-men-upland"
 etsy_listing_id: "4533098568"
