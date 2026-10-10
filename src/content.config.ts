@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const category = z.enum(['hunting', 'fishing', 'patriotic']);
+const category = z.enum(['hunting', 'fishing']);
 
 const productType = z.enum([
   'tee',

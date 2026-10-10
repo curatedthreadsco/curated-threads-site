@@ -12,13 +12,14 @@ import { load as loadYaml } from 'js-yaml';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 
+// Every product routes to the single Hunters & Fishermen board now that
+// the patriotic category has been retired.
 const BOARDS = {
   hunters: { id: '791718878183670414', name: 'Gifts for Hunters and Fishermen!!' },
-  patriotic: { id: '791718878183670034', name: 'PATRIOTIC 4th OF JULY GIFTS!!' },
 };
 
-function boardFor(category) {
-  return category === 'patriotic' ? BOARDS.patriotic : BOARDS.hunters;
+function boardFor(_category) {
+  return BOARDS.hunters;
 }
 
 function loadEnv() {
@@ -84,14 +85,10 @@ if (!token) {
   process.exit(1);
 }
 
-const [huntersPins, patrioticPins] = await Promise.all([
-  getAllPins(token, BOARDS.hunters.id),
-  getAllPins(token, BOARDS.patriotic.id),
-]);
+const huntersPins = await getAllPins(token, BOARDS.hunters.id);
 
 const pinnedListingIds = {
   [BOARDS.hunters.id]: new Set(huntersPins.map((p) => extractListingId(p.link)).filter(Boolean)),
-  [BOARDS.patriotic.id]: new Set(patrioticPins.map((p) => extractListingId(p.link)).filter(Boolean)),
 };
 
 const products = loadProducts();

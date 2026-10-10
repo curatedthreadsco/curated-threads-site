@@ -15,11 +15,10 @@ const root = path.join(__dirname, '..');
 
 const PROD_BOARDS = {
   hunters: { id: '791718878183670414', name: 'Gifts for Hunters and Fishermen!!' },
-  patriotic: { id: '791718878183670034', name: 'PATRIOTIC 4th OF JULY GIFTS!!' },
 };
 
-function prodBoardFor(category) {
-  return category === 'patriotic' ? PROD_BOARDS.patriotic : PROD_BOARDS.hunters;
+function prodBoardFor(_category) {
+  return PROD_BOARDS.hunters;
 }
 
 function loadEnv() {
@@ -95,14 +94,10 @@ const sandboxToken = env.PINTEREST_SANDBOX_ACCESS_TOKEN;
 if (!prodToken) throw new Error('Missing PINTEREST_ACCESS_TOKEN — run scripts/pinterest-auth.mjs first.');
 if (!sandboxToken) throw new Error('Missing PINTEREST_SANDBOX_ACCESS_TOKEN — run scripts/pinterest-auth.mjs --sandbox first.');
 
-const [huntersPins, patrioticPins] = await Promise.all([
-  getAllPins(prodToken, PROD_BOARDS.hunters.id),
-  getAllPins(prodToken, PROD_BOARDS.patriotic.id),
-]);
+const huntersPins = await getAllPins(prodToken, PROD_BOARDS.hunters.id);
 
 const pinnedListingIds = {
   [PROD_BOARDS.hunters.id]: new Set(huntersPins.map((p) => extractListingId(p.link)).filter(Boolean)),
-  [PROD_BOARDS.patriotic.id]: new Set(patrioticPins.map((p) => extractListingId(p.link)).filter(Boolean)),
 };
 
 const products = loadProducts();

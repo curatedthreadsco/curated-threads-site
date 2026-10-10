@@ -7,7 +7,6 @@ import { shopWithUtm, etsyImage, etsyImageSrcSet } from '../lib/etsy';
 import heroGlacier from '../assets/hero-glacier.jpg';
 import huntingCover from '../assets/categories/hunting.jpg';
 import fishingCover from '../assets/categories/fishing.jpg';
-import patrioticCover from '../assets/categories/patriotic.jpg';
 
 const etsyShopUrl = shopWithUtm('home');
 
@@ -34,7 +33,7 @@ const featured = featuredOrder
   .filter((p): p is NonNullable<typeof p> => Boolean(p))
   .slice(0, 8);
 
-type Cat = 'hunting' | 'fishing' | 'patriotic';
+type Cat = 'hunting' | 'fishing';
 
 // Secondary/hover image comes from a representative product photo in that
 // category (Etsy CDN), so the primary is the branded lifestyle shot and the
@@ -66,13 +65,6 @@ const categories: {
     blurb: 'Designs for the angler chasing the next big catch.',
     cover: fishingCover,
   },
-  {
-    name: 'Patriotic',
-    href: '/patriotic',
-    category: 'patriotic',
-    blurb: 'Red, white, and blue designs made in the USA.',
-    cover: patrioticCover,
-  },
 ];
 
 const organizationSchema = {
@@ -93,7 +85,7 @@ const organizationSchema = {
 
 <BaseLayout
   title="Curated Threads Outdoors | Hunting, Fishing, and Patriotic Gifts"
-  description="Family-owned shop for hunting, fishing, and patriotic apparel, drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop."
+  description="Family-owned shop for hunting and fishing apparel, drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(organizationSchema)} />
 
@@ -118,7 +110,7 @@ const organizationSchema = {
         For the field, the water, and the flag.
       </h1>
       <p class="mx-auto mt-6 max-w-2xl text-lg text-cream/95 drop-shadow sm:text-xl">
-        Hunting, fishing, and patriotic designs on made-to-order apparel,
+        Hunting and fishing designs on made-to-order apparel,
         drinkware, and gifts. Free shipping on every order, fulfilled through our Etsy shop.
       </p>
       <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">

@@ -27,18 +27,17 @@ Most of the ongoing work is **adding new Etsy listings and syncing feeds**. The 
 - Youth tees: **$19.99** (newer batches) or **$21.99** (earlier batches — do not backfill)
 - Youth hoodies: **$31.99**
 
-**Category routing rules:**
-- `hunting` — everything hunting-related (deer, turkey, bear, elk, pheasant, duck, coyote/varmint, coonhound, beagle rabbit hunting, bow hunting, skinning-shed / meat-hunter designs).
-- `fishing` — includes fly-fishing (rainbow trout / Ugly Flies-style designs), bass, marlin, koozies.
-- `patriotic` — American flag, eagles, 250th anniversary, USA pride.
+**Category routing rules (two categories, patriotic was retired 2026-10-10):**
+- `hunting` — everything hunting-related (deer, turkey, bear, elk, pheasant, duck, coyote/varmint, coonhound, beagle rabbit hunting, bow hunting, hog hunting, gator hunting, fur trapping, skinning-shed / meat-hunter designs).
+- `fishing` — includes fly-fishing (rainbow trout / Ugly Flies-style designs), bass, marlin, catfish, ice fishing, koozies.
 
 **Slug pattern:** long, keyword-rich, hyphenated, all lowercase, no special chars. Match the Etsy title's first several keywords: `bow-season-state-of-mind-tee-whitetail-deer-bow-hunter-shirt`.
 
 **Where images live in the Etsy CSV:** columns `IMAGE1`…`IMAGE10`, always `il_fullxfull` URLs from `i.etsystatic.com`. Store them exactly as-is in frontmatter — `lib/etsy.ts` handles variant swapping downstream. Some CSV rows have fewer than 10; `yamlImages()` in prior scripts handles this.
 
-**Pinterest boards** (from `scripts/pinterest-build-pin-queue.mjs`):
-- `Gifts for Hunters and Fishermen!!` → hunting + fishing categories.
-- `PATRIOTIC 4th OF JULY GIFTS!!` → patriotic category.
+**Pinterest board** (from `scripts/pinterest-build-pin-queue.mjs`):
+- `Gifts for Hunters and Fishermen!!` → all products (single board since patriotic was retired).
+- The old `PATRIOTIC 4th OF JULY GIFTS!!` board still exists on Pinterest with legacy pins but the scripts no longer write to it.
 - Dedup is by Etsy listing ID embedded in the pin's link, so re-running the queue script always emits only the missing ones.
 
 **Pinterest CSV format** (per Pinterest's help doc, matched exactly by `pinterest-build-pin-queue.mjs`):
@@ -156,7 +155,7 @@ Astro 5 static site — Google/Pinterest funnel to the Etsy shop. **No cart, no 
 
 Key wiring to know before editing:
 
-- **Categories are three, not four.** `src/content.config.ts` enum is `hunting | fishing | patriotic`. "Outdoor" was retired; `vercel.json` 308-redirects `/outdoor` → `/hunting`. The website brief and README predate this — trust the schema. Adding a fourth category means touching the enum, `src/pages/[category].astro` `getStaticPaths`, `Header.astro` nav, and `lib/etsy.ts` `UtmCampaign` type together.
+- **Categories are two: hunting and fishing.** `src/content.config.ts` enum is `hunting | fishing`. "Outdoor" was retired early; "patriotic" was retired 2026-10-10 to narrow the niche. `vercel.json` 308-redirects `/outdoor` and `/patriotic` → `/hunting` (and the deleted patriotic product URLs → `/`). Adding or removing a category means touching the enum, `src/pages/[category].astro` `getStaticPaths` + `meta` + `Category` type, `Header.astro` and `Footer.astro` navs, `src/pages/404.astro` nav, `src/pages/index.astro` category tile list + `Cat` type, `lib/etsy.ts` `UtmCampaign` + `categoryCampaign` signature, and both Pinterest scripts (`BOARDS` map + `boardFor` routing).
 - **Content is markdown, keyed by filename.** Product slug = filename without `.md`. No `slug` frontmatter — Astro derives it from the file id. Schema in `src/content.config.ts` is authoritative (allowed `product_type` values, optional vs required fields, `extra_categories` for cross-listing a product into another category page).
 - **Category page ordering is hand-curated.** `src/pages/[category].astro` uses a `huntingPriority` array and `huntingLowPriority` set to override alphabetical sort. Sections (`tees`, `hoodies`, `youth`, `cups`, `accessories`) mirror the Etsy shop layout so shoppers see familiar groupings. Homepage "Fan favorites" order lives in a `featuredOrder` array in `src/pages/index.astro` — a product must have `featured: true` AND appear in that list to show.
 - **Etsy links go through `lib/etsy.ts`.** Never build raw Etsy URLs. Use `etsyLink({ listingUrl, campaign, productSlug })` or `shopWithUtm(campaign)`; both strip existing query strings and append the standard UTM set. `UtmCampaign` is a closed union — add new values there.
