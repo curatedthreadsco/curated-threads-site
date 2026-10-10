@@ -3,7 +3,7 @@ title: "Gifts for Hunters Who Have Everything"
 description: "Eight thoughtful gifts for the hunter in your life, from the whitetail obsessive to the duck blind regular. Handpicked from our small family shop, made to order, and shipped free."
 hero_intro: "Once your hunter has three good rifles, a truck full of gear, and every camo pattern known to whitetail country, the next great gift is not more equipment. It is something that shows up in their kitchen, their office, or their truck every single day. These are our favorites, made to order and shipped free from our Etsy shop."
 featured_products:
-  - whitetail-hunt-life-engraved-insulated-tumbler-40oz-travel-mug
+  - ruttin-buck-hitlist-mug-whitetail-deer-hunter-wanted-poster-coffee-cup
   - rise-early-hunt-hard-mug
   - whitetail-deer-hunter-mug-buck-and-rifle-hunting-coffee-cup
   - whitetail-deer-skull-hoodie-rustic-nature-graphic-long-sleeve-tee
