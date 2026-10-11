@@ -18,22 +18,22 @@ care_instructions:
   - Clean in the dishwasher or wash by hand with warm water and dish soap
   - "Design will not fade, crack, or peel with normal use"
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/5f3675/8539732001/il_fullxfull.8539732001_hv54.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/576f6f/8539793867/il_fullxfull.8539793867_hv54.jpg"
+    alt: "No Braggin Til Youre Draggin Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/507e62/8491838018/il_fullxfull.8491838018_3cfc.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 2"
+    alt: "No Braggin Til Youre Draggin Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/8c80d6/8539732699/il_fullxfull.8539732699_i6nc.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 3"
+    alt: "No Braggin Til Youre Draggin Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/057142/8491838754/il_fullxfull.8491838754_8wk6.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 4"
+    alt: "No Braggin Til Youre Draggin Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/804467/8491839058/il_fullxfull.8491839058_1i70.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 5"
+    alt: "No Braggin Til Youre Draggin Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/a362d5/8491839374/il_fullxfull.8491839374_k0pk.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 6"
+    alt: "No Braggin Til Youre Draggin Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/7133fe/8539733875/il_fullxfull.8539733875_7tox.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 7"
+    alt: "No Braggin Til Youre Draggin Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/3caba8/8539734205/il_fullxfull.8539734205_jx5d.jpg"
-    alt: "No Braggin Til Youre Draggin Mug bow hunter additional view 8"
+    alt: "No Braggin Til Youre Draggin Mug additional view 8"
 tags:
   - bow hunter mug
   - archery hunter mug

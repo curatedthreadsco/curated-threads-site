@@ -25,26 +25,26 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only
 images:
+  - src: "https://i.etsystatic.com/57889570/r/il/0eb3a9/8622946142/il_fullxfull.8622946142_lij4.jpg"
+    alt: "More Than A Hunt Legacy Tee product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/ac9314/8553288882/il_fullxfull.8553288882_3ry3.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting product photo"
+    alt: "More Than A Hunt Legacy Tee additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/e73d62/8553258182/il_fullxfull.8553258182_ee2r.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 2"
-  - src: "https://i.etsystatic.com/57889570/r/il/e46fc0/8601126119/il_fullxfull.8601126119_lij4.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 3"
+    alt: "More Than A Hunt Legacy Tee additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/7a4337/8553258960/il_fullxfull.8553258960_cqmy.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 4"
+    alt: "More Than A Hunt Legacy Tee additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/6baf8b/8601126861/il_fullxfull.8601126861_gtth.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 5"
+    alt: "More Than A Hunt Legacy Tee additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/c2d5e1/8553259686/il_fullxfull.8553259686_i5iy.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 6"
+    alt: "More Than A Hunt Legacy Tee additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/9acbd0/8601127481/il_fullxfull.8601127481_i0ji.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 7"
+    alt: "More Than A Hunt Legacy Tee additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/b6a922/8553260302/il_fullxfull.8553260302_9t67.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 8"
+    alt: "More Than A Hunt Legacy Tee additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/df0afa/8601128111/il_fullxfull.8601128111_7pmv.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 9"
+    alt: "More Than A Hunt Legacy Tee additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/03ef4e/8553261002/il_fullxfull.8553261002_195d.jpg"
-    alt: "More Than A Hunt Legacy Tee father son hunting additional view 10"
+    alt: "More Than A Hunt Legacy Tee additional view 10"
 tags:
   - deer camp gift
   - father son hunt

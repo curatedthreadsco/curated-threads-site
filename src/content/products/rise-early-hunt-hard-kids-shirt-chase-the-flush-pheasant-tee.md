@@ -2,7 +2,7 @@
 title: "Rise Early Hunt Hard Kids Shirt, Chase the Flush Pheasant Bird Hunting Tee, Bird dog gift for Son Grandson, Boys Birthday Christmas Gift"
 category: hunting
 product_type: tee
-list_price: 19.99
+list_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4565598414/rise-early-hunt-hard-kids-shirt-chase"
 etsy_listing_id: "4565598414"

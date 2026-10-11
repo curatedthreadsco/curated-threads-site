@@ -22,26 +22,26 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only, if needed
 images:
+  - src: "https://i.etsystatic.com/57889570/r/il/400ec7/8533324867/il_fullxfull.8533324867_rtsa.jpg"
+    alt: "Funny Fishing Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/2e9076/7974279212/il_fullxfull.7974279212_1p8i.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee product photo"
-  - src: "https://i.etsystatic.com/57889570/r/il/8ada2c/7974269196/il_fullxfull.7974269196_rtsa.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 2"
+    alt: "Funny Fishing Shirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/4545d9/7974269428/il_fullxfull.7974269428_7409.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 3"
+    alt: "Funny Fishing Shirt additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/a24364/8022219861/il_fullxfull.8022219861_61mj.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 4"
+    alt: "Funny Fishing Shirt additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/98b8ee/7974269908/il_fullxfull.7974269908_6jij.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 5"
+    alt: "Funny Fishing Shirt additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/b33da3/7974270160/il_fullxfull.7974270160_jxk8.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 6"
+    alt: "Funny Fishing Shirt additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/aa44c7/8022220567/il_fullxfull.8022220567_iqyo.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 7"
+    alt: "Funny Fishing Shirt additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/038332/8022220681/il_fullxfull.8022220681_nqrn.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 8"
+    alt: "Funny Fishing Shirt additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/4aff8b/8022220879/il_fullxfull.8022220879_2yf6.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 9"
+    alt: "Funny Fishing Shirt additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/9443d0/7974270862/il_fullxfull.7974270862_1d7d.jpg"
-    alt: "Funny Fishing Shirt, Rainbow Trout Fly Fishing Graphic Tee additional view 10"
+    alt: "Funny Fishing Shirt additional view 10"
 tags:
   - fishing shirt
   - funny fishing tee

@@ -18,22 +18,22 @@ care_instructions:
   - Clean in the dishwasher or wash by hand with warm water and dish soap
   - "Design will not fade, crack, or peel with normal use"
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/fc0b43/8491785524/il_fullxfull.8491785524_7wq1.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/102fed/8539797979/il_fullxfull.8539797979_7wq1.jpg"
+    alt: "The One That Keeps You Up At Night Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/c61e28/8539681603/il_fullxfull.8539681603_3qy5.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 2"
+    alt: "The One That Keeps You Up At Night Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/1a844e/8491786896/il_fullxfull.8491786896_mcd6.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 3"
+    alt: "The One That Keeps You Up At Night Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/07cc9c/8539683069/il_fullxfull.8539683069_luvg.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 4"
+    alt: "The One That Keeps You Up At Night Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/4ffafb/8491788468/il_fullxfull.8491788468_8yqb.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 5"
+    alt: "The One That Keeps You Up At Night Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/84c9d3/8539684393/il_fullxfull.8539684393_5lh1.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 6"
+    alt: "The One That Keeps You Up At Night Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/b73ad3/8491789796/il_fullxfull.8491789796_6x4a.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 7"
+    alt: "The One That Keeps You Up At Night Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/19e700/8539685549/il_fullxfull.8539685549_fdd7.jpg"
-    alt: "The One That Keeps You Up At Night Mug trail cam additional view 8"
+    alt: "The One That Keeps You Up At Night Mug additional view 8"
 tags:
   - whitetail hunter mug
   - monster buck mug

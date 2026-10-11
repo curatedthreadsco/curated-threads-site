@@ -18,26 +18,26 @@ care_instructions:
   - Dishwasher safe, or hand wash with warm water and mild dish soap
   - Print is built to resist fading, cracking, and peeling with normal use
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/5b77c2/8260776278/il_fullxfull.8260776278_nsem.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/f5f161/8667745361/il_fullxfull.8667745361_nsem.jpg"
+    alt: "Pheasant Hunting Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/90bba5/8308676259/il_fullxfull.8308676259_p6ii.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 2"
+    alt: "Pheasant Hunting Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/c043bc/8308676719/il_fullxfull.8308676719_szzb.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 3"
+    alt: "Pheasant Hunting Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/bb5658/8308677335/il_fullxfull.8308677335_9pe0.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 4"
+    alt: "Pheasant Hunting Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/d100f2/8308677817/il_fullxfull.8308677817_ibaz.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 5"
+    alt: "Pheasant Hunting Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/5c0b73/8260768406/il_fullxfull.8260768406_igw9.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 6"
+    alt: "Pheasant Hunting Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/67827c/8260769356/il_fullxfull.8260769356_fy1a.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 7"
+    alt: "Pheasant Hunting Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/2fdc45/8308680305/il_fullxfull.8308680305_fs86.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 8"
+    alt: "Pheasant Hunting Mug additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/094fd9/8260770892/il_fullxfull.8260770892_cgya.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 9"
+    alt: "Pheasant Hunting Mug additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/e88124/8308681741/il_fullxfull.8308681741_4fd7.jpg"
-    alt: "Pheasant Hunting Mug, Upland Bird Hunter Coffee Cup additional view 10"
+    alt: "Pheasant Hunting Mug additional view 10"
 tags:
   - pheasant hunting mug
   - pheasant hunter gift

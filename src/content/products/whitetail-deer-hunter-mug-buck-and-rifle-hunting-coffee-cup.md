@@ -18,26 +18,26 @@ care_instructions:
   - Dishwasher-safe or wash by hand with warm water and dish soap
   - Print resists fading, cracking, and peeling with normal use
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/5e4cec/8502063497/il_fullxfull.8502063497_2r2d.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/228f43/8667747009/il_fullxfull.8667747009_2r2d.jpg"
+    alt: "Whitetail Deer Hunter Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/954d58/8454212784/il_fullxfull.8454212784_bzo1.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 2"
+    alt: "Whitetail Deer Hunter Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/6c0cbf/8454213228/il_fullxfull.8454213228_gjry.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 3"
+    alt: "Whitetail Deer Hunter Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/06e95e/8502065415/il_fullxfull.8502065415_toax.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 4"
+    alt: "Whitetail Deer Hunter Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/d9b23f/8454214522/il_fullxfull.8454214522_93tm.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 5"
+    alt: "Whitetail Deer Hunter Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/935fd3/8502066877/il_fullxfull.8502066877_kcwy.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 6"
+    alt: "Whitetail Deer Hunter Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/165496/8454215804/il_fullxfull.8454215804_cfo5.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 7"
+    alt: "Whitetail Deer Hunter Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/837c51/8454216332/il_fullxfull.8454216332_l1j5.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 8"
+    alt: "Whitetail Deer Hunter Mug additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/7cfac7/8454217216/il_fullxfull.8454217216_8tz0.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 9"
+    alt: "Whitetail Deer Hunter Mug additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/5c76f8/8502069369/il_fullxfull.8502069369_k1c5.jpg"
-    alt: "Whitetail Deer Hunter Mug, Buck and Rifle Hunting Coffee Cup additional view 10"
+    alt: "Whitetail Deer Hunter Mug additional view 10"
 tags:
   - deer hunting mug
   - whitetail deer mug

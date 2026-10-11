@@ -2,7 +2,7 @@
 title: "Turkey Hunter Youth Shirt, Kids Wild Turkey Hunting Tee, Spring Gobbler Gift for Son Grandson Nephew, Boys Birthday Christmas Gift"
 category: hunting
 product_type: tee
-list_price: 19.99
+list_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4565569626/turkey-hunter-youth-shirt-kids-wild"
 etsy_listing_id: "4565569626"
@@ -24,26 +24,26 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only
 images:
+  - src: "https://i.etsystatic.com/57889570/r/il/f4f1b7/8622900428/il_fullxfull.8622900428_ogjw.jpg"
+    alt: "Turkey Hunter Youth Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/eec716/8453463268/il_fullxfull.8453463268_9o5x.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler product photo"
+    alt: "Turkey Hunter Youth Shirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/981a39/8453342696/il_fullxfull.8453342696_q7qu.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 2"
-  - src: "https://i.etsystatic.com/57889570/r/il/a7529e/8501194093/il_fullxfull.8501194093_ogjw.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 3"
+    alt: "Turkey Hunter Youth Shirt additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/d60f82/8453343454/il_fullxfull.8453343454_lffh.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 4"
+    alt: "Turkey Hunter Youth Shirt additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/6c871f/8501194947/il_fullxfull.8501194947_836v.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 5"
+    alt: "Turkey Hunter Youth Shirt additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/5eca01/8501195401/il_fullxfull.8501195401_nub8.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 6"
+    alt: "Turkey Hunter Youth Shirt additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/53fc8f/8453345028/il_fullxfull.8453345028_8rdh.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 7"
+    alt: "Turkey Hunter Youth Shirt additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/ec90e9/8501196561/il_fullxfull.8501196561_24u4.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 8"
+    alt: "Turkey Hunter Youth Shirt additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/7774cc/8501197447/il_fullxfull.8501197447_l97i.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 9"
+    alt: "Turkey Hunter Youth Shirt additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/23211e/8453347558/il_fullxfull.8453347558_t0os.jpg"
-    alt: "Turkey Hunter Youth Shirt spring gobbler additional view 10"
+    alt: "Turkey Hunter Youth Shirt additional view 10"
 tags:
   - turkey hunter kids
   - youth turkey tee

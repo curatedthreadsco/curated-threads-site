@@ -18,26 +18,26 @@ care_instructions:
   - Dishwasher safe, or hand wash with warm water and mild dish soap
   - Print resists fading, cracking, and peeling with normal use
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/0e4311/8292812631/il_fullxfull.8292812631_tude.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/ff93d8/8619915710/il_fullxfull.8619915710_tude.jpg"
+    alt: "Turkey Hunter Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/c32830/8292468409/il_fullxfull.8292468409_sz4u.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 2"
+    alt: "Turkey Hunter Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/84b7f2/8244552520/il_fullxfull.8244552520_syfm.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 3"
+    alt: "Turkey Hunter Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/cf3d68/8244552724/il_fullxfull.8244552724_t257.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 4"
+    alt: "Turkey Hunter Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/edf9c1/8244553072/il_fullxfull.8244553072_ohlo.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 5"
+    alt: "Turkey Hunter Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/ac7b0b/8244553352/il_fullxfull.8244553352_d2z3.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 6"
+    alt: "Turkey Hunter Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/bc9189/8244553590/il_fullxfull.8244553590_bj6k.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 7"
+    alt: "Turkey Hunter Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/6f3b62/8244553878/il_fullxfull.8244553878_h580.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 8"
+    alt: "Turkey Hunter Mug additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/d63489/8244554088/il_fullxfull.8244554088_hwh0.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 9"
+    alt: "Turkey Hunter Mug additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/e682c2/8244554314/il_fullxfull.8244554314_rgns.jpg"
-    alt: "Turkey Hunter Mug, Wild Turkey Hunting Coffee Cup additional view 10"
+    alt: "Turkey Hunter Mug additional view 10"
 tags:
   - turkey hunting mug
   - turkey hunter gift

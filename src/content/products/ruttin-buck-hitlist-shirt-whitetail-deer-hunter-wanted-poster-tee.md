@@ -25,7 +25,7 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/902211/8487104016/il_fullxfull.8487104016_j2b8.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/413993/8538336867/il_fullxfull.8538336867_j2b8.jpg"
     alt: "Ruttin Buck Hitlist Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/24932e/8487096668/il_fullxfull.8487096668_q4id.jpg"
     alt: "Ruttin Buck Hitlist Shirt additional view 2"

@@ -18,26 +18,26 @@ care_instructions:
   - Dishwasher safe, or wash by hand with warm water and dish soap
   - Design will not fade, crack, or peel with normal use
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/bc7ba9/8655628708/il_fullxfull.8655628708_7ud1.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/0c970d/8703499197/il_fullxfull.8703499197_7ud1.jpg"
+    alt: "Elk Hunting Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/c76f43/8655629324/il_fullxfull.8655629324_pp6x.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 2"
+    alt: "Elk Hunting Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/767e81/8703455361/il_fullxfull.8703455361_89rg.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 3"
+    alt: "Elk Hunting Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/bcf3b4/8703455883/il_fullxfull.8703455883_gthd.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 4"
+    alt: "Elk Hunting Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/1fc37d/8703456341/il_fullxfull.8703456341_mo5c.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 5"
+    alt: "Elk Hunting Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/045dbd/8655631270/il_fullxfull.8655631270_ekpz.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 6"
+    alt: "Elk Hunting Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/6cf815/8703457421/il_fullxfull.8703457421_st7f.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 7"
+    alt: "Elk Hunting Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/47e1ca/8703458147/il_fullxfull.8703458147_d3i9.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 8"
+    alt: "Elk Hunting Mug additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/85f392/8703459155/il_fullxfull.8703459155_nakn.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 9"
+    alt: "Elk Hunting Mug additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/bd69e1/8655634068/il_fullxfull.8655634068_tjp4.jpg"
-    alt: "Elk Hunting Mug, Big Game Hunter Coffee Cup additional view 10"
+    alt: "Elk Hunting Mug additional view 10"
 tags:
   - elk hunting mug
   - big game hunter mug

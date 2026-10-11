@@ -24,7 +24,7 @@ Most of the ongoing work is **adding new Etsy listings and syncing feeds**. The 
 - Adult tees: **$28.99**
 - Adult hoodies: **$49.99**
 - Adult mugs (11oz/15oz variant): **$18.99**
-- Youth tees: **$19.99** (newer batches) or **$21.99** (earlier batches — do not backfill)
+- Youth tees: **$21.99** (uniformly as of 2026-10-10 — the older $19.99 batches were raised on Etsy)
 - Youth hoodies: **$31.99**
 
 **Category routing rules (two categories, patriotic was retired 2026-10-10):**

@@ -2,7 +2,7 @@
 title: "Blue Marlin Hook Line & Sinker Kids Shirt, Youth Deep Sea Fishing Tee, Angler Gift for Son Grandson, Boys Birthday Christmas Gift Idea"
 category: hunting
 product_type: tee
-list_price: 19.99
+list_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4565605473/blue-marlin-hook-line-sinker-kids-shirt"
 etsy_listing_id: "4565605473"

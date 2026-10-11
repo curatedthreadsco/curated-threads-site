@@ -18,22 +18,22 @@ care_instructions:
   - Clean in the dishwasher or wash by hand with warm water and dish soap
   - "Design will not fade, crack, or peel with normal use"
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/97b932/8491814982/il_fullxfull.8491814982_t6qw.jpg"
-    alt: "Follow The Blood Mug whitetail tracking product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/1f2c9a/8491899228/il_fullxfull.8491899228_t6qw.jpg"
+    alt: "Follow The Blood Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/5aa1a0/8539710651/il_fullxfull.8539710651_d36h.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 2"
+    alt: "Follow The Blood Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/d900f1/8539711285/il_fullxfull.8539711285_n01m.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 3"
+    alt: "Follow The Blood Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/3ffd65/8539712041/il_fullxfull.8539712041_l3o5.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 4"
+    alt: "Follow The Blood Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/e11380/8539712617/il_fullxfull.8539712617_p5ej.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 5"
+    alt: "Follow The Blood Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/18ebaa/8491819360/il_fullxfull.8491819360_17om.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 6"
+    alt: "Follow The Blood Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/99ab91/8491820058/il_fullxfull.8491820058_g5j0.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 7"
+    alt: "Follow The Blood Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/dadcde/8491820874/il_fullxfull.8491820874_qbtx.jpg"
-    alt: "Follow The Blood Mug whitetail tracking additional view 8"
+    alt: "Follow The Blood Mug additional view 8"
 tags:
   - follow the blood mug
   - deer tracking mug

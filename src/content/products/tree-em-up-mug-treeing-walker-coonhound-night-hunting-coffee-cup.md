@@ -18,22 +18,22 @@ care_instructions:
   - Clean in the dishwasher or wash by hand with warm water and dish soap
   - "Design will not fade, crack, or peel with normal use"
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/c74e85/8491759418/il_fullxfull.8491759418_bzlh.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/6e5aa0/8539792393/il_fullxfull.8539792393_bzlh.jpg"
+    alt: "Tree Em Up Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/99d993/8491759802/il_fullxfull.8491759802_p0u5.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 2"
+    alt: "Tree Em Up Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/c4f56a/8491760242/il_fullxfull.8491760242_1gbo.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 3"
+    alt: "Tree Em Up Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/08c339/8539655781/il_fullxfull.8539655781_thsh.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 4"
+    alt: "Tree Em Up Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/5253e0/8539656177/il_fullxfull.8539656177_hs5d.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 5"
+    alt: "Tree Em Up Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/b2a8d9/8539656557/il_fullxfull.8539656557_ek5a.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 6"
+    alt: "Tree Em Up Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/975bbe/8491761752/il_fullxfull.8491761752_m4tf.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 7"
+    alt: "Tree Em Up Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/03717a/8491762012/il_fullxfull.8491762012_pi79.jpg"
-    alt: "Tree Em Up Mug treeing walker coonhound additional view 8"
+    alt: "Tree Em Up Mug additional view 8"
 tags:
   - tree em up mug
   - coon hunter mug

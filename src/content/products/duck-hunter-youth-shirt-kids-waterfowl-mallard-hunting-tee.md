@@ -2,7 +2,7 @@
 title: "Duck Hunter Youth Shirt, Kids Waterfowl Mallard Hunting Tee, Duck Season Gift for Son Grandson Nephew, Boys Birthday Christmas Gift"
 category: hunting
 product_type: tee
-list_price: 19.99
+list_price: 21.99
 free_shipping: true
 etsy_listing_url: "https://www.etsy.com/listing/4565584688/duck-hunter-youth-shirt-kids-waterfowl"
 etsy_listing_id: "4565584688"

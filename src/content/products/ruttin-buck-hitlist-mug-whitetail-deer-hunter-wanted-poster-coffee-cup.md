@@ -18,22 +18,22 @@ care_instructions:
   - Clean in the dishwasher or wash by hand with warm water and dish soap
   - "Design will not fade, crack, or peel with normal use"
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/20df7a/8491701460/il_fullxfull.8491701460_94ic.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/99fe02/8491890442/il_fullxfull.8491890442_94ic.jpg"
+    alt: "Ruttin Buck Hitlist Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/7bd368/8539597807/il_fullxfull.8539597807_b0e5.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 2"
+    alt: "Ruttin Buck Hitlist Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/b58dfb/8539598325/il_fullxfull.8539598325_39hv.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 3"
+    alt: "Ruttin Buck Hitlist Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/272747/8491702944/il_fullxfull.8491702944_rlm0.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 4"
+    alt: "Ruttin Buck Hitlist Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/6377c2/8539599659/il_fullxfull.8539599659_g1um.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 5"
+    alt: "Ruttin Buck Hitlist Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/081e57/8539600085/il_fullxfull.8539600085_82lq.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 6"
+    alt: "Ruttin Buck Hitlist Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/c97727/8539600975/il_fullxfull.8539600975_r3nr.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 7"
+    alt: "Ruttin Buck Hitlist Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/7852d5/8491705624/il_fullxfull.8491705624_qawe.jpg"
-    alt: "Ruttin Buck Hitlist Mug whitetail wanted poster additional view 8"
+    alt: "Ruttin Buck Hitlist Mug additional view 8"
 tags:
   - ruttin buck mug
   - buck hitlist mug

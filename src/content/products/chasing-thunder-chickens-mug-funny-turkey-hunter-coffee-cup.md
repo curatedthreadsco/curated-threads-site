@@ -18,22 +18,22 @@ care_instructions:
   - Clean in the dishwasher or wash by hand with warm water and dish soap
   - "Design will not fade, crack, or peel with normal use"
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/1fc5bf/8539755689/il_fullxfull.8539755689_8f6w.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/93c137/8491885754/il_fullxfull.8491885754_8f6w.jpg"
+    alt: "Chasing Thunder Chickens Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/7a7671/8539756095/il_fullxfull.8539756095_4cao.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 2"
+    alt: "Chasing Thunder Chickens Mug additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/2ee890/8491861940/il_fullxfull.8491861940_mtxj.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 3"
+    alt: "Chasing Thunder Chickens Mug additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/a31033/8491862360/il_fullxfull.8491862360_l9fq.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 4"
+    alt: "Chasing Thunder Chickens Mug additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/1600bf/8539757291/il_fullxfull.8539757291_hidb.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 5"
+    alt: "Chasing Thunder Chickens Mug additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/311cb3/8491863058/il_fullxfull.8491863058_qov1.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 6"
+    alt: "Chasing Thunder Chickens Mug additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/b872b4/8539758035/il_fullxfull.8539758035_drzi.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 7"
+    alt: "Chasing Thunder Chickens Mug additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/91df27/8539758365/il_fullxfull.8539758365_35rr.jpg"
-    alt: "Chasing Thunder Chickens Mug turkey hunter additional view 8"
+    alt: "Chasing Thunder Chickens Mug additional view 8"
 tags:
   - thunder chickens mug
   - funny turkey mug

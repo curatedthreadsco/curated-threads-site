@@ -25,26 +25,26 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/8ec6a3/8539080737/il_fullxfull.8539080737_egc4.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/9803fe/8491902730/il_fullxfull.8491902730_egc4.jpg"
+    alt: "No Braggin Til Youre Draggin Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/0b7a55/8539037287/il_fullxfull.8539037287_7v6i.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 2"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/3ba32b/8491140500/il_fullxfull.8491140500_arnp.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 3"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/cd0b05/8491141636/il_fullxfull.8491141636_oj9f.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 4"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/81dc1b/8491142640/il_fullxfull.8491142640_75js.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 5"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/08d2b5/8491143314/il_fullxfull.8491143314_t4qe.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 6"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/963a03/8491144096/il_fullxfull.8491144096_j74w.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 7"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/d90970/8491144650/il_fullxfull.8491144650_1w6p.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 8"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/5c43b4/8539043309/il_fullxfull.8539043309_mt76.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 9"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/a2a87b/8491146062/il_fullxfull.8491146062_aryt.jpg"
-    alt: "No Braggin Til Youre Draggin Shirt bow hunter additional view 10"
+    alt: "No Braggin Til Youre Draggin Shirt additional view 10"
 tags:
   - no braggin draggin
   - bow hunter tee

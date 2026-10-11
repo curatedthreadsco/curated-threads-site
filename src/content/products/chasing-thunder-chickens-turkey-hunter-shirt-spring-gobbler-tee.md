@@ -25,7 +25,7 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/561d91/8486718818/il_fullxfull.8486718818_2bw9.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/819d3f/8487118220/il_fullxfull.8487118220_2bw9.jpg"
     alt: "Chasing Thunder Chickens Turkey Hunter Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/5a7c71/8486627846/il_fullxfull.8486627846_bcoz.jpg"
     alt: "Chasing Thunder Chickens Turkey Hunter Shirt additional view 2"

@@ -18,7 +18,7 @@ care_instructions:
   - Dishwasher safe, or hand wash with warm water and mild dish soap
   - Print resists fading, cracking, and peeling with normal use
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/78926b/8260865984/il_fullxfull.8260865984_aqer.jpg"
+  - src: "https://i.etsystatic.com/57889570/r/il/b9165e/8619922806/il_fullxfull.8619922806_aqer.jpg"
     alt: "Rise Early Hunt Hard Mug product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/6b61b4/8260835528/il_fullxfull.8260835528_ooz9.jpg"
     alt: "Rise Early Hunt Hard Mug additional view 2"

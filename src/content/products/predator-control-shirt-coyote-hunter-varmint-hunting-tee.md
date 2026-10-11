@@ -25,26 +25,26 @@ care_instructions:
   - Do not dry clean
   - Non-chlorine bleach only
 images:
-  - src: "https://i.etsystatic.com/57889570/r/il/1c8a21/8567133267/il_fullxfull.8567133267_8ipl.jpg"
-    alt: "Predator Control Shirt coyote hunter product photo"
+  - src: "https://i.etsystatic.com/57889570/r/il/60e8b0/8519313770/il_fullxfull.8519313770_8ipl.jpg"
+    alt: "Predator Control Shirt product photo"
   - src: "https://i.etsystatic.com/57889570/r/il/ce4835/8519262420/il_fullxfull.8519262420_tmdb.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 2"
+    alt: "Predator Control Shirt additional view 2"
   - src: "https://i.etsystatic.com/57889570/r/il/d3000e/8567134263/il_fullxfull.8567134263_om5t.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 3"
+    alt: "Predator Control Shirt additional view 3"
   - src: "https://i.etsystatic.com/57889570/r/il/430dd0/8519263184/il_fullxfull.8519263184_1s84.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 4"
+    alt: "Predator Control Shirt additional view 4"
   - src: "https://i.etsystatic.com/57889570/r/il/7fe04f/8519263888/il_fullxfull.8519263888_osoy.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 5"
+    alt: "Predator Control Shirt additional view 5"
   - src: "https://i.etsystatic.com/57889570/r/il/88e85e/8567135667/il_fullxfull.8567135667_plil.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 6"
+    alt: "Predator Control Shirt additional view 6"
   - src: "https://i.etsystatic.com/57889570/r/il/568b55/8567136181/il_fullxfull.8567136181_m29d.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 7"
+    alt: "Predator Control Shirt additional view 7"
   - src: "https://i.etsystatic.com/57889570/r/il/d00aa7/8519265386/il_fullxfull.8519265386_e2qw.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 8"
+    alt: "Predator Control Shirt additional view 8"
   - src: "https://i.etsystatic.com/57889570/r/il/a84c39/8519266140/il_fullxfull.8519266140_f227.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 9"
+    alt: "Predator Control Shirt additional view 9"
   - src: "https://i.etsystatic.com/57889570/r/il/578912/8519267106/il_fullxfull.8519267106_ijg7.jpg"
-    alt: "Predator Control Shirt coyote hunter additional view 10"
+    alt: "Predator Control Shirt additional view 10"
 tags:
   - predator control tee
   - coyote hunter shirt
