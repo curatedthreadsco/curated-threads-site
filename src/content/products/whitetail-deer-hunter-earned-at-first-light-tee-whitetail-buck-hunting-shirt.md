@@ -4,6 +4,8 @@ category: hunting
 product_type: tee
 list_price: 28.99
 free_shipping: true
+etsy_listing_url: "https://www.etsy.com/listing/4544544635/whitetail-hunter-shirt-whitetail-deer"
+etsy_listing_id: "4544544635"
 short_description: "A whitetail buck emerging from first-light timber on soft midweight cotton — the moment every hunter earns one sit at a time. Free shipping from our Etsy shop."
 product_features:
   - "Soft medium-weight 100% cotton (180 g/m²) for year-round comfort"
